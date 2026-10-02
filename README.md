@@ -1,27 +1,27 @@
 <div align="center">
 
 <!-- 🎬 HERO — Dynamic Vibrant Cyber Terminal Banner -->
-<img src="./hero.svg?v=v7" alt="Janardhan Devarala — AI & ML Engineer" width="100%"/>
+<img src="./hero.svg?t=1790943485" alt="Janardhan Devarala — AI & ML Engineer" width="100%"/>
 
 <br/><br/>
 
 <!-- 💼 LEFT: What I Build   •   🌟 RIGHT: Life Beyond Code -->
-<img src="./about-life.svg?v=v7" alt="What I build, and life beyond the code" width="100%"/>
+<img src="./about-life.svg?t=1790943485" alt="What I build, and life beyond the code" width="100%"/>
 
 <br/><br/>
 
 <!-- ⚡ TECH ARSENAL & EXPERTISE -->
-<img src="./stack.svg?v=v7" alt="Tech Arsenal & Expertise" width="100%"/>
+<img src="./stack.svg?t=1790943485" alt="Tech Arsenal & Expertise" width="100%"/>
 
 <br/><br/>
 
 <!-- 🪪 DEVELOPER ID + DASHBOARD -->
-<img src="./id-dashboard.svg?v=v7" alt="Developer ID and Dashboard" width="100%"/>
+<img src="./id-dashboard.svg?t=1790943485" alt="Developer ID and Dashboard" width="100%"/>
 
 <br/><br/>
 
 <!-- 🏆 KEY HONORS, TROPHIES & CERTIFICATIONS -->
-<img src="./trophies.svg?v=v7" alt="Honors, Trophies and Certifications" width="100%"/>
+<img src="./trophies.svg?t=1790943485" alt="Honors, Trophies and Certifications" width="100%"/>
 
 <br/><br/>
 
@@ -46,7 +46,7 @@
 
 *Every commit builds another skyscraper — rebuilt automatically every 24 hours.*
 
-<img src="./profile-3d-contrib/profile-night-view.svg?v=v7" alt="3D Contribution City" width="100%"/>
+<img src="./profile-3d-contrib/profile-night-view.svg?t=1790943485" alt="3D Contribution City" width="100%"/>
 
 <br/><br/>
 
@@ -63,7 +63,7 @@
 <br/><br/>
 
 <!-- 💌 LET'S CONNECT -->
-<img src="./connect.svg?v=v7" alt="Let's connect" width="100%"/>
+<img src="./connect.svg?t=1790943485" alt="Let's connect" width="100%"/>
 
 <br/>
 
