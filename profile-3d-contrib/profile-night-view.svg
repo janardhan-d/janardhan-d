@@ -1,0 +1,1292 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0d17" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#090a10" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg-grad)" rx="16" />
+
+    <g class="tower">
+      <polygon points="384,-12 400,-4 400,28 384,20" fill="#075985" />
+      <polygon points="400,-4 416,-12 416,20 400,28" fill="#38bdf8" />
+      <polygon points="400,-20 416,-12 400,-4 384,-12" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="368,-11 384,-3 384,36 368,28" fill="#075985" />
+      <polygon points="384,-3 400,-11 400,28 384,36" fill="#38bdf8" />
+      <polygon points="384,-19 400,-11 384,-3 368,-11" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="400,22 416,30 416,36 400,28" fill="#0f172a" />
+      <polygon points="416,30 432,22 432,28 416,36" fill="#334155" />
+      <polygon points="416,14 432,22 416,30 400,22" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="352,30 368,38 368,44 352,36" fill="#0f172a" />
+      <polygon points="368,38 384,30 384,36 368,44" fill="#334155" />
+      <polygon points="368,22 384,30 368,38 352,30" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="384,30 400,38 400,44 384,36" fill="#0f172a" />
+      <polygon points="400,38 416,30 416,36 400,44" fill="#334155" />
+      <polygon points="400,22 416,30 400,38 384,30" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="416,-1 432,7 432,44 416,36" fill="#075985" />
+      <polygon points="432,7 448,-1 448,36 432,44" fill="#38bdf8" />
+      <polygon points="432,-9 448,-1 432,7 416,-1" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="336,-9 352,-1 352,52 336,44" fill="#075985" />
+      <polygon points="352,-1 368,-9 368,44 352,52" fill="#38bdf8" />
+      <polygon points="352,-17 368,-9 352,-1 336,-9" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="368,-5 384,3 384,52 368,44" fill="#075985" />
+      <polygon points="384,3 400,-5 400,44 384,52" fill="#38bdf8" />
+      <polygon points="384,-13 400,-5 384,3 368,-5" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="400,2 416,10 416,52 400,44" fill="#075985" />
+      <polygon points="416,10 432,2 432,44 416,52" fill="#38bdf8" />
+      <polygon points="416,-6 432,2 416,10 400,2" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="432,28 448,36 448,52 432,44" fill="#164e63" />
+      <polygon points="448,36 464,28 464,44 448,52" fill="#06b6d4" />
+      <polygon points="448,20 464,28 448,36 432,28" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="320,3 336,11 336,60 320,52" fill="#075985" />
+      <polygon points="336,11 352,3 352,52 336,60" fill="#38bdf8" />
+      <polygon points="336,-5 352,3 336,11 320,3" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="352,46 368,54 368,60 352,52" fill="#0f172a" />
+      <polygon points="368,54 384,46 384,52 368,60" fill="#334155" />
+      <polygon points="368,38 384,46 368,54 352,46" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="384,33 400,41 400,60 384,52" fill="#164e63" />
+      <polygon points="400,41 416,33 416,52 400,60" fill="#06b6d4" />
+      <polygon points="400,25 416,33 400,41 384,33" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="416,3 432,11 432,60 416,52" fill="#075985" />
+      <polygon points="432,11 448,3 448,52 432,60" fill="#38bdf8" />
+      <polygon points="432,-5 448,3 432,11 416,3" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="448,46 464,54 464,60 448,52" fill="#0f172a" />
+      <polygon points="464,54 480,46 480,52 464,60" fill="#334155" />
+      <polygon points="464,38 480,46 464,54 448,46" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="304,54 320,62 320,68 304,60" fill="#0f172a" />
+      <polygon points="320,62 336,54 336,60 320,68" fill="#334155" />
+      <polygon points="320,46 336,54 320,62 304,54" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="336,11 352,19 352,68 336,60" fill="#075985" />
+      <polygon points="352,19 368,11 368,60 352,68" fill="#38bdf8" />
+      <polygon points="352,3 368,11 352,19 336,11" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="368,-51 384,-43 384,68 368,60" fill="#581c87" />
+      <polygon points="384,-43 400,-51 400,60 384,68" fill="#c084fc" />
+      <polygon points="384,-59 400,-51 384,-43 368,-51" fill="#9333ea" />
+    </g>
+    <g class="tower">
+      <polygon points="400,54 416,62 416,68 400,60" fill="#0f172a" />
+      <polygon points="416,62 432,54 432,60 416,68" fill="#334155" />
+      <polygon points="416,46 432,54 416,62 400,54" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="432,19 448,27 448,68 432,60" fill="#075985" />
+      <polygon points="448,27 464,19 464,60 448,68" fill="#38bdf8" />
+      <polygon points="448,11 464,19 448,27 432,19" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="464,6 480,14 480,68 464,60" fill="#075985" />
+      <polygon points="480,14 496,6 496,60 480,68" fill="#38bdf8" />
+      <polygon points="480,-2 496,6 480,14 464,6" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="288,52 304,60 304,76 288,68" fill="#164e63" />
+      <polygon points="304,60 320,52 320,68 304,76" fill="#06b6d4" />
+      <polygon points="304,44 320,52 304,60 288,52" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="320,45 336,53 336,76 320,68" fill="#164e63" />
+      <polygon points="336,53 352,45 352,68 336,76" fill="#06b6d4" />
+      <polygon points="336,37 352,45 336,53 320,45" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="352,62 368,70 368,76 352,68" fill="#0f172a" />
+      <polygon points="368,70 384,62 384,68 368,76" fill="#334155" />
+      <polygon points="368,54 384,62 368,70 352,62" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="384,-27 400,-19 400,76 384,68" fill="#581c87" />
+      <polygon points="400,-19 416,-27 416,68 400,76" fill="#c084fc" />
+      <polygon points="400,-35 416,-27 400,-19 384,-27" fill="#9333ea" />
+    </g>
+    <g class="tower">
+      <polygon points="416,-80 432,-72 432,76 416,68" fill="#831843" />
+      <polygon points="432,-72 448,-80 448,68 432,76" fill="#f472b6" />
+      <polygon points="432,-88 448,-80 432,-72 416,-80" fill="#db2777" />
+    </g>
+    <g class="tower">
+      <polygon points="448,-26 464,-18 464,76 448,68" fill="#581c87" />
+      <polygon points="464,-18 480,-26 480,68 464,76" fill="#c084fc" />
+      <polygon points="464,-34 480,-26 464,-18 448,-26" fill="#9333ea" />
+    </g>
+    <g class="tower">
+      <polygon points="480,35 496,43 496,76 480,68" fill="#075985" />
+      <polygon points="496,43 512,35 512,68 496,76" fill="#38bdf8" />
+      <polygon points="496,27 512,35 496,43 480,35" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="304,44 320,52 320,84 304,76" fill="#075985" />
+      <polygon points="320,52 336,44 336,76 320,84" fill="#38bdf8" />
+      <polygon points="320,36 336,44 320,52 304,44" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="336,55 352,63 352,84 336,76" fill="#164e63" />
+      <polygon points="352,63 368,55 368,76 352,84" fill="#06b6d4" />
+      <polygon points="352,47 368,55 352,63 336,55" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="368,24 384,32 384,84 368,76" fill="#075985" />
+      <polygon points="384,32 400,24 400,76 384,84" fill="#38bdf8" />
+      <polygon points="384,16 400,24 384,32 368,24" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="400,6 416,14 416,84 400,76" fill="#3730a3" />
+      <polygon points="416,14 432,6 432,76 416,84" fill="#818cf8" />
+      <polygon points="416,-2 432,6 416,14 400,6" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="432,39 448,47 448,84 432,76" fill="#075985" />
+      <polygon points="448,47 464,39 464,76 448,84" fill="#38bdf8" />
+      <polygon points="448,31 464,39 448,47 432,39" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="464,70 480,78 480,84 464,76" fill="#0f172a" />
+      <polygon points="480,78 496,70 496,76 480,84" fill="#334155" />
+      <polygon points="480,62 496,70 480,78 464,70" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="496,70 512,78 512,84 496,76" fill="#0f172a" />
+      <polygon points="512,78 528,70 528,76 512,84" fill="#334155" />
+      <polygon points="512,62 528,70 512,78 496,70" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="320,7 336,15 336,92 320,84" fill="#3730a3" />
+      <polygon points="336,15 352,7 352,84 336,92" fill="#818cf8" />
+      <polygon points="336,-1 352,7 336,15 320,7" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="352,41 368,49 368,92 352,84" fill="#075985" />
+      <polygon points="368,49 384,41 384,84 368,92" fill="#38bdf8" />
+      <polygon points="368,33 384,41 368,49 352,41" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="384,58 400,66 400,92 384,84" fill="#164e63" />
+      <polygon points="400,66 416,58 416,84 400,92" fill="#06b6d4" />
+      <polygon points="400,50 416,58 400,66 384,58" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="416,65 432,73 432,92 416,84" fill="#164e63" />
+      <polygon points="432,73 448,65 448,84 432,92" fill="#06b6d4" />
+      <polygon points="432,57 448,65 432,73 416,65" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="448,78 464,86 464,92 448,84" fill="#0f172a" />
+      <polygon points="464,86 480,78 480,84 464,92" fill="#334155" />
+      <polygon points="464,70 480,78 464,86 448,78" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="480,58 496,66 496,92 480,84" fill="#164e63" />
+      <polygon points="496,66 512,58 512,84 496,92" fill="#06b6d4" />
+      <polygon points="496,50 512,58 496,66 480,58" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="512,65 528,73 528,92 512,84" fill="#164e63" />
+      <polygon points="528,73 544,65 544,84 528,92" fill="#06b6d4" />
+      <polygon points="528,57 544,65 528,73 512,65" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="336,38 352,46 352,100 336,92" fill="#075985" />
+      <polygon points="352,46 368,38 368,92 352,100" fill="#38bdf8" />
+      <polygon points="352,30 368,38 352,46 336,38" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="368,29 384,37 384,100 368,92" fill="#3730a3" />
+      <polygon points="384,37 400,29 400,92 384,100" fill="#818cf8" />
+      <polygon points="384,21 400,29 384,37 368,29" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="400,86 416,94 416,100 400,92" fill="#0f172a" />
+      <polygon points="416,94 432,86 432,92 416,100" fill="#334155" />
+      <polygon points="416,78 432,86 416,94 400,86" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="432,72 448,80 448,100 432,92" fill="#164e63" />
+      <polygon points="448,80 464,72 464,92 448,100" fill="#06b6d4" />
+      <polygon points="448,64 464,72 448,80 432,72" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="464,72 480,80 480,100 464,92" fill="#164e63" />
+      <polygon points="480,80 496,72 496,92 480,100" fill="#06b6d4" />
+      <polygon points="480,64 496,72 480,80 464,72" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="496,-50 512,-42 512,100 496,92" fill="#831843" />
+      <polygon points="512,-42 528,-50 528,92 512,100" fill="#f472b6" />
+      <polygon points="512,-58 528,-50 512,-42 496,-50" fill="#db2777" />
+    </g>
+    <g class="tower">
+      <polygon points="528,86 544,94 544,100 528,92" fill="#0f172a" />
+      <polygon points="544,94 560,86 560,92 544,100" fill="#334155" />
+      <polygon points="544,78 560,86 544,94 528,86" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="352,81 368,89 368,108 352,100" fill="#164e63" />
+      <polygon points="368,89 384,81 384,100 368,108" fill="#06b6d4" />
+      <polygon points="368,73 384,81 368,89 352,81" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="384,74 400,82 400,108 384,100" fill="#164e63" />
+      <polygon points="400,82 416,74 416,100 400,108" fill="#06b6d4" />
+      <polygon points="400,66 416,74 400,82 384,74" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="416,94 432,102 432,108 416,100" fill="#0f172a" />
+      <polygon points="432,102 448,94 448,100 432,108" fill="#334155" />
+      <polygon points="432,86 448,94 432,102 416,94" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="448,94 464,102 464,108 448,100" fill="#0f172a" />
+      <polygon points="464,102 480,94 480,100 464,108" fill="#334155" />
+      <polygon points="464,86 480,94 464,102 448,94" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="480,83 496,91 496,108 480,100" fill="#164e63" />
+      <polygon points="496,91 512,83 512,100 496,108" fill="#06b6d4" />
+      <polygon points="496,75 512,83 496,91 480,83" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="512,77 528,85 528,108 512,100" fill="#164e63" />
+      <polygon points="528,85 544,77 544,100 528,108" fill="#06b6d4" />
+      <polygon points="528,69 544,77 528,85 512,77" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="544,80 560,88 560,108 544,100" fill="#164e63" />
+      <polygon points="560,88 576,80 576,100 560,108" fill="#06b6d4" />
+      <polygon points="560,72 576,80 560,88 544,80" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="368,69 384,77 384,116 368,108" fill="#075985" />
+      <polygon points="384,77 400,69 400,108 384,116" fill="#38bdf8" />
+      <polygon points="384,61 400,69 384,77 368,69" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="400,32 416,40 416,116 400,108" fill="#3730a3" />
+      <polygon points="416,40 432,32 432,108 416,116" fill="#818cf8" />
+      <polygon points="416,24 432,32 416,40 400,32" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="432,59 448,67 448,116 432,108" fill="#075985" />
+      <polygon points="448,67 464,59 464,108 448,116" fill="#38bdf8" />
+      <polygon points="448,51 464,59 448,67 432,59" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="464,73 480,81 480,116 464,108" fill="#075985" />
+      <polygon points="480,81 496,73 496,108 480,116" fill="#38bdf8" />
+      <polygon points="480,65 496,73 480,81 464,73" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="496,84 512,92 512,116 496,108" fill="#164e63" />
+      <polygon points="512,92 528,84 528,108 512,116" fill="#06b6d4" />
+      <polygon points="512,76 528,84 512,92 496,84" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="528,85 544,93 544,116 528,108" fill="#164e63" />
+      <polygon points="544,93 560,85 560,108 544,116" fill="#06b6d4" />
+      <polygon points="544,77 560,85 544,93 528,85" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="560,34 576,42 576,116 560,108" fill="#3730a3" />
+      <polygon points="576,42 592,34 592,108 576,116" fill="#818cf8" />
+      <polygon points="576,26 592,34 576,42 560,34" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="384,48 400,56 400,124 384,116" fill="#3730a3" />
+      <polygon points="400,56 416,48 416,116 400,124" fill="#818cf8" />
+      <polygon points="400,40 416,48 400,56 384,48" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="416,91 432,99 432,124 416,116" fill="#164e63" />
+      <polygon points="432,99 448,91 448,116 432,124" fill="#06b6d4" />
+      <polygon points="432,83 448,91 432,99 416,91" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="448,110 464,118 464,124 448,116" fill="#0f172a" />
+      <polygon points="464,118 480,110 480,116 464,124" fill="#334155" />
+      <polygon points="464,102 480,110 464,118 448,110" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="480,58 496,66 496,124 480,116" fill="#3730a3" />
+      <polygon points="496,66 512,58 512,116 496,124" fill="#818cf8" />
+      <polygon points="496,50 512,58 496,66 480,58" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="512,110 528,118 528,124 512,116" fill="#0f172a" />
+      <polygon points="528,118 544,110 544,116 528,124" fill="#334155" />
+      <polygon points="528,102 544,110 528,118 512,110" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="544,80 560,88 560,124 544,116" fill="#075985" />
+      <polygon points="560,88 576,80 576,116 560,124" fill="#38bdf8" />
+      <polygon points="560,72 576,80 560,88 544,80" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="576,7 592,15 592,124 576,116" fill="#581c87" />
+      <polygon points="592,15 608,7 608,116 592,124" fill="#c084fc" />
+      <polygon points="592,-1 608,7 592,15 576,7" fill="#9333ea" />
+    </g>
+    <g class="tower">
+      <polygon points="400,99 416,107 416,132 400,124" fill="#164e63" />
+      <polygon points="416,107 432,99 432,124 416,132" fill="#06b6d4" />
+      <polygon points="416,91 432,99 416,107 400,99" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="432,118 448,126 448,132 432,124" fill="#0f172a" />
+      <polygon points="448,126 464,118 464,124 448,132" fill="#334155" />
+      <polygon points="448,110 464,118 448,126 432,118" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="464,89 480,97 480,132 464,124" fill="#075985" />
+      <polygon points="480,97 496,89 496,124 480,132" fill="#38bdf8" />
+      <polygon points="480,81 496,89 480,97 464,89" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="496,84 512,92 512,132 496,124" fill="#075985" />
+      <polygon points="512,92 528,84 528,124 512,132" fill="#38bdf8" />
+      <polygon points="512,76 528,84 512,92 496,84" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="528,106 544,114 544,132 528,124" fill="#164e63" />
+      <polygon points="544,114 560,106 560,124 544,132" fill="#06b6d4" />
+      <polygon points="544,98 560,106 544,114 528,106" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="560,118 576,126 576,132 560,124" fill="#0f172a" />
+      <polygon points="576,126 592,118 592,124 576,132" fill="#334155" />
+      <polygon points="576,110 592,118 576,126 560,118" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="592,88 608,96 608,132 592,124" fill="#075985" />
+      <polygon points="608,96 624,88 624,124 608,132" fill="#38bdf8" />
+      <polygon points="608,80 624,88 608,96 592,88" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="416,81 432,89 432,140 416,132" fill="#075985" />
+      <polygon points="432,89 448,81 448,132 432,140" fill="#38bdf8" />
+      <polygon points="432,73 448,81 432,89 416,81" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="448,83 464,91 464,140 448,132" fill="#075985" />
+      <polygon points="464,91 480,83 480,132 464,140" fill="#38bdf8" />
+      <polygon points="464,75 480,83 464,91 448,83" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="480,31 496,39 496,140 480,132" fill="#581c87" />
+      <polygon points="496,39 512,31 512,132 496,140" fill="#c084fc" />
+      <polygon points="496,23 512,31 496,39 480,31" fill="#9333ea" />
+    </g>
+    <g class="tower">
+      <polygon points="512,104 528,112 528,140 512,132" fill="#164e63" />
+      <polygon points="528,112 544,104 544,132 528,140" fill="#06b6d4" />
+      <polygon points="528,96 544,104 528,112 512,104" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="544,126 560,134 560,140 544,132" fill="#0f172a" />
+      <polygon points="560,134 576,126 576,132 560,140" fill="#334155" />
+      <polygon points="560,118 576,126 560,134 544,126" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="576,83 592,91 592,140 576,132" fill="#075985" />
+      <polygon points="592,91 608,83 608,132 592,140" fill="#38bdf8" />
+      <polygon points="592,75 608,83 592,91 576,83" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="608,-43 624,-35 624,140 608,132" fill="#831843" />
+      <polygon points="624,-35 640,-43 640,132 624,140" fill="#f472b6" />
+      <polygon points="624,-51 640,-43 624,-35 608,-43" fill="#db2777" />
+    </g>
+    <g class="tower">
+      <polygon points="432,88 448,96 448,148 432,140" fill="#075985" />
+      <polygon points="448,96 464,88 464,140 448,148" fill="#38bdf8" />
+      <polygon points="448,80 464,88 448,96 432,88" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="464,123 480,131 480,148 464,140" fill="#164e63" />
+      <polygon points="480,131 496,123 496,140 480,148" fill="#06b6d4" />
+      <polygon points="480,115 496,123 480,131 464,123" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="496,50 512,58 512,148 496,140" fill="#581c87" />
+      <polygon points="512,58 528,50 528,140 512,148" fill="#c084fc" />
+      <polygon points="512,42 528,50 512,58 496,50" fill="#9333ea" />
+    </g>
+    <g class="tower">
+      <polygon points="528,106 544,114 544,148 528,140" fill="#075985" />
+      <polygon points="544,114 560,106 560,140 544,148" fill="#38bdf8" />
+      <polygon points="544,98 560,106 544,114 528,106" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="560,134 576,142 576,148 560,140" fill="#0f172a" />
+      <polygon points="576,142 592,134 592,140 576,148" fill="#334155" />
+      <polygon points="576,126 592,134 576,142 560,134" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="592,116 608,124 608,148 592,140" fill="#164e63" />
+      <polygon points="608,124 624,116 624,140 608,148" fill="#06b6d4" />
+      <polygon points="608,108 624,116 608,124 592,116" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="624,134 640,142 640,148 624,140" fill="#0f172a" />
+      <polygon points="640,142 656,134 656,140 640,148" fill="#334155" />
+      <polygon points="640,126 656,134 640,142 624,134" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="448,81 464,89 464,156 448,148" fill="#3730a3" />
+      <polygon points="464,89 480,81 480,148 464,156" fill="#818cf8" />
+      <polygon points="464,73 480,81 464,89 448,81" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="480,101 496,109 496,156 480,148" fill="#075985" />
+      <polygon points="496,109 512,101 512,148 496,156" fill="#38bdf8" />
+      <polygon points="496,93 512,101 496,109 480,101" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="512,142 528,150 528,156 512,148" fill="#0f172a" />
+      <polygon points="528,150 544,142 544,148 528,156" fill="#334155" />
+      <polygon points="528,134 544,142 528,150 512,142" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="544,123 560,131 560,156 544,148" fill="#164e63" />
+      <polygon points="560,131 576,123 576,148 560,156" fill="#06b6d4" />
+      <polygon points="560,115 576,123 560,131 544,123" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="576,129 592,137 592,156 576,148" fill="#164e63" />
+      <polygon points="592,137 608,129 608,148 592,156" fill="#06b6d4" />
+      <polygon points="592,121 608,129 592,137 576,129" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="608,109 624,117 624,156 608,148" fill="#075985" />
+      <polygon points="624,117 640,109 640,148 624,156" fill="#38bdf8" />
+      <polygon points="624,101 640,109 624,117 608,109" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="640,121 656,129 656,156 640,148" fill="#164e63" />
+      <polygon points="656,129 672,121 672,148 656,156" fill="#06b6d4" />
+      <polygon points="656,113 672,121 656,129 640,121" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="464,150 480,158 480,164 464,156" fill="#0f172a" />
+      <polygon points="480,158 496,150 496,156 480,164" fill="#334155" />
+      <polygon points="480,142 496,150 480,158 464,150" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="496,139 512,147 512,164 496,156" fill="#164e63" />
+      <polygon points="512,147 528,139 528,156 512,164" fill="#06b6d4" />
+      <polygon points="512,131 528,139 512,147 496,139" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="528,137 544,145 544,164 528,156" fill="#164e63" />
+      <polygon points="544,145 560,137 560,156 544,164" fill="#06b6d4" />
+      <polygon points="544,129 560,137 544,145 528,137" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="560,150 576,158 576,164 560,156" fill="#0f172a" />
+      <polygon points="576,158 592,150 592,156 576,164" fill="#334155" />
+      <polygon points="576,142 592,150 576,158 560,150" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="592,150 608,158 608,164 592,156" fill="#0f172a" />
+      <polygon points="608,158 624,150 624,156 608,164" fill="#334155" />
+      <polygon points="608,142 624,150 608,158 592,150" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="624,30 640,38 640,164 624,156" fill="#581c87" />
+      <polygon points="640,38 656,30 656,156 640,164" fill="#c084fc" />
+      <polygon points="640,22 656,30 640,38 624,30" fill="#9333ea" />
+    </g>
+    <g class="tower">
+      <polygon points="656,129 672,137 672,164 656,156" fill="#164e63" />
+      <polygon points="672,137 688,129 688,156 672,164" fill="#06b6d4" />
+      <polygon points="672,121 688,129 672,137 656,129" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="480,40 496,48 496,172 480,164" fill="#581c87" />
+      <polygon points="496,48 512,40 512,164 496,172" fill="#c084fc" />
+      <polygon points="496,32 512,40 496,48 480,40" fill="#9333ea" />
+    </g>
+    <g class="tower">
+      <polygon points="512,62 528,70 528,172 512,164" fill="#581c87" />
+      <polygon points="528,70 544,62 544,164 528,172" fill="#c084fc" />
+      <polygon points="528,54 544,62 528,70 512,62" fill="#9333ea" />
+    </g>
+    <g class="tower">
+      <polygon points="544,139 560,147 560,172 544,164" fill="#164e63" />
+      <polygon points="560,147 576,139 576,164 560,172" fill="#06b6d4" />
+      <polygon points="560,131 576,139 560,147 544,139" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="576,158 592,166 592,172 576,164" fill="#0f172a" />
+      <polygon points="592,166 608,158 608,164 592,172" fill="#334155" />
+      <polygon points="592,150 608,158 592,166 576,158" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="608,125 624,133 624,172 608,164" fill="#075985" />
+      <polygon points="624,133 640,125 640,164 624,172" fill="#38bdf8" />
+      <polygon points="624,117 640,125 624,133 608,125" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="640,158 656,166 656,172 640,164" fill="#0f172a" />
+      <polygon points="656,166 672,158 672,164 656,172" fill="#334155" />
+      <polygon points="656,150 672,158 656,166 640,158" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="672,158 688,166 688,172 672,164" fill="#0f172a" />
+      <polygon points="688,166 704,158 704,164 688,172" fill="#334155" />
+      <polygon points="688,150 704,158 688,166 672,158" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="496,128 512,136 512,180 496,172" fill="#075985" />
+      <polygon points="512,136 528,128 528,172 512,180" fill="#38bdf8" />
+      <polygon points="512,120 528,128 512,136 496,128" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="528,122 544,130 544,180 528,172" fill="#075985" />
+      <polygon points="544,130 560,122 560,172 544,180" fill="#38bdf8" />
+      <polygon points="544,114 560,122 544,130 528,122" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="560,148 576,156 576,180 560,172" fill="#164e63" />
+      <polygon points="576,156 592,148 592,172 576,180" fill="#06b6d4" />
+      <polygon points="576,140 592,148 576,156 560,148" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="592,89 608,97 608,180 592,172" fill="#3730a3" />
+      <polygon points="608,97 624,89 624,172 608,180" fill="#818cf8" />
+      <polygon points="608,81 624,89 608,97 592,89" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="624,120 640,128 640,180 624,172" fill="#075985" />
+      <polygon points="640,128 656,120 656,172 640,180" fill="#38bdf8" />
+      <polygon points="640,112 656,120 640,128 624,120" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="656,150 672,158 672,180 656,172" fill="#164e63" />
+      <polygon points="672,158 688,150 688,172 672,180" fill="#06b6d4" />
+      <polygon points="672,142 688,150 672,158 656,150" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="688,112 704,120 704,180 688,172" fill="#3730a3" />
+      <polygon points="704,120 720,112 720,172 704,180" fill="#818cf8" />
+      <polygon points="704,104 720,112 704,120 688,112" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="512,174 528,182 528,188 512,180" fill="#0f172a" />
+      <polygon points="528,182 544,174 544,180 528,188" fill="#334155" />
+      <polygon points="528,166 544,174 528,182 512,174" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="544,174 560,182 560,188 544,180" fill="#0f172a" />
+      <polygon points="560,182 576,174 576,180 560,188" fill="#334155" />
+      <polygon points="560,166 576,174 560,182 544,174" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="576,163 592,171 592,188 576,180" fill="#164e63" />
+      <polygon points="592,171 608,163 608,180 592,188" fill="#06b6d4" />
+      <polygon points="592,155 608,163 592,171 576,163" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="608,174 624,182 624,188 608,180" fill="#0f172a" />
+      <polygon points="624,182 640,174 640,180 624,188" fill="#334155" />
+      <polygon points="624,166 640,174 624,182 608,174" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="640,174 656,182 656,188 640,180" fill="#0f172a" />
+      <polygon points="656,182 672,174 672,180 656,188" fill="#334155" />
+      <polygon points="656,166 672,174 656,182 640,174" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="672,75 688,83 688,188 672,180" fill="#581c87" />
+      <polygon points="688,83 704,75 704,180 688,188" fill="#c084fc" />
+      <polygon points="688,67 704,75 688,83 672,75" fill="#9333ea" />
+    </g>
+    <g class="tower">
+      <polygon points="704,152 720,160 720,188 704,180" fill="#164e63" />
+      <polygon points="720,160 736,152 736,180 720,188" fill="#06b6d4" />
+      <polygon points="720,144 736,152 720,160 704,152" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="528,150 544,158 544,196 528,188" fill="#075985" />
+      <polygon points="544,158 560,150 560,188 544,196" fill="#38bdf8" />
+      <polygon points="544,142 560,150 544,158 528,150" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="560,182 576,190 576,196 560,188" fill="#0f172a" />
+      <polygon points="576,190 592,182 592,188 576,196" fill="#334155" />
+      <polygon points="576,174 592,182 576,190 560,182" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="592,167 608,175 608,196 592,188" fill="#164e63" />
+      <polygon points="608,175 624,167 624,188 608,196" fill="#06b6d4" />
+      <polygon points="608,159 624,167 608,175 592,167" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="624,171 640,179 640,196 624,188" fill="#164e63" />
+      <polygon points="640,179 656,171 656,188 640,196" fill="#06b6d4" />
+      <polygon points="640,163 656,171 640,179 624,171" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="656,182 672,190 672,196 656,188" fill="#0f172a" />
+      <polygon points="672,190 688,182 688,188 672,196" fill="#334155" />
+      <polygon points="672,174 688,182 672,190 656,182" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="688,121 704,129 704,196 688,188" fill="#3730a3" />
+      <polygon points="704,129 720,121 720,188 704,196" fill="#818cf8" />
+      <polygon points="704,113 720,121 704,129 688,121" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="720,139 736,147 736,196 720,188" fill="#075985" />
+      <polygon points="736,147 752,139 752,188 736,196" fill="#38bdf8" />
+      <polygon points="736,131 752,139 736,147 720,139" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="544,174 560,182 560,204 544,196" fill="#164e63" />
+      <polygon points="560,182 576,174 576,196 560,204" fill="#06b6d4" />
+      <polygon points="560,166 576,174 560,182 544,174" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="576,135 592,143 592,204 576,196" fill="#3730a3" />
+      <polygon points="592,143 608,135 608,196 592,204" fill="#818cf8" />
+      <polygon points="592,127 608,135 592,143 576,135" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="608,172 624,180 624,204 608,196" fill="#164e63" />
+      <polygon points="624,180 640,172 640,196 624,204" fill="#06b6d4" />
+      <polygon points="624,164 640,172 624,180 608,172" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="640,177 656,185 656,204 640,196" fill="#164e63" />
+      <polygon points="656,185 672,177 672,196 656,204" fill="#06b6d4" />
+      <polygon points="656,169 672,177 656,185 640,177" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="672,169 688,177 688,204 672,196" fill="#164e63" />
+      <polygon points="688,177 704,169 704,196 688,204" fill="#06b6d4" />
+      <polygon points="688,161 704,169 688,177 672,169" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="704,190 720,198 720,204 704,196" fill="#0f172a" />
+      <polygon points="720,198 736,190 736,196 720,204" fill="#334155" />
+      <polygon points="720,182 736,190 720,198 704,190" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="736,136 752,144 752,204 736,196" fill="#3730a3" />
+      <polygon points="752,144 768,136 768,196 752,204" fill="#818cf8" />
+      <polygon points="752,128 768,136 752,144 736,136" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="560,198 576,206 576,212 560,204" fill="#0f172a" />
+      <polygon points="576,206 592,198 592,204 576,212" fill="#334155" />
+      <polygon points="576,190 592,198 576,206 560,198" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="592,198 608,206 608,212 592,204" fill="#0f172a" />
+      <polygon points="608,206 624,198 624,204 608,212" fill="#334155" />
+      <polygon points="608,190 624,198 608,206 592,198" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="624,118 640,126 640,212 624,204" fill="#3730a3" />
+      <polygon points="640,126 656,118 656,204 640,212" fill="#818cf8" />
+      <polygon points="640,110 656,118 640,126 624,118" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="656,35 672,43 672,212 656,204" fill="#831843" />
+      <polygon points="672,43 688,35 688,204 672,212" fill="#f472b6" />
+      <polygon points="672,27 688,35 672,43 656,35" fill="#db2777" />
+    </g>
+    <g class="tower">
+      <polygon points="688,188 704,196 704,212 688,204" fill="#164e63" />
+      <polygon points="704,196 720,188 720,204 704,212" fill="#06b6d4" />
+      <polygon points="704,180 720,188 704,196 688,188" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="720,151 736,159 736,212 720,204" fill="#075985" />
+      <polygon points="736,159 752,151 752,204 736,212" fill="#38bdf8" />
+      <polygon points="736,143 752,151 736,159 720,151" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="752,154 768,162 768,212 752,204" fill="#075985" />
+      <polygon points="768,162 784,154 784,204 768,212" fill="#38bdf8" />
+      <polygon points="768,146 784,154 768,162 752,154" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="576,163 592,171 592,220 576,212" fill="#075985" />
+      <polygon points="592,171 608,163 608,212 592,220" fill="#38bdf8" />
+      <polygon points="592,155 608,163 592,171 576,163" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="608,206 624,214 624,220 608,212" fill="#0f172a" />
+      <polygon points="624,214 640,206 640,212 624,220" fill="#334155" />
+      <polygon points="624,198 640,206 624,214 608,206" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="640,165 656,173 656,220 640,212" fill="#075985" />
+      <polygon points="656,173 672,165 672,212 656,220" fill="#38bdf8" />
+      <polygon points="656,157 672,165 656,173 640,165" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="672,164 688,172 688,220 672,212" fill="#075985" />
+      <polygon points="688,172 704,164 704,212 688,220" fill="#38bdf8" />
+      <polygon points="688,156 704,164 688,172 672,164" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="704,142 720,150 720,220 704,212" fill="#3730a3" />
+      <polygon points="720,150 736,142 736,212 720,220" fill="#818cf8" />
+      <polygon points="720,134 736,142 720,150 704,142" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="736,192 752,200 752,220 736,212" fill="#164e63" />
+      <polygon points="752,200 768,192 768,212 752,220" fill="#06b6d4" />
+      <polygon points="752,184 768,192 752,200 736,192" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="768,122 784,130 784,220 768,212" fill="#581c87" />
+      <polygon points="784,130 800,122 800,212 784,220" fill="#c084fc" />
+      <polygon points="784,114 800,122 784,130 768,122" fill="#9333ea" />
+    </g>
+    <g class="tower">
+      <polygon points="592,198 608,206 608,228 592,220" fill="#164e63" />
+      <polygon points="608,206 624,198 624,220 608,228" fill="#06b6d4" />
+      <polygon points="608,190 624,198 608,206 592,198" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="624,214 640,222 640,228 624,220" fill="#0f172a" />
+      <polygon points="640,222 656,214 656,220 640,228" fill="#334155" />
+      <polygon points="640,206 656,214 640,222 624,214" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="656,146 672,154 672,228 656,220" fill="#3730a3" />
+      <polygon points="672,154 688,146 688,220 672,228" fill="#818cf8" />
+      <polygon points="672,138 688,146 672,154 656,146" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="688,214 704,222 704,228 688,220" fill="#0f172a" />
+      <polygon points="704,222 720,214 720,220 704,228" fill="#334155" />
+      <polygon points="704,206 720,214 704,222 688,214" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="720,214 736,222 736,228 720,220" fill="#0f172a" />
+      <polygon points="736,222 752,214 752,220 736,228" fill="#334155" />
+      <polygon points="736,206 752,214 736,222 720,214" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="752,195 768,203 768,228 752,220" fill="#164e63" />
+      <polygon points="768,203 784,195 784,220 768,228" fill="#06b6d4" />
+      <polygon points="768,187 784,195 768,203 752,195" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="784,197 800,205 800,228 784,220" fill="#164e63" />
+      <polygon points="800,205 816,197 816,220 800,228" fill="#06b6d4" />
+      <polygon points="800,189 816,197 800,205 784,197" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="608,212 624,220 624,236 608,228" fill="#164e63" />
+      <polygon points="624,220 640,212 640,228 624,236" fill="#06b6d4" />
+      <polygon points="624,204 640,212 624,220 608,212" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="640,222 656,230 656,236 640,228" fill="#0f172a" />
+      <polygon points="656,230 672,222 672,228 656,236" fill="#334155" />
+      <polygon points="656,214 672,222 656,230 640,222" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="672,163 688,171 688,236 672,228" fill="#3730a3" />
+      <polygon points="688,171 704,163 704,228 688,236" fill="#818cf8" />
+      <polygon points="688,155 704,163 688,171 672,163" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="704,189 720,197 720,236 704,228" fill="#075985" />
+      <polygon points="720,197 736,189 736,228 720,236" fill="#38bdf8" />
+      <polygon points="720,181 736,189 720,197 704,189" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="736,90 752,98 752,236 736,228" fill="#831843" />
+      <polygon points="752,98 768,90 768,228 752,236" fill="#f472b6" />
+      <polygon points="752,82 768,90 752,98 736,90" fill="#db2777" />
+    </g>
+    <g class="tower">
+      <polygon points="768,148 784,156 784,236 768,228" fill="#3730a3" />
+      <polygon points="784,156 800,148 800,228 784,236" fill="#818cf8" />
+      <polygon points="784,140 800,148 784,156 768,148" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="800,162 816,170 816,236 800,228" fill="#3730a3" />
+      <polygon points="816,170 832,162 832,228 816,236" fill="#818cf8" />
+      <polygon points="816,154 832,162 816,170 800,162" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="624,141 640,149 640,244 624,236" fill="#581c87" />
+      <polygon points="640,149 656,141 656,236 640,244" fill="#c084fc" />
+      <polygon points="640,133 656,141 640,149 624,141" fill="#9333ea" />
+    </g>
+    <g class="tower">
+      <polygon points="656,203 672,211 672,244 656,236" fill="#075985" />
+      <polygon points="672,211 688,203 688,236 672,244" fill="#38bdf8" />
+      <polygon points="672,195 688,203 672,211 656,203" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="688,218 704,226 704,244 688,236" fill="#164e63" />
+      <polygon points="704,226 720,218 720,236 704,244" fill="#06b6d4" />
+      <polygon points="704,210 720,218 704,226 688,218" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="720,212 736,220 736,244 720,236" fill="#164e63" />
+      <polygon points="736,220 752,212 752,236 736,244" fill="#06b6d4" />
+      <polygon points="736,204 752,212 736,220 720,212" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="752,208 768,216 768,244 752,236" fill="#164e63" />
+      <polygon points="768,216 784,208 784,236 768,244" fill="#06b6d4" />
+      <polygon points="768,200 784,208 768,216 752,208" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="784,230 800,238 800,244 784,236" fill="#0f172a" />
+      <polygon points="800,238 816,230 816,236 800,244" fill="#334155" />
+      <polygon points="800,222 816,230 800,238 784,230" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="816,216 832,224 832,244 816,236" fill="#164e63" />
+      <polygon points="832,224 848,216 848,236 832,244" fill="#06b6d4" />
+      <polygon points="832,208 848,216 832,224 816,216" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="640,199 656,207 656,252 640,244" fill="#075985" />
+      <polygon points="656,207 672,199 672,244 656,252" fill="#38bdf8" />
+      <polygon points="656,191 672,199 656,207 640,199" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="672,203 688,211 688,252 672,244" fill="#075985" />
+      <polygon points="688,211 704,203 704,244 688,252" fill="#38bdf8" />
+      <polygon points="688,195 704,203 688,211 672,203" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="704,223 720,231 720,252 704,244" fill="#164e63" />
+      <polygon points="720,231 736,223 736,244 720,252" fill="#06b6d4" />
+      <polygon points="720,215 736,223 720,231 704,223" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="736,212 752,220 752,252 736,244" fill="#075985" />
+      <polygon points="752,220 768,212 768,244 752,252" fill="#38bdf8" />
+      <polygon points="752,204 768,212 752,220 736,212" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="768,238 784,246 784,252 768,244" fill="#0f172a" />
+      <polygon points="784,246 800,238 800,244 784,252" fill="#334155" />
+      <polygon points="784,230 800,238 784,246 768,238" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="800,159 816,167 816,252 800,244" fill="#3730a3" />
+      <polygon points="816,167 832,159 832,244 816,252" fill="#818cf8" />
+      <polygon points="816,151 832,159 816,167 800,159" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="832,238 848,246 848,252 832,244" fill="#0f172a" />
+      <polygon points="848,246 864,238 864,244 848,252" fill="#334155" />
+      <polygon points="848,230 864,238 848,246 832,238" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="656,224 672,232 672,260 656,252" fill="#164e63" />
+      <polygon points="672,232 688,224 688,252 672,260" fill="#06b6d4" />
+      <polygon points="672,216 688,224 672,232 656,224" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="688,166 704,174 704,260 688,252" fill="#3730a3" />
+      <polygon points="704,174 720,166 720,252 704,260" fill="#818cf8" />
+      <polygon points="704,158 720,166 704,174 688,166" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="720,203 736,211 736,260 720,252" fill="#075985" />
+      <polygon points="736,211 752,203 752,252 736,260" fill="#38bdf8" />
+      <polygon points="736,195 752,203 736,211 720,203" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="752,212 768,220 768,260 752,252" fill="#075985" />
+      <polygon points="768,220 784,212 784,252 768,260" fill="#38bdf8" />
+      <polygon points="768,204 784,212 768,220 752,212" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="784,246 800,254 800,260 784,252" fill="#0f172a" />
+      <polygon points="800,254 816,246 816,252 800,260" fill="#334155" />
+      <polygon points="800,238 816,246 800,254 784,246" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="816,225 832,233 832,260 816,252" fill="#164e63" />
+      <polygon points="832,233 848,225 848,252 832,260" fill="#06b6d4" />
+      <polygon points="832,217 848,225 832,233 816,225" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="848,236 864,244 864,260 848,252" fill="#164e63" />
+      <polygon points="864,244 880,236 880,252 864,260" fill="#06b6d4" />
+      <polygon points="864,228 880,236 864,244 848,236" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="672,254 688,262 688,268 672,260" fill="#0f172a" />
+      <polygon points="688,262 704,254 704,260 688,268" fill="#334155" />
+      <polygon points="688,246 704,254 688,262 672,254" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="704,234 720,242 720,268 704,260" fill="#164e63" />
+      <polygon points="720,242 736,234 736,260 720,268" fill="#06b6d4" />
+      <polygon points="720,226 736,234 720,242 704,234" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="736,241 752,249 752,268 736,260" fill="#164e63" />
+      <polygon points="752,249 768,241 768,260 752,268" fill="#06b6d4" />
+      <polygon points="752,233 768,241 752,249 736,241" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="768,220 784,228 784,268 768,260" fill="#075985" />
+      <polygon points="784,228 800,220 800,260 784,268" fill="#38bdf8" />
+      <polygon points="784,212 800,220 784,228 768,220" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="800,244 816,252 816,268 800,260" fill="#164e63" />
+      <polygon points="816,252 832,244 832,260 816,268" fill="#06b6d4" />
+      <polygon points="816,236 832,244 816,252 800,244" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="832,232 848,240 848,268 832,260" fill="#164e63" />
+      <polygon points="848,240 864,232 864,260 848,268" fill="#06b6d4" />
+      <polygon points="848,224 864,232 848,240 832,232" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="864,183 880,191 880,268 864,260" fill="#3730a3" />
+      <polygon points="880,191 896,183 896,260 880,268" fill="#818cf8" />
+      <polygon points="880,175 896,183 880,191 864,183" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="688,262 704,270 704,276 688,268" fill="#0f172a" />
+      <polygon points="704,270 720,262 720,268 704,276" fill="#334155" />
+      <polygon points="704,254 720,262 704,270 688,262" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="720,230 736,238 736,276 720,268" fill="#075985" />
+      <polygon points="736,238 752,230 752,268 736,276" fill="#38bdf8" />
+      <polygon points="736,222 752,230 736,238 720,230" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="752,262 768,270 768,276 752,268" fill="#0f172a" />
+      <polygon points="768,270 784,262 784,268 768,276" fill="#334155" />
+      <polygon points="768,254 784,262 768,270 752,262" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="784,262 800,270 800,276 784,268" fill="#0f172a" />
+      <polygon points="800,270 816,262 816,268 800,276" fill="#334155" />
+      <polygon points="800,254 816,262 800,270 784,262" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="816,176 832,184 832,276 816,268" fill="#581c87" />
+      <polygon points="832,184 848,176 848,268 832,276" fill="#c084fc" />
+      <polygon points="832,168 848,176 832,184 816,176" fill="#9333ea" />
+    </g>
+    <g class="tower">
+      <polygon points="848,229 864,237 864,276 848,268" fill="#075985" />
+      <polygon points="864,237 880,229 880,268 864,276" fill="#38bdf8" />
+      <polygon points="864,221 880,229 864,237 848,229" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="880,183 896,191 896,276 880,268" fill="#3730a3" />
+      <polygon points="896,191 912,183 912,268 896,276" fill="#818cf8" />
+      <polygon points="896,175 912,183 896,191 880,183" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="704,236 720,244 720,284 704,276" fill="#075985" />
+      <polygon points="720,244 736,236 736,276 720,284" fill="#38bdf8" />
+      <polygon points="720,228 736,236 720,244 704,236" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="736,258 752,266 752,284 736,276" fill="#164e63" />
+      <polygon points="752,266 768,258 768,276 752,284" fill="#06b6d4" />
+      <polygon points="752,250 768,258 752,266 736,258" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="768,177 784,185 784,284 768,276" fill="#581c87" />
+      <polygon points="784,185 800,177 800,276 784,284" fill="#c084fc" />
+      <polygon points="784,169 800,177 784,185 768,177" fill="#9333ea" />
+    </g>
+    <g class="tower">
+      <polygon points="800,212 816,220 816,284 800,276" fill="#3730a3" />
+      <polygon points="816,220 832,212 832,276 816,284" fill="#818cf8" />
+      <polygon points="816,204 832,212 816,220 800,212" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="832,193 848,201 848,284 832,276" fill="#3730a3" />
+      <polygon points="848,201 864,193 864,276 848,284" fill="#818cf8" />
+      <polygon points="848,185 864,193 848,201 832,193" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="864,237 880,245 880,284 864,276" fill="#075985" />
+      <polygon points="880,245 896,237 896,276 880,284" fill="#38bdf8" />
+      <polygon points="880,229 896,237 880,245 864,237" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="896,248 912,256 912,284 896,276" fill="#164e63" />
+      <polygon points="912,256 928,248 928,276 912,284" fill="#06b6d4" />
+      <polygon points="912,240 928,248 912,256 896,248" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="720,244 736,252 736,292 720,284" fill="#075985" />
+      <polygon points="736,252 752,244 752,284 736,292" fill="#38bdf8" />
+      <polygon points="736,236 752,244 736,252 720,244" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="752,263 768,271 768,292 752,284" fill="#164e63" />
+      <polygon points="768,271 784,263 784,284 768,292" fill="#06b6d4" />
+      <polygon points="768,255 784,263 768,271 752,263" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="784,231 800,239 800,292 784,284" fill="#075985" />
+      <polygon points="800,239 816,231 816,284 800,292" fill="#38bdf8" />
+      <polygon points="800,223 816,231 800,239 784,231" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="816,198 832,206 832,292 816,284" fill="#3730a3" />
+      <polygon points="832,206 848,198 848,284 832,292" fill="#818cf8" />
+      <polygon points="832,190 848,198 832,206 816,198" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="848,256 864,264 864,292 848,284" fill="#164e63" />
+      <polygon points="864,264 880,256 880,284 864,292" fill="#06b6d4" />
+      <polygon points="864,248 880,256 864,264 848,256" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="880,219 896,227 896,292 880,284" fill="#3730a3" />
+      <polygon points="896,227 912,219 912,284 896,292" fill="#818cf8" />
+      <polygon points="896,211 912,219 896,227 880,219" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="912,260 928,268 928,292 912,284" fill="#164e63" />
+      <polygon points="928,268 944,260 944,284 928,292" fill="#06b6d4" />
+      <polygon points="928,252 944,260 928,268 912,260" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="736,256 752,264 752,300 736,292" fill="#075985" />
+      <polygon points="752,264 768,256 768,292 752,300" fill="#38bdf8" />
+      <polygon points="752,248 768,256 752,264 736,256" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="768,286 784,294 784,300 768,292" fill="#0f172a" />
+      <polygon points="784,294 800,286 800,292 784,300" fill="#334155" />
+      <polygon points="784,278 800,286 784,294 768,286" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="800,274 816,282 816,300 800,292" fill="#164e63" />
+      <polygon points="816,282 832,274 832,292 816,300" fill="#06b6d4" />
+      <polygon points="816,266 832,274 816,282 800,274" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="832,248 848,256 848,300 832,292" fill="#075985" />
+      <polygon points="848,256 864,248 864,292 848,300" fill="#38bdf8" />
+      <polygon points="848,240 864,248 848,256 832,248" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="864,286 880,294 880,300 864,292" fill="#0f172a" />
+      <polygon points="880,294 896,286 896,292 880,300" fill="#334155" />
+      <polygon points="880,278 896,286 880,294 864,286" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="896,276 912,284 912,300 896,292" fill="#164e63" />
+      <polygon points="912,284 928,276 928,292 912,300" fill="#06b6d4" />
+      <polygon points="912,268 928,276 912,284 896,276" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="928,250 944,258 944,300 928,292" fill="#075985" />
+      <polygon points="944,258 960,250 960,292 944,300" fill="#38bdf8" />
+      <polygon points="944,242 960,250 944,258 928,250" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="752,214 768,222 768,308 752,300" fill="#3730a3" />
+      <polygon points="768,222 784,214 784,300 768,308" fill="#818cf8" />
+      <polygon points="768,206 784,214 768,222 752,214" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="784,258 800,266 800,308 784,300" fill="#075985" />
+      <polygon points="800,266 816,258 816,300 800,308" fill="#38bdf8" />
+      <polygon points="800,250 816,258 800,266 784,258" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="816,215 832,223 832,308 816,300" fill="#3730a3" />
+      <polygon points="832,223 848,215 848,300 832,308" fill="#818cf8" />
+      <polygon points="832,207 848,215 832,223 816,215" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="848,294 864,302 864,308 848,300" fill="#0f172a" />
+      <polygon points="864,302 880,294 880,300 864,308" fill="#334155" />
+      <polygon points="864,286 880,294 864,302 848,294" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="880,294 896,302 896,308 880,300" fill="#0f172a" />
+      <polygon points="896,302 912,294 912,300 896,308" fill="#334155" />
+      <polygon points="896,286 912,294 896,302 880,294" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="912,276 928,284 928,308 912,300" fill="#164e63" />
+      <polygon points="928,284 944,276 944,300 928,308" fill="#06b6d4" />
+      <polygon points="928,268 944,276 928,284 912,276" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="944,247 960,255 960,308 944,300" fill="#075985" />
+      <polygon points="960,255 976,247 976,300 960,308" fill="#38bdf8" />
+      <polygon points="960,239 976,247 960,255 944,247" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="768,237 784,245 784,316 768,308" fill="#3730a3" />
+      <polygon points="784,245 800,237 800,308 784,316" fill="#818cf8" />
+      <polygon points="784,229 800,237 784,245 768,237" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="800,289 816,297 816,316 800,308" fill="#164e63" />
+      <polygon points="816,297 832,289 832,308 816,316" fill="#06b6d4" />
+      <polygon points="816,281 832,289 816,297 800,289" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="832,291 848,299 848,316 832,308" fill="#164e63" />
+      <polygon points="848,299 864,291 864,308 848,316" fill="#06b6d4" />
+      <polygon points="848,283 864,291 848,299 832,291" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="864,207 880,215 880,316 864,308" fill="#581c87" />
+      <polygon points="880,215 896,207 896,308 880,316" fill="#c084fc" />
+      <polygon points="880,199 896,207 880,215 864,207" fill="#9333ea" />
+    </g>
+    <g class="tower">
+      <polygon points="896,302 912,310 912,316 896,308" fill="#0f172a" />
+      <polygon points="912,310 928,302 928,308 912,316" fill="#334155" />
+      <polygon points="912,294 928,302 912,310 896,302" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="928,302 944,310 944,316 928,308" fill="#0f172a" />
+      <polygon points="944,310 960,302 960,308 944,316" fill="#334155" />
+      <polygon points="944,294 960,302 944,310 928,302" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="784,244 800,252 800,324 784,316" fill="#3730a3" />
+      <polygon points="800,252 816,244 816,316 800,324" fill="#818cf8" />
+      <polygon points="800,236 816,244 800,252 784,244" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="816,209 832,217 832,324 816,316" fill="#581c87" />
+      <polygon points="832,217 848,209 848,316 832,324" fill="#c084fc" />
+      <polygon points="832,201 848,209 832,217 816,209" fill="#9333ea" />
+    </g>
+    <g class="tower">
+      <polygon points="848,276 864,284 864,324 848,316" fill="#075985" />
+      <polygon points="864,284 880,276 880,316 864,324" fill="#38bdf8" />
+      <polygon points="864,268 880,276 864,284 848,276" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="880,252 896,260 896,324 880,316" fill="#3730a3" />
+      <polygon points="896,260 912,252 912,316 896,324" fill="#818cf8" />
+      <polygon points="896,244 912,252 896,260 880,252" fill="#4f46e5" />
+    </g>
+    <g class="tower">
+      <polygon points="912,290 928,298 928,324 912,316" fill="#164e63" />
+      <polygon points="928,298 944,290 944,316 928,324" fill="#06b6d4" />
+      <polygon points="928,282 944,290 928,298 912,290" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="800,300 816,308 816,332 800,324" fill="#164e63" />
+      <polygon points="816,308 832,300 832,324 816,332" fill="#06b6d4" />
+      <polygon points="816,292 832,300 816,308 800,300" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="832,318 848,326 848,332 832,324" fill="#0f172a" />
+      <polygon points="848,326 864,318 864,324 848,332" fill="#334155" />
+      <polygon points="848,310 864,318 848,326 832,318" fill="#1e293b" />
+    </g>
+    <g class="tower">
+      <polygon points="864,297 880,305 880,332 864,324" fill="#164e63" />
+      <polygon points="880,305 896,297 896,324 880,332" fill="#06b6d4" />
+      <polygon points="880,289 896,297 880,305 864,297" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="896,214 912,222 912,332 896,324" fill="#581c87" />
+      <polygon points="912,222 928,214 928,324 912,332" fill="#c084fc" />
+      <polygon points="912,206 928,214 912,222 896,214" fill="#9333ea" />
+    </g>
+    <g class="tower">
+      <polygon points="816,289 832,297 832,340 816,332" fill="#075985" />
+      <polygon points="832,297 848,289 848,332 832,340" fill="#38bdf8" />
+      <polygon points="832,281 848,289 832,297 816,289" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="848,308 864,316 864,340 848,332" fill="#164e63" />
+      <polygon points="864,316 880,308 880,332 864,340" fill="#06b6d4" />
+      <polygon points="864,300 880,308 864,316 848,308" fill="#0e7490" />
+    </g>
+    <g class="tower">
+      <polygon points="880,297 896,305 896,340 880,332" fill="#075985" />
+      <polygon points="896,305 912,297 912,332 896,340" fill="#38bdf8" />
+      <polygon points="896,289 912,297 896,305 880,297" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="832,216 848,224 848,348 832,340" fill="#581c87" />
+      <polygon points="848,224 864,216 864,340 848,348" fill="#c084fc" />
+      <polygon points="848,208 864,216 848,224 832,216" fill="#9333ea" />
+    </g>
+    <g class="tower">
+      <polygon points="864,299 880,307 880,348 864,340" fill="#075985" />
+      <polygon points="880,307 896,299 896,340 880,348" fill="#38bdf8" />
+      <polygon points="880,291 896,299 880,307 864,299" fill="#0284c7" />
+    </g>
+    <g class="tower">
+      <polygon points="848,322 864,330 864,356 848,348" fill="#164e63" />
+      <polygon points="864,330 880,322 880,348 864,356" fill="#06b6d4" />
+      <polygon points="864,314 880,322 864,330 848,322" fill="#0e7490" />
+    </g>
+  <g transform="translate(50, 45)">
+    <text font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#38bdf8" filter="url(#glow)">🌃 3D Contribution City Skyline</text>
+    <text y="26" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8">Every commit builds another skyscraper — Built automatically for @janardhan-d</text>
+  </g>
+  <g transform="translate(980, 430)" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#cbd5e1">
+    <text x="0" y="0">Less</text>
+    <rect x="38" y="-12" width="12" height="12" rx="2" fill="#1e293b" />
+    <rect x="56" y="-12" width="12" height="12" rx="2" fill="#06b6d4" />
+    <rect x="74" y="-12" width="12" height="12" rx="2" fill="#38bdf8" />
+    <rect x="92" y="-12" width="12" height="12" rx="2" fill="#818cf8" />
+    <rect x="110" y="-12" width="12" height="12" rx="2" fill="#c084fc" />
+    <rect x="128" y="-12" width="12" height="12" rx="2" fill="#f472b6" />
+    <text x="148" y="0">More</text>
+  </g>
+</svg>
