@@ -1,11 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 180" width="1280" height="180">
-<defs>
-  <linearGradient id="cBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070810"/><stop offset="1" stop-color="#0c1020"/></linearGradient>
-  <linearGradient id="cT" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#f472b6"/><stop offset="1" stop-color="#34d399"/></linearGradient>
-  <filter id="gl"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-</defs>
-<rect width="1280" height="180" fill="url(#cBg)"/>
-<line x1="100" y1="20" x2="1180" y2="20" stroke="url(#cT)" stroke-width="2" opacity=".5"/>
-<text x="640" y="85" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="32" font-weight="900" fill="url(#cT)" text-anchor="middle" filter="url(#gl)">LET'S CONNECT &amp; BUILD TOGETHER</text>
-<text x="640" y="120" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#8b949e" text-anchor="middle">Open to collaborations on AI/ML projects, hackathons, open-source &amp; interesting conversations</text>
+  <defs>
+    <linearGradient id="cBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070709"/>
+      <stop offset="100%" stop-color="#111116"/>
+    </linearGradient>
+    <linearGradient id="goldBanner" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#cBg)" rx="20"/>
+  <line x1="80" y1="20" x2="1200" y2="20" stroke="url(#goldBanner)" stroke-width="2" opacity="0.7"/>
+
+  <g transform="translate(640, 85)" text-anchor="middle">
+    <text font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="32" font-weight="900" fill="url(#goldBanner)">👑 LET'S CONNECT &amp; BUILD SOMETHING EXTRAORDINARY</text>
+    <text y="38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#e5e7eb">Open to high-impact AI/ML collaborations, hackathons, open-source &amp; data analytics roles</text>
+  </g>
 </svg>
