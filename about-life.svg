@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480">
+    <defs>
+        <linearGradient id="grad-left" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#00f2fe" />
+            <stop offset="100%" stop-color="#8a2be2" />
+        </linearGradient>
+        <linearGradient id="grad-right" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#00b09b" />
+            <stop offset="100%" stop-color="#00f2fe" />
+        </linearGradient>
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <style>
+            .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 32px; font-weight: bold; }
+            .item { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 22px; fill: #e2e8f0; opacity: 0; animation: fadeIn 0.8s ease-out forwards; }
+            
+            @keyframes fadeIn {
+                from { opacity: 0; transform: translateY(10px); }
+                to { opacity: 1; transform: translateY(0); }
+            }
+            
+            .left-title { fill: url(#grad-left); }
+            .right-title { fill: url(#grad-right); }
+            
+            .delay-1 { animation-delay: 0.2s; }
+            .delay-2 { animation-delay: 0.4s; }
+            .delay-3 { animation-delay: 0.6s; }
+            .delay-4 { animation-delay: 0.8s; }
+            .delay-5 { animation-delay: 1.0s; }
+            .delay-6 { animation-delay: 1.2s; }
+            .delay-7 { animation-delay: 1.4s; }
+            .delay-8 { animation-delay: 1.6s; }
+            .delay-9 { animation-delay: 1.8s; }
+            .delay-10 { animation-delay: 2.0s; }
+        </style>
+    </defs>
+    <rect width="1280" height="480" fill="#0d0e16" rx="15" />
+    
+    <!-- Divider -->
+    <line x1="640" y1="60" x2="640" y2="420" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2" filter="url(#glow)" />
+    
+    <!-- Left Side -->
+    <g transform="translate(80, 80)">
+        <text class="title left-title" x="0" y="0">&lt; What I Build /&gt;</text>
+        
+        <g transform="translate(0, 40)">
+            <text class="item delay-1" x="0" y="30">🤖 AI &amp; ML models that solve real problems</text>
+            <text class="item delay-2" x="0" y="80">📊 Data dashboards (Tableau, PowerBI)</text>
+            <text class="item delay-3" x="0" y="130">💻 Full-stack web apps (React, Node.js)</text>
+            <text class="item delay-4" x="0" y="180">🏆 Hackathon solutions under pressure</text>
+            <text class="item delay-5" x="0" y="230">🔐 Finance management systems</text>
+        </g>
+    </g>
+    
+    <!-- Right Side -->
+    <g transform="translate(700, 80)">
+        <text class="title right-title" x="0" y="0">&gt; Life Beyond Code</text>
+        
+        <g transform="translate(0, 40)">
+            <text class="item delay-6" x="0" y="30">🎓 BTech CSE-AI @ Audisankara College (2023-27)</text>
+            <text class="item delay-7" x="0" y="80">📚 Always learning new AI techniques</text>
+            <text class="item delay-8" x="0" y="130">🌍 Passionate about sustainability &amp; ESG</text>
+            <text class="item delay-9" x="0" y="180">☕ Fueled by chai and curiosity</text>
+            <text class="item delay-10" x="0" y="230">🎯 Goal: Build AI that makes a difference</text>
+        </g>
+    </g>
+</svg>

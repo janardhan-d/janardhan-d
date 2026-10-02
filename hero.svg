@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 540" width="1280" height="540">
+  <defs>
+    <style>
+      @keyframes float {
+        0%, 100% { transform: translate(0, 0); }
+        50% { transform: translate(20px, -20px); }
+      }
+      @keyframes floatReverse {
+        0%, 100% { transform: translate(0, 0); }
+        50% { transform: translate(-20px, 20px); }
+      }
+      @keyframes floatFast {
+        0%, 100% { transform: translate(0, 0); }
+        50% { transform: translate(15px, 15px); }
+      }
+      
+      @keyframes cycle1 {
+        0%, 2% { opacity: 0; transform: translateY(10px); }
+        5%, 20% { opacity: 1; transform: translateY(0); }
+        23%, 100% { opacity: 0; transform: translateY(-10px); }
+      }
+      @keyframes cycle2 {
+        0%, 25% { opacity: 0; transform: translateY(10px); }
+        27%, 45% { opacity: 1; transform: translateY(0); }
+        48%, 100% { opacity: 0; transform: translateY(-10px); }
+      }
+      @keyframes cycle3 {
+        0%, 50% { opacity: 0; transform: translateY(10px); }
+        52%, 70% { opacity: 1; transform: translateY(0); }
+        73%, 100% { opacity: 0; transform: translateY(-10px); }
+      }
+      @keyframes cycle4 {
+        0%, 75% { opacity: 0; transform: translateY(10px); }
+        77%, 95% { opacity: 1; transform: translateY(0); }
+        98%, 100% { opacity: 0; transform: translateY(-10px); }
+      }
+
+      .role-1 { animation: cycle1 12s infinite; opacity: 0; }
+      .role-2 { animation: cycle2 12s infinite; opacity: 0; }
+      .role-3 { animation: cycle3 12s infinite; opacity: 0; }
+      .role-4 { animation: cycle4 12s infinite; opacity: 0; }
+
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .cursor { animation: blink 1s step-end infinite; }
+      
+      .gradient-text {
+        fill: url(#text-gradient);
+        font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 72px;
+        letter-spacing: -1px;
+      }
+      
+      .role-text {
+        fill: #e2e8f0;
+        font-family: ui-monospace, Menlo, Consolas, monospace;
+        font-size: 32px;
+      }
+
+      .bracket {
+        fill: none;
+        stroke: #22d3ee;
+        stroke-width: 4;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        opacity: 0.7;
+      }
+    </style>
+    
+    <pattern id="dots" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle fill="#ffffff" cx="2" cy="2" r="1.5" opacity="0.07"></circle>
+    </pattern>
+    
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="50%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+
+    <radialGradient id="blob-cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="blob-purple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="blob-green" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#0d0e16" />
+  <rect width="100%" height="100%" fill="url(#dots)" />
+
+  <!-- Animated Blobs -->
+  <g style="animation: float 10s ease-in-out infinite;">
+    <circle cx="250" cy="150" r="350" fill="url(#blob-cyan)" />
+  </g>
+  <g style="animation: floatReverse 12s ease-in-out infinite;">
+    <circle cx="1050" cy="400" r="400" fill="url(#blob-purple)" />
+  </g>
+  <g style="animation: floatFast 8s ease-in-out infinite;">
+    <circle cx="700" cy="100" r="250" fill="url(#blob-green)" />
+  </g>
+
+  <!-- Decorative Corner Brackets -->
+  <path class="bracket" d="M 80 120 L 60 120 L 60 140" />
+  <path class="bracket" d="M 1200 120 L 1220 120 L 1220 140" />
+  <path class="bracket" d="M 80 420 L 60 420 L 60 400" />
+  <path class="bracket" d="M 1200 420 L 1220 420 L 1220 400" />
+
+  <g transform="translate(640, 260)" text-anchor="middle">
+    <!-- Main Title -->
+    <text y="0" class="gradient-text">Hi, I'm Janardhan Devarala</text>
+    
+    <!-- Cycling Roles -->
+    <g transform="translate(0, 70)">
+      <text y="0" class="role-text role-1">&gt; AI &amp; ML Engineer<tspan class="cursor" fill="#22d3ee">_</tspan></text>
+      <text y="0" class="role-text role-2">&gt; Full Stack Developer<tspan class="cursor" fill="#22d3ee">_</tspan></text>
+      <text y="0" class="role-text role-3">&gt; Data Visualization Expert<tspan class="cursor" fill="#22d3ee">_</tspan></text>
+      <text y="0" class="role-text role-4">&gt; Hackathon Builder<tspan class="cursor" fill="#22d3ee">_</tspan></text>
+    </g>
+  </g>
+</svg>

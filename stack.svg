@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400">
+  <defs>
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7928CA" />
+      <stop offset="100%" stop-color="#FF0080" />
+    </linearGradient>
+    <linearGradient id="label-grad-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00C9FF" />
+      <stop offset="100%" stop-color="#92FE9D" />
+    </linearGradient>
+    <linearGradient id="label-grad-2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f6d365" />
+      <stop offset="100%" stop-color="#fda085" />
+    </linearGradient>
+    <linearGradient id="label-grad-3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#84fab0" />
+      <stop offset="100%" stop-color="#8fd3f4" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 32px; font-weight: bold; fill: url(#title-grad); }
+    .category { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 20px; font-weight: bold; }
+    .skill-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 15px; fill: #ffffff; font-weight: 600; text-anchor: middle; dominant-baseline: central; }
+    .pill { fill: #151722; stroke-width: 1.5; filter: url(#glow); }
+    .pill-1 { stroke: #00C9FF; }
+    .pill-2 { stroke: #f6d365; }
+    .pill-3 { stroke: #84fab0; }
+    
+    .animate { opacity: 0; animation: fadeIn 0.8s ease-out forwards; }
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(10px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+  <rect width="100%" height="100%" fill="#0d0e16" rx="15" ry="15" />
+  <text x="640" y="60" class="title" text-anchor="middle">⚡ Tech Arsenal</text>
+  
+  <text x="50" y="150" class="category" fill="url(#label-grad-1)">Languages</text>
+  <g class="animate" style="animation-delay: 0.2s;"><rect x="280" y="130" width="91" height="36" rx="18" ry="18" class="pill pill-1"/><text x="325.5" y="150" class="skill-text">Python</text></g>
+  <g class="animate" style="animation-delay: 0.3s;"><rect x="391" y="130" width="74" height="36" rx="18" ry="18" class="pill pill-1"/><text x="428" y="150" class="skill-text">Java</text></g>
+  <g class="animate" style="animation-delay: 0.4s;"><rect x="485" y="130" width="125" height="36" rx="18" ry="18" class="pill pill-1"/><text x="547.5" y="150" class="skill-text">JavaScript</text></g>
+  <g class="animate" style="animation-delay: 0.5s;"><rect x="630" y="130" width="65.5" height="36" rx="18" ry="18" class="pill pill-1"/><text x="662.75" y="150" class="skill-text">SQL</text></g>
+  <g class="animate" style="animation-delay: 0.6s;"><rect x="715.5" y="130" width="48.5" height="36" rx="18" ry="18" class="pill pill-1"/><text x="739.75" y="150" class="skill-text">C</text></g>
+  <g class="animate" style="animation-delay: 0.7s;"><rect x="784" y="130" width="74" height="36" rx="18" ry="18" class="pill pill-1"/><text x="821" y="150" class="skill-text">HTML</text></g>
+  <g class="animate" style="animation-delay: 0.8s;"><rect x="878" y="130" width="65.5" height="36" rx="18" ry="18" class="pill pill-1"/><text x="910.75" y="150" class="skill-text">CSS</text></g>
+  <g class="animate" style="animation-delay: 0.9s;"><rect x="963.5" y="130" width="125" height="36" rx="18" ry="18" class="pill pill-1"/><text x="1026" y="150" class="skill-text">TypeScript</text></g>
+
+  <text x="50" y="240" class="category" fill="url(#label-grad-2)">Frameworks &amp; Tools</text>
+  <g class="animate" style="animation-delay: 1.0s;"><rect x="280" y="220" width="82.5" height="36" rx="18" ry="18" class="pill pill-2"/><text x="321.25" y="240" class="skill-text">React</text></g>
+  <g class="animate" style="animation-delay: 1.1s;"><rect x="382.5" y="220" width="99.5" height="36" rx="18" ry="18" class="pill pill-2"/><text x="432.25" y="240" class="skill-text">Node.js</text></g>
+  <g class="animate" style="animation-delay: 1.2s;"><rect x="502" y="220" width="99.5" height="36" rx="18" ry="18" class="pill pill-2"/><text x="551.75" y="240" class="skill-text">Next.js</text></g>
+  <g class="animate" style="animation-delay: 1.3s;"><rect x="621.5" y="220" width="125" height="36" rx="18" ry="18" class="pill pill-2"/><text x="684" y="240" class="skill-text">Express.js</text></g>
+  <g class="animate" style="animation-delay: 1.4s;"><rect x="766.5" y="220" width="142" height="36" rx="18" ry="18" class="pill pill-2"/><text x="837.5" y="240" class="skill-text">Tailwind CSS</text></g>
+  <g class="animate" style="animation-delay: 1.5s;"><rect x="928.5" y="220" width="82.5" height="36" rx="18" ry="18" class="pill pill-2"/><text x="969.75" y="240" class="skill-text">Redux</text></g>
+
+  <text x="50" y="330" class="category" fill="url(#label-grad-3)">AI/ML &amp; Data</text>
+  <g class="animate" style="animation-delay: 1.6s;"><rect x="280" y="310" width="125" height="36" rx="18" ry="18" class="pill pill-3"/><text x="342.5" y="330" class="skill-text">TensorFlow</text></g>
+  <g class="animate" style="animation-delay: 1.7s;"><rect x="425" y="310" width="142" height="36" rx="18" ry="18" class="pill pill-3"/><text x="496" y="330" class="skill-text">Scikit-learn</text></g>
+  <g class="animate" style="animation-delay: 1.8s;"><rect x="587" y="310" width="99.5" height="36" rx="18" ry="18" class="pill pill-3"/><text x="636.75" y="330" class="skill-text">Tableau</text></g>
+  <g class="animate" style="animation-delay: 1.9s;"><rect x="706.5" y="310" width="99.5" height="36" rx="18" ry="18" class="pill pill-3"/><text x="756.25" y="330" class="skill-text">PowerBI</text></g>
+  <g class="animate" style="animation-delay: 2.0s;"><rect x="826" y="310" width="99.5" height="36" rx="18" ry="18" class="pill pill-3"/><text x="875.75" y="330" class="skill-text">MongoDB</text></g>
+  <g class="animate" style="animation-delay: 2.1s;"><rect x="945.5" y="310" width="125" height="36" rx="18" ry="18" class="pill pill-3"/><text x="1008" y="330" class="skill-text">PostgreSQL</text></g>
+  <g class="animate" style="animation-delay: 2.2s;"><rect x="1090.5" y="310" width="108" height="36" rx="18" ry="18" class="pill pill-3"/><text x="1144.5" y="330" class="skill-text">Firebase</text></g>
+
+</svg>

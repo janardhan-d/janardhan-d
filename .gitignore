@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+.next/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+
+# Temp files
+*.base64.txt
