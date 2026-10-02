@@ -1,65 +1,100 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 460" width="1280" height="460">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070709"/>
-      <stop offset="100%" stop-color="#111116"/>
+      <stop offset="0%" stop-color="#05070f"/>
+      <stop offset="100%" stop-color="#0b1020"/>
     </linearGradient>
-    <linearGradient id="goldTitle" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#fef08a"/>
-      <stop offset="50%" stop-color="#fbbf24"/>
-      <stop offset="100%" stop-color="#d97706"/>
+    <linearGradient id="leftGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="rightGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#00f2fe"/>
     </linearGradient>
   </defs>
+
+  <style>
+    .card-shell {
+      cursor: pointer;
+      transition: filter 0.3s ease;
+    }
+    .card-shell:hover {
+      filter: drop-shadow(0 0 14px rgba(0, 242, 254, 0.25));
+    }
+    .card-shell:hover rect {
+      stroke: #38bdf8;
+    }
+    .hover-row {
+      transition: transform 0.2s ease;
+      cursor: pointer;
+    }
+    .hover-row:hover {
+      transform: translateX(6px);
+    }
+  </style>
 
   <rect width="100%" height="100%" fill="url(#bg)" rx="20"/>
 
   <!-- LEFT CARD -->
-  <g transform="translate(40, 30)">
-    <rect width="575" height="400" rx="16" fill="#0e0f14" stroke="#d97706" stroke-width="1.8"/>
+  <g class="card-shell" transform="translate(40, 30)">
+    <rect width="575" height="400" rx="16" fill="#0d1117" stroke="#21262d" stroke-width="1.8"/>
     
-    <text x="35" y="55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="900" fill="url(#goldTitle)">&lt; What I Build /&gt;</text>
-    <line x1="35" y1="75" x2="540" y2="75" stroke="#3d341e" stroke-width="1.5"/>
+    <text x="35" y="55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="900" fill="url(#leftGrad)">&lt; What I Build /&gt;</text>
+    <line x1="35" y1="75" x2="540" y2="75" stroke="#21262d" stroke-width="1.5"/>
 
     <g transform="translate(35, 110)" font-family="Segoe UI, Helvetica, Arial, sans-serif">
-      <text y="0" font-size="18" font-weight="bold" fill="#fef08a">🤖 AI &amp; ML Models</text>
-      <text y="24" font-size="14" fill="#e5e7eb">Generative AI, predictive analytics, NLP &amp; classification pipelines</text>
-
-      <text y="62" font-size="18" font-weight="bold" fill="#fbbf24">📊 Data Dashboards</text>
-      <text y="86" font-size="14" fill="#e5e7eb">Interactive Tableau &amp; PowerBI visual analytics and KPIs</text>
-
-      <text y="124" font-size="18" font-weight="bold" fill="#f59e0b">💻 Full-Stack Web Apps</text>
-      <text y="148" font-size="14" fill="#e5e7eb">Modern responsive web applications with React, Next.js, Node.js</text>
-
-      <text y="186" font-size="18" font-weight="bold" fill="#d97706">🏆 Hackathon Solutions</text>
-      <text y="210" font-size="14" fill="#e5e7eb">High-pressure rapid prototypes delivered within strict deadlines</text>
-
-      <text y="248" font-size="18" font-weight="bold" fill="#fef08a">🔐 Finance Management Systems</text>
-      <text y="272" font-size="14" fill="#e5e7eb">Python, SQLite &amp; Matplotlib desktop analytics applications</text>
+      <g class="hover-row">
+        <text y="0" font-size="18" font-weight="bold" fill="#00f2fe">AI &amp; ML Models</text>
+        <text y="24" font-size="14" fill="#cbd5e1">Generative AI, predictive analytics, NLP &amp; classification pipelines</text>
+      </g>
+      <g class="hover-row" transform="translate(0, 62)">
+        <text y="0" font-size="18" font-weight="bold" fill="#a78bfa">Data Dashboards</text>
+        <text y="24" font-size="14" fill="#cbd5e1">Interactive Tableau &amp; PowerBI visual analytics and KPIs</text>
+      </g>
+      <g class="hover-row" transform="translate(0, 124)">
+        <text y="0" font-size="18" font-weight="bold" fill="#f472b6">Full-Stack Web Apps</text>
+        <text y="24" font-size="14" fill="#cbd5e1">Modern responsive web applications with React, Next.js, Node.js</text>
+      </g>
+      <g class="hover-row" transform="translate(0, 186)">
+        <text y="0" font-size="18" font-weight="bold" fill="#fbbf24">Hackathon Solutions</text>
+        <text y="24" font-size="14" fill="#cbd5e1">High-pressure rapid prototypes delivered within strict deadlines</text>
+      </g>
+      <g class="hover-row" transform="translate(0, 248)">
+        <text y="0" font-size="18" font-weight="bold" fill="#34d399">Finance Management Systems</text>
+        <text y="24" font-size="14" fill="#cbd5e1">Python, SQLite &amp; Matplotlib desktop analytics applications</text>
+      </g>
     </g>
   </g>
 
   <!-- RIGHT CARD -->
-  <g transform="translate(665, 30)">
-    <rect width="575" height="400" rx="16" fill="#0e0f14" stroke="#d97706" stroke-width="1.8"/>
+  <g class="card-shell" transform="translate(665, 30)">
+    <rect width="575" height="400" rx="16" fill="#0d1117" stroke="#21262d" stroke-width="1.8"/>
 
-    <text x="35" y="55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="900" fill="url(#goldTitle)">&gt; Life Beyond Code</text>
-    <line x1="35" y1="75" x2="540" y2="75" stroke="#3d341e" stroke-width="1.5"/>
+    <text x="35" y="55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="900" fill="url(#rightGrad)">&gt; Life Beyond Code</text>
+    <line x1="35" y1="75" x2="540" y2="75" stroke="#21262d" stroke-width="1.5"/>
 
     <g transform="translate(35, 110)" font-family="Segoe UI, Helvetica, Arial, sans-serif">
-      <text y="0" font-size="18" font-weight="bold" fill="#fef08a">🎓 BTech CSE (AI)</text>
-      <text y="24" font-size="14" fill="#e5e7eb">Audisankara College of Engineering &amp; Technology (2023–2027)</text>
-
-      <text y="62" font-size="18" font-weight="bold" fill="#fbbf24">📜 Industry Certifications</text>
-      <text y="86" font-size="14" fill="#e5e7eb">Google Cloud GenAI Studio, Microsoft AI Fundamentals</text>
-
-      <text y="124" font-size="18" font-weight="bold" fill="#f59e0b">🏢 Practical Internships</text>
-      <text y="148" font-size="14" fill="#e5e7eb">Python Dev @ InnoByte Services &amp; Frontend Dev @ SyntecxHub</text>
-
-      <text y="186" font-size="18" font-weight="bold" fill="#d97706">🌱 ESG &amp; Sustainability Research</text>
-      <text y="210" font-size="14" fill="#e5e7eb">TCS Forage Virtual Consulting simulation alumnus</text>
-
-      <text y="248" font-size="18" font-weight="bold" fill="#fef08a">🎯 The Core Mission</text>
-      <text y="272" font-size="14" fill="#e5e7eb">Empowering developers &amp; businesses with intelligent automation</text>
+      <g class="hover-row">
+        <text y="0" font-size="18" font-weight="bold" fill="#34d399">BTech CSE (AI)</text>
+        <text y="24" font-size="14" fill="#cbd5e1">Audisankara College of Engineering &amp; Technology (2023–2027)</text>
+      </g>
+      <g class="hover-row" transform="translate(0, 62)">
+        <text y="0" font-size="18" font-weight="bold" fill="#00f2fe">Industry Certifications</text>
+        <text y="24" font-size="14" fill="#cbd5e1">Google Cloud GenAI Studio, Microsoft AI Fundamentals</text>
+      </g>
+      <g class="hover-row" transform="translate(0, 124)">
+        <text y="0" font-size="18" font-weight="bold" fill="#a78bfa">Practical Internships</text>
+        <text y="24" font-size="14" fill="#cbd5e1">Python Dev @ InnoByte Services &amp; Frontend Dev @ SyntecxHub</text>
+      </g>
+      <g class="hover-row" transform="translate(0, 186)">
+        <text y="0" font-size="18" font-weight="bold" fill="#f472b6">ESG &amp; Sustainability Research</text>
+        <text y="24" font-size="14" fill="#cbd5e1">TCS Forage Virtual Consulting simulation alumnus</text>
+      </g>
+      <g class="hover-row" transform="translate(0, 248)">
+        <text y="0" font-size="18" font-weight="bold" fill="#60a5fa">The Core Mission</text>
+        <text y="24" font-size="14" fill="#cbd5e1">Empowering developers &amp; businesses with intelligent automation</text>
+      </g>
     </g>
   </g>
 </svg>

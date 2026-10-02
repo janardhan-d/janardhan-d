@@ -14,17 +14,31 @@
     </linearGradient>
   </defs>
 
+  <style>
+    .metric-panel {
+      cursor: pointer;
+      transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.25s ease;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .metric-panel:hover {
+      transform: translateY(-4px);
+      filter: drop-shadow(0 0 12px rgba(0, 242, 254, 0.3));
+    }
+    .metric-panel:hover rect {
+      stroke: #38bdf8;
+    }
+  </style>
+
   <rect width="100%" height="100%" fill="url(#sBg)" rx="20"/>
 
-  <!-- LEFT CARD: GITHUB ACTIVITY STATS -->
-  <g transform="translate(40, 25)">
+  <!-- LEFT CARD -->
+  <g class="metric-panel" transform="translate(40, 25)">
     <rect width="575" height="180" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="1.6"/>
     
-    <!-- Title -->
     <text x="30" y="35" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="url(#cyanGrad)">Janardhan's GitHub Metrics</text>
     <line x1="30" y1="48" x2="545" y2="48" stroke="#21262d" stroke-width="1"/>
 
-    <!-- Stat Items -->
     <g transform="translate(30, 75)" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">
       <text y="0"><tspan fill="#a78bfa">★</tspan> Total Stars Earned: <tspan fill="#ffffff" font-weight="bold">5+</tspan></text>
       <text y="28"><tspan fill="#00f2fe">⚡</tspan> Total Commits: <tspan fill="#ffffff" font-weight="bold">90+</tspan></text>
@@ -32,7 +46,7 @@
       <text y="84"><tspan fill="#f472b6">🔄</tspan> Contributed to: <tspan fill="#ffffff" font-weight="bold">6 Repos</tspan></text>
     </g>
 
-    <!-- Rank Ring S+ -->
+    <!-- Rank Ring A+ -->
     <g transform="translate(460, 110)">
       <circle cx="0" cy="0" r="42" fill="none" stroke="#21262d" stroke-width="6"/>
       <circle cx="0" cy="0" r="42" fill="none" stroke="#00f2fe" stroke-width="6" stroke-dasharray="264" stroke-dashoffset="35" stroke-linecap="round">
@@ -43,14 +57,13 @@
     </g>
   </g>
 
-  <!-- RIGHT CARD: MOST USED LANGUAGES -->
-  <g transform="translate(665, 25)">
+  <!-- RIGHT CARD -->
+  <g class="metric-panel" transform="translate(665, 25)">
     <rect width="575" height="180" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="1.6"/>
     
     <text x="30" y="35" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="url(#purpleGrad)">Most Used Languages</text>
     <line x1="30" y1="48" x2="545" y2="48" stroke="#21262d" stroke-width="1"/>
 
-    <!-- Progress Bar (Combined) -->
     <g transform="translate(30, 68)">
       <rect width="515" height="12" rx="6" fill="#21262d"/>
       <rect width="275" height="12" rx="6" fill="#3b82f6"/>
@@ -58,7 +71,6 @@
       <rect x="455" width="60" height="12" rx="6" fill="#10b981"/>
     </g>
 
-    <!-- Language Legend -->
     <g transform="translate(30, 110)" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#cbd5e1">
       <circle cx="6" cy="0" r="5" fill="#3b82f6"/>
       <text x="18" y="4">Python <tspan fill="#ffffff" font-weight="bold">53.5%</tspan></text>

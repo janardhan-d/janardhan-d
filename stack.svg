@@ -1,106 +1,123 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 380" width="1280" height="380">
   <defs>
     <linearGradient id="sBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070709"/>
-      <stop offset="100%" stop-color="#111116"/>
+      <stop offset="0%" stop-color="#05070f"/>
+      <stop offset="100%" stop-color="#0b1020"/>
     </linearGradient>
     <linearGradient id="sTitle" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#fef08a"/>
-      <stop offset="50%" stop-color="#fbbf24"/>
-      <stop offset="100%" stop-color="#d97706"/>
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#34d399"/>
     </linearGradient>
   </defs>
 
+  <style>
+    .pill {
+      cursor: pointer;
+      transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.25s ease;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .pill:hover {
+      transform: translateY(-4px) scale(1.06);
+      filter: drop-shadow(0 0 10px rgba(0, 242, 254, 0.5));
+    }
+    .pill:hover rect {
+      fill: #1e293b;
+      stroke-width: 2.4px;
+    }
+  </style>
+
   <rect width="100%" height="100%" fill="url(#sBg)" rx="20"/>
 
-  <text x="640" y="55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="900" fill="url(#sTitle)" text-anchor="middle">⚡ GOLD-STANDARD TECH ARSENAL</text>
-  <line x1="420" y1="72" x2="860" y2="72" stroke="#3d341e" stroke-width="1.5"/>
+  <text x="640" y="55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="900" fill="url(#sTitle)" text-anchor="middle">⚡ TECH ARSENAL &amp; EXPERTISE</text>
+  <line x1="420" y1="72" x2="860" y2="72" stroke="#21262d" stroke-width="1.5"/>
 
-  <text x="65" y="131" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="#fef08a">Languages</text>
-<g transform="translate(265, 105)">
-          <rect width="90" height="38" rx="19" fill="#13141b" stroke="#fef08a" stroke-width="1.8"/>
+  <text x="65" y="131" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="#00f2fe">Languages</text>
+<g class="pill" transform="translate(260, 105)">
+          <rect width="90" height="38" rx="19" fill="#161b22" stroke="#00f2fe" stroke-width="1.8"/>
           <text x="45.0" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Python</text>
         </g>
-<g transform="translate(369, 105)">
-          <rect width="72" height="38" rx="19" fill="#13141b" stroke="#fef08a" stroke-width="1.8"/>
+<g class="pill" transform="translate(364, 105)">
+          <rect width="72" height="38" rx="19" fill="#161b22" stroke="#00f2fe" stroke-width="1.8"/>
           <text x="36.0" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Java</text>
         </g>
-<g transform="translate(455, 105)">
-          <rect width="126" height="38" rx="19" fill="#13141b" stroke="#fef08a" stroke-width="1.8"/>
+<g class="pill" transform="translate(450, 105)">
+          <rect width="126" height="38" rx="19" fill="#161b22" stroke="#00f2fe" stroke-width="1.8"/>
           <text x="63.0" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">JavaScript</text>
         </g>
-<g transform="translate(595, 105)">
-          <rect width="63" height="38" rx="19" fill="#13141b" stroke="#fef08a" stroke-width="1.8"/>
+<g class="pill" transform="translate(590, 105)">
+          <rect width="63" height="38" rx="19" fill="#161b22" stroke="#00f2fe" stroke-width="1.8"/>
           <text x="31.5" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">SQL</text>
         </g>
-<g transform="translate(672, 105)">
-          <rect width="45" height="38" rx="19" fill="#13141b" stroke="#fef08a" stroke-width="1.8"/>
+<g class="pill" transform="translate(667, 105)">
+          <rect width="45" height="38" rx="19" fill="#161b22" stroke="#00f2fe" stroke-width="1.8"/>
           <text x="22.5" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
         </g>
-<g transform="translate(731, 105)">
-          <rect width="81" height="38" rx="19" fill="#13141b" stroke="#fef08a" stroke-width="1.8"/>
+<g class="pill" transform="translate(726, 105)">
+          <rect width="81" height="38" rx="19" fill="#161b22" stroke="#00f2fe" stroke-width="1.8"/>
           <text x="40.5" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">HTML5</text>
         </g>
-<g transform="translate(826, 105)">
-          <rect width="72" height="38" rx="19" fill="#13141b" stroke="#fef08a" stroke-width="1.8"/>
+<g class="pill" transform="translate(821, 105)">
+          <rect width="72" height="38" rx="19" fill="#161b22" stroke="#00f2fe" stroke-width="1.8"/>
           <text x="36.0" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">CSS3</text>
         </g>
-<g transform="translate(912, 105)">
-          <rect width="126" height="38" rx="19" fill="#13141b" stroke="#fef08a" stroke-width="1.8"/>
+<g class="pill" transform="translate(907, 105)">
+          <rect width="126" height="38" rx="19" fill="#161b22" stroke="#00f2fe" stroke-width="1.8"/>
           <text x="63.0" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">TypeScript</text>
         </g>
-  <text x="65" y="221" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="#fbbf24">Frameworks &amp; Web</text>
-<g transform="translate(265, 195)">
-          <rect width="81" height="38" rx="19" fill="#13141b" stroke="#fbbf24" stroke-width="1.8"/>
+  <text x="65" y="221" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="#a78bfa">Frameworks &amp; Web</text>
+<g class="pill" transform="translate(260, 195)">
+          <rect width="81" height="38" rx="19" fill="#161b22" stroke="#a78bfa" stroke-width="1.8"/>
           <text x="40.5" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">React</text>
         </g>
-<g transform="translate(360, 195)">
-          <rect width="99" height="38" rx="19" fill="#13141b" stroke="#fbbf24" stroke-width="1.8"/>
+<g class="pill" transform="translate(355, 195)">
+          <rect width="99" height="38" rx="19" fill="#161b22" stroke="#a78bfa" stroke-width="1.8"/>
           <text x="49.5" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Node.js</text>
         </g>
-<g transform="translate(473, 195)">
-          <rect width="99" height="38" rx="19" fill="#13141b" stroke="#fbbf24" stroke-width="1.8"/>
+<g class="pill" transform="translate(468, 195)">
+          <rect width="99" height="38" rx="19" fill="#161b22" stroke="#a78bfa" stroke-width="1.8"/>
           <text x="49.5" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Next.js</text>
         </g>
-<g transform="translate(586, 195)">
-          <rect width="126" height="38" rx="19" fill="#13141b" stroke="#fbbf24" stroke-width="1.8"/>
+<g class="pill" transform="translate(581, 195)">
+          <rect width="126" height="38" rx="19" fill="#161b22" stroke="#a78bfa" stroke-width="1.8"/>
           <text x="63.0" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Express.js</text>
         </g>
-<g transform="translate(726, 195)">
-          <rect width="144" height="38" rx="19" fill="#13141b" stroke="#fbbf24" stroke-width="1.8"/>
+<g class="pill" transform="translate(721, 195)">
+          <rect width="144" height="38" rx="19" fill="#161b22" stroke="#a78bfa" stroke-width="1.8"/>
           <text x="72.0" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Tailwind CSS</text>
         </g>
-<g transform="translate(884, 195)">
-          <rect width="81" height="38" rx="19" fill="#13141b" stroke="#fbbf24" stroke-width="1.8"/>
+<g class="pill" transform="translate(879, 195)">
+          <rect width="81" height="38" rx="19" fill="#161b22" stroke="#a78bfa" stroke-width="1.8"/>
           <text x="40.5" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Redux</text>
         </g>
-  <text x="65" y="311" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="#d97706">AI, Data &amp; Tools</text>
-<g transform="translate(265, 285)">
-          <rect width="126" height="38" rx="19" fill="#13141b" stroke="#d97706" stroke-width="1.8"/>
+  <text x="65" y="311" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="#34d399">AI, Data &amp; Tools</text>
+<g class="pill" transform="translate(260, 285)">
+          <rect width="126" height="38" rx="19" fill="#161b22" stroke="#34d399" stroke-width="1.8"/>
           <text x="63.0" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">TensorFlow</text>
         </g>
-<g transform="translate(405, 285)">
-          <rect width="144" height="38" rx="19" fill="#13141b" stroke="#d97706" stroke-width="1.8"/>
+<g class="pill" transform="translate(400, 285)">
+          <rect width="144" height="38" rx="19" fill="#161b22" stroke="#34d399" stroke-width="1.8"/>
           <text x="72.0" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Scikit-Learn</text>
         </g>
-<g transform="translate(563, 285)">
-          <rect width="99" height="38" rx="19" fill="#13141b" stroke="#d97706" stroke-width="1.8"/>
+<g class="pill" transform="translate(558, 285)">
+          <rect width="99" height="38" rx="19" fill="#161b22" stroke="#34d399" stroke-width="1.8"/>
           <text x="49.5" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Tableau</text>
         </g>
-<g transform="translate(676, 285)">
-          <rect width="99" height="38" rx="19" fill="#13141b" stroke="#d97706" stroke-width="1.8"/>
+<g class="pill" transform="translate(671, 285)">
+          <rect width="99" height="38" rx="19" fill="#161b22" stroke="#34d399" stroke-width="1.8"/>
           <text x="49.5" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">PowerBI</text>
         </g>
-<g transform="translate(789, 285)">
-          <rect width="99" height="38" rx="19" fill="#13141b" stroke="#d97706" stroke-width="1.8"/>
+<g class="pill" transform="translate(784, 285)">
+          <rect width="99" height="38" rx="19" fill="#161b22" stroke="#34d399" stroke-width="1.8"/>
           <text x="49.5" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">MongoDB</text>
         </g>
-<g transform="translate(902, 285)">
-          <rect width="126" height="38" rx="19" fill="#13141b" stroke="#d97706" stroke-width="1.8"/>
+<g class="pill" transform="translate(897, 285)">
+          <rect width="126" height="38" rx="19" fill="#161b22" stroke="#34d399" stroke-width="1.8"/>
           <text x="63.0" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">PostgreSQL</text>
         </g>
-<g transform="translate(1042, 285)">
-          <rect width="63" height="38" rx="19" fill="#13141b" stroke="#d97706" stroke-width="1.8"/>
+<g class="pill" transform="translate(1037, 285)">
+          <rect width="63" height="38" rx="19" fill="#161b22" stroke="#34d399" stroke-width="1.8"/>
           <text x="31.5" y="24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Git</text>
         </g>
 </svg>
