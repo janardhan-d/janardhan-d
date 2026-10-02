@@ -77,7 +77,7 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=janardhan-d&color=ffd700&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
+<img src="https://hits.sh/github.com/janardhan-d/janardhan-d.svg?style=for-the-badge&amp;label=PROFILE+VIEWS&amp;color=ffd700&amp;labelColor=0e1117" alt="Profile views"/>
 
 <br/>
 
