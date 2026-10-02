@@ -1,22 +1,22 @@
 <div align="center">
 
 <!-- 🎬 HERO — Dynamic Vibrant Cyber Terminal Banner with Photo & Moving Laser Beam -->
-<img src="./hero.svg?v=fresh5" alt="Janardhan Devarala — AI & ML Engineer" width="100%"/>
+<img src="./hero.svg?v=clean6" alt="Janardhan Devarala — AI & ML Engineer" width="100%"/>
 
 <br/><br/>
 
 <!-- 💼 LEFT: What I Build   •   🌟 RIGHT: Life Beyond Code -->
-<img src="./about-life.svg?v=fresh5" alt="What I build, and life beyond the code" width="100%"/>
+<img src="./about-life.svg?v=clean6" alt="What I build, and life beyond the code" width="100%"/>
 
 <br/><br/>
 
 <!-- ⚡ TECH ARSENAL -->
-<img src="./stack.svg?v=fresh5" alt="Tech Arsenal" width="100%"/>
+<img src="./stack.svg?v=clean6" alt="Tech Arsenal" width="100%"/>
 
 <br/><br/>
 
 <!-- 🪪 DEVELOPER ID + 3D STATS DASHBOARD -->
-<img src="./id-dashboard.svg?v=fresh5" alt="Developer ID and dashboard" width="100%"/>
+<img src="./id-dashboard.svg?v=clean6" alt="Developer ID and dashboard" width="100%"/>
 
 <br/><br/>
 
@@ -39,13 +39,13 @@
 
 ## 📊 Executive GitHub Metrics
 
-<img src="https://github-readme-stats.vercel.app/api?username=janardhan-d&show_icons=true&hide_border=false&bg_color=0e1117&title_color=00f2fe&icon_color=a78bfa&text_color=ffffff&ring_color=00f2fe&border_color=30363d" alt="GitHub Stats" height="185"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=janardhan-d&layout=compact&hide_border=false&bg_color=0e1117&title_color=00f2fe&text_color=ffffff&border_color=30363d" alt="Top Languages" height="185"/>
+<!-- Local High-Contrast Animated GitHub Stats & Languages (Zero rate limits, zero broken images!) -->
+<img src="./github-stats.svg?v=clean6" alt="GitHub Metrics and Languages" width="100%"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=janardhan-d&hide_border=false&background=0e1117&border=30363d&stroke=00f2fe&ring=00f2fe&fire=f472b6&currStreakLabel=00f2fe&sideLabels=a78bfa&dates=ffffff" alt="GitHub Streak" width="60%"/>
+<!-- Local High-Contrast Animated Streak Counter -->
+<img src="./streak-stats.svg?v=clean6" alt="GitHub Contribution Streak" width="100%"/>
 
 <br/><br/>
 
@@ -53,12 +53,12 @@
 
 *Every commit builds another skyscraper — watch the city grow.*
 
-<img src="./profile-3d-contrib/profile-night-view.svg?v=fresh5" alt="3D Contribution City" width="100%"/>
+<img src="./profile-3d-contrib/profile-night-view.svg?v=clean6" alt="3D Contribution City" width="100%"/>
 
 <br/><br/>
 
 <!-- 👑 LET'S CONNECT -->
-<img src="./connect.svg?v=fresh5" alt="Let's connect" width="100%"/>
+<img src="./connect.svg?v=clean6" alt="Let's connect" width="100%"/>
 
 <br/>
 
