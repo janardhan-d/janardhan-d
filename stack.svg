@@ -1,192 +1,415 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 490" width="1280" height="490" role="img" aria-label="Tech Arsenal — Quantum Orbital Stack">
+  <title>Janardhan Devarala — Quantum Tech Arsenal &amp; Capabilities</title>
   <defs>
-    <linearGradient id="sbg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Background Gradients -->
+    <linearGradient id="qBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#05070e"/>
-      <stop offset="50%" stop-color="#0b0e1a"/>
-      <stop offset="100%" stop-color="#080a14"/>
+      <stop offset="50%" stop-color="#0a0d18"/>
+      <stop offset="100%" stop-color="#060812"/>
     </linearGradient>
-    <linearGradient id="sTitleGold" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="qBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffd700" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#21262d"/>
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <!-- Core Nucleus Gradients -->
+    <radialGradient id="aiCoreG" cx="35%" cy="30%" r="80%">
       <stop offset="0%" stop-color="#ffd700"/>
-      <stop offset="50%" stop-color="#fbbf24"/>
-      <stop offset="100%" stop-color="#00f2fe"/>
-    </linearGradient>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </radialGradient>
+    <radialGradient id="aiHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd700" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#00f2fe" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Satellite Planet Gradients -->
+    <radialGradient id="pGold" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </radialGradient>
+    <radialGradient id="pCyan" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </radialGradient>
+    <radialGradient id="pEmerald" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </radialGradient>
+    <radialGradient id="pPurple" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </radialGradient>
+    <radialGradient id="pAmber" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </radialGradient>
+    <radialGradient id="pRose" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#db2777"/>
+    </radialGradient>
+
+    <!-- Dot Grid Pattern -->
+    <pattern id="qDots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="11" r="0.8" fill="#ffffff" fill-opacity="0.04"/>
+    </pattern>
+
+    <!-- Filters -->
+    <filter id="coreGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="pGlow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Master Orbit Paths (Centered at cx=260, cy=275) -->
+    <!-- Orbit 1: Ellipse tilted -30 deg -->
+    <path id="orbitPath1" d="M 85 275 A 175 92 0 1 0 435 275 A 175 92 0 1 0 85 275 Z" fill="none"/>
+    <!-- Orbit 2: Ellipse tilted +35 deg -->
+    <path id="orbitPath2" d="M 95 275 A 165 96 0 1 0 425 275 A 165 96 0 1 0 95 275 Z" fill="none"/>
+    <!-- Orbit 3: Ellipse horizontal -->
+    <path id="orbitPath3" d="M 110 275 A 150 78 0 1 0 410 275 A 150 78 0 1 0 110 275 Z" fill="none"/>
   </defs>
 
-  <rect width="1280" height="400" fill="url(#sbg)" rx="20"/>
+  <!-- Background -->
+  <rect width="1280" height="490" rx="24" fill="url(#qBg)"/>
+  <rect width="1280" height="490" rx="24" fill="url(#qDots)"/>
+  <rect x="0.75" y="0.75" width="1278.5" height="488.5" rx="23.25" fill="none" stroke="url(#qBorder)" stroke-width="1.5"/>
 
-  <!-- Top Gold Border -->
-  <rect x="0" y="0" width="1280" height="4" rx="2" fill="url(#sTitleGold)">
+  <!-- Top Accent Line -->
+  <rect x="0" y="0" width="1280" height="3" rx="1.5" fill="url(#qBorder)">
     <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Title with pulse -->
-  <text x="640" y="58" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="30" font-weight="900" fill="url(#sTitleGold)" text-anchor="middle">
-    &#x26A1; TECH ARSENAL &amp; EXPERTISE
-    <animate attributeName="opacity" values="0.85;1;0.85" dur="2.5s" repeatCount="indefinite"/>
-  </text>
-  <line x1="420" y1="75" x2="860" y2="75" stroke="#2b2313" stroke-width="1.5"/>
+  <!-- ========================================== -->
+  <!-- LEFT: 3D QUANTUM ATOM ORBITAL SOLAR SYSTEM -->
+  <!-- ========================================== -->
+  <g>
+    <!-- Left Section Header -->
+    <text x="45" y="48" font-family="ui-monospace,Consolas,monospace" font-size="11.5" font-weight="800" fill="#ffd700" letter-spacing="2.2">
+      // QUANTUM ARCHITECTURE
+    </text>
+    <text x="45" y="78" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="24" font-weight="900" fill="#ffffff">
+      Autonomous AI Neural Core
+    </text>
 
-  <!-- Row 1: Languages (Gold) -->
-  <text x="30" y="130" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" font-weight="800" fill="#ffd700">Languages</text>
-  
-    <g opacity="0" transform="translate(180, 112)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.10s" fill="freeze"/>
-      <rect width="78" height="36" rx="18" fill="#161b22" stroke="#ffd700" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.0s" repeatCount="indefinite"/>
-      </rect>
-      <text x="39" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Python</text>
-    </g>
-    <g opacity="0" transform="translate(270, 112)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.22s" fill="freeze"/>
-      <rect width="64" height="36" rx="18" fill="#161b22" stroke="#ffd700" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.2s" repeatCount="indefinite"/>
-      </rect>
-      <text x="32" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Java</text>
-    </g>
-    <g opacity="0" transform="translate(346, 112)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.34s" fill="freeze"/>
-      <rect width="114" height="36" rx="18" fill="#161b22" stroke="#ffd700" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
-      </rect>
-      <text x="57" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">JavaScript</text>
-    </g>
-    <g opacity="0" transform="translate(472, 112)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.46s" fill="freeze"/>
-      <rect width="114" height="36" rx="18" fill="#161b22" stroke="#ffd700" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.8s" repeatCount="indefinite"/>
-      </rect>
-      <text x="57" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">TypeScript</text>
-    </g>
-    <g opacity="0" transform="translate(598, 112)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.58s" fill="freeze"/>
-      <rect width="64" height="36" rx="18" fill="#161b22" stroke="#ffd700" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.0s" repeatCount="indefinite"/>
-      </rect>
-      <text x="32" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">SQL</text>
-    </g>
-    <g opacity="0" transform="translate(674, 112)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.70s" fill="freeze"/>
-      <rect width="64" height="36" rx="18" fill="#161b22" stroke="#ffd700" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.2s" repeatCount="indefinite"/>
-      </rect>
-      <text x="32" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
-    </g>
-    <g opacity="0" transform="translate(750, 112)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.82s" fill="freeze"/>
-      <rect width="64" height="36" rx="18" fill="#161b22" stroke="#ffd700" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.5s" repeatCount="indefinite"/>
-      </rect>
-      <text x="32" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">HTML</text>
-    </g>
-    <g opacity="0" transform="translate(826, 112)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.94s" fill="freeze"/>
-      <rect width="64" height="36" rx="18" fill="#161b22" stroke="#ffd700" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.8s" repeatCount="indefinite"/>
-      </rect>
-      <text x="32" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">CSS</text>
+    <!-- Outer Ambient Glow Halo -->
+    <circle cx="260" cy="275" r="130" fill="url(#aiHalo)"/>
+
+    <!-- Expanding Quantum Shockwave Rings -->
+    <circle cx="260" cy="275" r="46" fill="none" stroke="#ffd700" stroke-width="1.6">
+      <animate attributeName="r" values="46;88" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="275" r="46" fill="none" stroke="#00f2fe" stroke-width="1.2">
+      <animate attributeName="r" values="46;112" dur="4.2s" begin="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0" dur="4.2s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- ================= ORBIT 1 (-30 deg) ================= -->
+    <g transform="rotate(-30 260 275)">
+      <!-- Orbital Ring Trace -->
+      <use href="#orbitPath1" stroke="#ffd700" stroke-width="1.5" stroke-dasharray="8 6" stroke-opacity="0.45" fill="none">
+        <animate attributeName="stroke-opacity" values="0.3;0.65;0.3" dur="3s" repeatCount="indefinite"/>
+      </use>
+
+      <!-- Satellite 1: Python (Gold) -->
+      <g>
+        <animateMotion dur="9s" repeatCount="indefinite">
+          <mpath href="#orbitPath1"/>
+        </animateMotion>
+        <circle r="12" fill="#111624" stroke="#ffd700" stroke-width="2" filter="url(#pGlow)"/>
+        <circle r="7.5" fill="url(#pGold)"/>
+        <rect x="15" y="-10" width="56" height="20" rx="10" fill="#0d1117" stroke="#ffd700" stroke-width="1.2"/>
+        <text x="43" y="4" font-family="ui-monospace,Consolas,monospace" font-size="10" font-weight="800" fill="#ffd700" text-anchor="middle">Python</text>
+      </g>
+
+      <!-- Satellite 2: TensorFlow (Amber) - Opposite Phase (4.5s offset) -->
+      <g>
+        <animateMotion dur="9s" begin="-4.5s" repeatCount="indefinite">
+          <mpath href="#orbitPath1"/>
+        </animateMotion>
+        <circle r="12" fill="#111624" stroke="#fbbf24" stroke-width="2" filter="url(#pGlow)"/>
+        <circle r="7.5" fill="url(#pAmber)"/>
+        <rect x="15" y="-10" width="80" height="20" rx="10" fill="#0d1117" stroke="#fbbf24" stroke-width="1.2"/>
+        <text x="55" y="4" font-family="ui-monospace,Consolas,monospace" font-size="10" font-weight="800" fill="#fbbf24" text-anchor="middle">TensorFlow</text>
+      </g>
     </g>
 
-  <!-- Row 2: Frameworks (Cyan) -->
-  <text x="30" y="210" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" font-weight="800" fill="#00f2fe">Frameworks</text>
-  
-    <g opacity="0" transform="translate(180, 192)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.40s" fill="freeze"/>
-      <rect width="69" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.0s" repeatCount="indefinite"/>
-      </rect>
-      <text x="34" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">React</text>
-    </g>
-    <g opacity="0" transform="translate(261, 192)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.52s" fill="freeze"/>
-      <rect width="87" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.2s" repeatCount="indefinite"/>
-      </rect>
-      <text x="43" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Node.js</text>
-    </g>
-    <g opacity="0" transform="translate(360, 192)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.64s" fill="freeze"/>
-      <rect width="87" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
-      </rect>
-      <text x="43" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Next.js</text>
-    </g>
-    <g opacity="0" transform="translate(459, 192)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.76s" fill="freeze"/>
-      <rect width="114" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.8s" repeatCount="indefinite"/>
-      </rect>
-      <text x="57" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Express.js</text>
-    </g>
-    <g opacity="0" transform="translate(585, 192)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.88s" fill="freeze"/>
-      <rect width="132" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.0s" repeatCount="indefinite"/>
-      </rect>
-      <text x="66" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Tailwind CSS</text>
-    </g>
-    <g opacity="0" transform="translate(729, 192)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.00s" fill="freeze"/>
-      <rect width="69" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.2s" repeatCount="indefinite"/>
-      </rect>
-      <text x="34" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Redux</text>
+    <!-- ================= ORBIT 2 (+35 deg) ================= -->
+    <g transform="rotate(35 260 275)">
+      <!-- Orbital Ring Trace -->
+      <use href="#orbitPath2" stroke="#00f2fe" stroke-width="1.5" stroke-dasharray="10 5" stroke-opacity="0.45" fill="none">
+        <animate attributeName="stroke-opacity" values="0.35;0.7;0.35" dur="3.5s" repeatCount="indefinite"/>
+      </use>
+
+      <!-- Satellite 3: React.js (Cyan) -->
+      <g>
+        <animateMotion dur="11s" repeatCount="indefinite">
+          <mpath href="#orbitPath2"/>
+        </animateMotion>
+        <circle r="12" fill="#111624" stroke="#00f2fe" stroke-width="2" filter="url(#pGlow)"/>
+        <circle r="7.5" fill="url(#pCyan)"/>
+        <rect x="15" y="-10" width="54" height="20" rx="10" fill="#0d1117" stroke="#00f2fe" stroke-width="1.2"/>
+        <text x="42" y="4" font-family="ui-monospace,Consolas,monospace" font-size="10" font-weight="800" fill="#00f2fe" text-anchor="middle">React</text>
+      </g>
+
+      <!-- Satellite 4: PyTorch (Rose/Pink) - Opposite Phase (5.5s offset) -->
+      <g>
+        <animateMotion dur="11s" begin="-5.5s" repeatCount="indefinite">
+          <mpath href="#orbitPath2"/>
+        </animateMotion>
+        <circle r="12" fill="#111624" stroke="#f472b6" stroke-width="2" filter="url(#pGlow)"/>
+        <circle r="7.5" fill="url(#pRose)"/>
+        <rect x="15" y="-10" width="60" height="20" rx="10" fill="#0d1117" stroke="#f472b6" stroke-width="1.2"/>
+        <text x="45" y="4" font-family="ui-monospace,Consolas,monospace" font-size="10" font-weight="800" fill="#f472b6" text-anchor="middle">PyTorch</text>
+      </g>
     </g>
 
-  <!-- Row 3: AI/ML & Data (Amber / Gold) -->
-  <text x="30" y="296" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" font-weight="800" fill="#fbbf24">AI / ML &amp; Data</text>
-  
-    <g opacity="0" transform="translate(180, 278)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.70s" fill="freeze"/>
-      <rect width="114" height="36" rx="18" fill="#161b22" stroke="#fbbf24" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.0s" repeatCount="indefinite"/>
-      </rect>
-      <text x="57" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">TensorFlow</text>
-    </g>
-    <g opacity="0" transform="translate(306, 278)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.82s" fill="freeze"/>
-      <rect width="132" height="36" rx="18" fill="#161b22" stroke="#fbbf24" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.2s" repeatCount="indefinite"/>
-      </rect>
-      <text x="66" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Scikit-learn</text>
-    </g>
-    <g opacity="0" transform="translate(450, 278)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.94s" fill="freeze"/>
-      <rect width="87" height="36" rx="18" fill="#161b22" stroke="#fbbf24" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
-      </rect>
-      <text x="43" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Tableau</text>
-    </g>
-    <g opacity="0" transform="translate(549, 278)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.06s" fill="freeze"/>
-      <rect width="87" height="36" rx="18" fill="#161b22" stroke="#fbbf24" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.8s" repeatCount="indefinite"/>
-      </rect>
-      <text x="43" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">PowerBI</text>
-    </g>
-    <g opacity="0" transform="translate(648, 278)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.18s" fill="freeze"/>
-      <rect width="87" height="36" rx="18" fill="#161b22" stroke="#fbbf24" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.0s" repeatCount="indefinite"/>
-      </rect>
-      <text x="43" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">MongoDB</text>
-    </g>
-    <g opacity="0" transform="translate(747, 278)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.30s" fill="freeze"/>
-      <rect width="114" height="36" rx="18" fill="#161b22" stroke="#fbbf24" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.2s" repeatCount="indefinite"/>
-      </rect>
-      <text x="57" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">PostgreSQL</text>
-    </g>
-    <g opacity="0" transform="translate(873, 278)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.42s" fill="freeze"/>
-      <rect width="96" height="36" rx="18" fill="#161b22" stroke="#fbbf24" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.5s" repeatCount="indefinite"/>
-      </rect>
-      <text x="48" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Firebase</text>
+    <!-- ================= ORBIT 3 (Horizontal 0 deg) ================= -->
+    <g>
+      <!-- Orbital Ring Trace -->
+      <use href="#orbitPath3" stroke="#34d399" stroke-width="1.5" stroke-dasharray="6 6" stroke-opacity="0.4" fill="none">
+        <animate attributeName="stroke-opacity" values="0.3;0.65;0.3" dur="2.8s" repeatCount="indefinite"/>
+      </use>
+
+      <!-- Satellite 5: Tableau (Emerald) -->
+      <g>
+        <animateMotion dur="8s" repeatCount="indefinite">
+          <mpath href="#orbitPath3"/>
+        </animateMotion>
+        <circle r="11" fill="#111624" stroke="#34d399" stroke-width="2" filter="url(#pGlow)"/>
+        <circle r="7" fill="url(#pEmerald)"/>
+        <rect x="15" y="-10" width="58" height="20" rx="10" fill="#0d1117" stroke="#34d399" stroke-width="1.2"/>
+        <text x="44" y="4" font-family="ui-monospace,Consolas,monospace" font-size="10" font-weight="800" fill="#34d399" text-anchor="middle">Tableau</text>
+      </g>
+
+      <!-- Satellite 6: SQL (Purple) - Offset 4s -->
+      <g>
+        <animateMotion dur="8s" begin="-4s" repeatCount="indefinite">
+          <mpath href="#orbitPath3"/>
+        </animateMotion>
+        <circle r="11" fill="#111624" stroke="#a78bfa" stroke-width="2" filter="url(#pGlow)"/>
+        <circle r="7" fill="url(#pPurple)"/>
+        <rect x="15" y="-10" width="45" height="20" rx="10" fill="#0d1117" stroke="#a78bfa" stroke-width="1.2"/>
+        <text x="37" y="4" font-family="ui-monospace,Consolas,monospace" font-size="10" font-weight="800" fill="#a78bfa" text-anchor="middle">SQL</text>
+      </g>
     </g>
 
-  <!-- Bottom animated border -->
-  <rect x="0" y="396" width="1280" height="4" rx="2" fill="url(#sTitleGold)">
-    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite" begin="1.5s"/>
-  </rect>
+    <!-- ================= CENTRAL NEURAL AI NUCLEUS ================= -->
+    <g transform="translate(260, 275)">
+      <!-- Breathing Sphere -->
+      <circle r="44" fill="url(#aiCoreG)" filter="url(#coreGlow)">
+        <animate attributeName="r" values="44;47;44" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <!-- Core Inner Ring -->
+      <circle r="40" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.6"/>
+      <!-- Nucleus Icon & Text -->
+      <text y="-4" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="20" font-weight="900" fill="#0d1117" text-anchor="middle">&#x26A1;</text>
+      <text y="18" font-family="ui-monospace,Consolas,monospace" font-size="14" font-weight="900" fill="#0d1117" text-anchor="middle">&lt;AI /&gt;</text>
+    </g>
+  </g>
+
+  <!-- Glowing Vertical Divider -->
+  <line x1="500" y1="40" x2="500" y2="455" stroke="#21262d" stroke-width="1.5"/>
+  <line x1="500" y1="120" x2="500" y2="380" stroke="#ffd700" stroke-width="1.5" stroke-opacity="0.3">
+    <animate attributeName="stroke-opacity" values="0.2;0.6;0.2" dur="3.5s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- ========================================== -->
+  <!-- RIGHT: CATEGORIZED TECH ARSENAL & SKILLS   -->
+  <!-- ========================================== -->
+  <g transform="translate(535, 40)">
+    <!-- Right Header Section -->
+    <text x="0" y="24" font-family="ui-monospace,Consolas,monospace" font-size="11.5" font-weight="800" fill="#00f2fe" letter-spacing="2.2">
+      // TECHNICAL ARSENAL
+    </text>
+    <text x="0" y="58" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="26" font-weight="900" fill="#ffffff">
+      Production Stacks &amp; Capabilities
+    </text>
+
+    <!-- Verified Stack Count Badge -->
+    <g transform="translate(520, 36)">
+      <rect x="0" y="-18" width="180" height="28" rx="14" fill="#0d2a1a" stroke="#34d399" stroke-width="1.2"/>
+      <circle cx="16" cy="-4" r="4" fill="#34d399">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="28" y="0" font-family="ui-monospace,Consolas,monospace" font-size="10.5" font-weight="700" fill="#34d399" letter-spacing="1.2">
+        20+ TOOLS MASTERED
+      </text>
+    </g>
+
+    <!-- ================= ROW 1: LANGUAGES (Gold) ================= -->
+    <g transform="translate(0, 85)">
+      <rect x="0" y="0" width="14" height="3" rx="1.5" fill="#ffd700"/>
+      <text x="22" y="6" font-family="ui-monospace,Consolas,monospace" font-size="11" font-weight="800" fill="#ffd700" letter-spacing="1.8">
+        PROGRAMMING LANGUAGES
+      </text>
+
+      <!-- Badges -->
+      <g transform="translate(0, 18)">
+        <!-- Python -->
+        <g transform="translate(0, 0)">
+          <rect width="82" height="34" rx="17" fill="#161b22" stroke="#ffd700" stroke-width="1.5">
+            <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+          </rect>
+          <text x="41" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">Python</text>
+        </g>
+        <!-- Java -->
+        <g transform="translate(90, 0)">
+          <rect width="68" height="34" rx="17" fill="#161b22" stroke="#ffd700" stroke-width="1.5"/>
+          <text x="34" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">Java</text>
+        </g>
+        <!-- JavaScript -->
+        <g transform="translate(166, 0)">
+          <rect width="102" height="34" rx="17" fill="#161b22" stroke="#ffd700" stroke-width="1.5"/>
+          <text x="51" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">JavaScript</text>
+        </g>
+        <!-- TypeScript -->
+        <g transform="translate(276, 0)">
+          <rect width="104" height="34" rx="17" fill="#161b22" stroke="#ffd700" stroke-width="1.5"/>
+          <text x="52" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">TypeScript</text>
+        </g>
+        <!-- SQL -->
+        <g transform="translate(388, 0)">
+          <rect width="64" height="34" rx="17" fill="#161b22" stroke="#ffd700" stroke-width="1.5"/>
+          <text x="32" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">SQL</text>
+        </g>
+        <!-- C -->
+        <g transform="translate(460, 0)">
+          <rect width="52" height="34" rx="17" fill="#161b22" stroke="#ffd700" stroke-width="1.5"/>
+          <text x="26" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+        </g>
+        <!-- HTML5 / CSS3 -->
+        <g transform="translate(520, 0)">
+          <rect width="112" height="34" rx="17" fill="#161b22" stroke="#ffd700" stroke-width="1.5"/>
+          <text x="56" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">HTML5 / CSS3</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- ================= ROW 2: FRAMEWORKS & FULL STACK (Cyan) ================= -->
+    <g transform="translate(0, 185)">
+      <rect x="0" y="0" width="14" height="3" rx="1.5" fill="#00f2fe"/>
+      <text x="22" y="6" font-family="ui-monospace,Consolas,monospace" font-size="11" font-weight="800" fill="#00f2fe" letter-spacing="1.8">
+        FRAMEWORKS &amp; WEB PLATFORMS
+      </text>
+
+      <!-- Badges -->
+      <g transform="translate(0, 18)">
+        <!-- React.js -->
+        <g transform="translate(0, 0)">
+          <rect width="90" height="34" rx="17" fill="#161b22" stroke="#00f2fe" stroke-width="1.5">
+            <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.4s" repeatCount="indefinite"/>
+          </rect>
+          <text x="45" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">React.js</text>
+        </g>
+        <!-- Next.js -->
+        <g transform="translate(98, 0)">
+          <rect width="84" height="34" rx="17" fill="#161b22" stroke="#00f2fe" stroke-width="1.5"/>
+          <text x="42" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">Next.js</text>
+        </g>
+        <!-- Node.js -->
+        <g transform="translate(190, 0)">
+          <rect width="86" height="34" rx="17" fill="#161b22" stroke="#00f2fe" stroke-width="1.5"/>
+          <text x="43" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">Node.js</text>
+        </g>
+        <!-- Express.js -->
+        <g transform="translate(284, 0)">
+          <rect width="98" height="34" rx="17" fill="#161b22" stroke="#00f2fe" stroke-width="1.5"/>
+          <text x="49" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">Express.js</text>
+        </g>
+        <!-- Tailwind CSS -->
+        <g transform="translate(390, 0)">
+          <rect width="112" height="34" rx="17" fill="#161b22" stroke="#00f2fe" stroke-width="1.5"/>
+          <text x="56" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">Tailwind CSS</text>
+        </g>
+        <!-- Redux Toolkit -->
+        <g transform="translate(510, 0)">
+          <rect width="80" height="34" rx="17" fill="#161b22" stroke="#00f2fe" stroke-width="1.5"/>
+          <text x="40" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">Redux</text>
+        </g>
+        <!-- REST APIs -->
+        <g transform="translate(598, 0)">
+          <rect width="96" height="34" rx="17" fill="#161b22" stroke="#00f2fe" stroke-width="1.5"/>
+          <text x="48" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">REST APIs</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- ================= ROW 3: AI / ML & DATA ARCHITECTURE (Emerald) ================= -->
+    <g transform="translate(0, 285)">
+      <rect x="0" y="0" width="14" height="3" rx="1.5" fill="#34d399"/>
+      <text x="22" y="6" font-family="ui-monospace,Consolas,monospace" font-size="11" font-weight="800" fill="#34d399" letter-spacing="1.8">
+        AI, MACHINE LEARNING &amp; DATABASES
+      </text>
+
+      <!-- Badges -->
+      <g transform="translate(0, 18)">
+        <!-- TensorFlow -->
+        <g transform="translate(0, 0)">
+          <rect width="110" height="34" rx="17" fill="#161b22" stroke="#34d399" stroke-width="1.5">
+            <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.8s" repeatCount="indefinite"/>
+          </rect>
+          <text x="55" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">TensorFlow</text>
+        </g>
+        <!-- Scikit-learn -->
+        <g transform="translate(118, 0)">
+          <rect width="108" height="34" rx="17" fill="#161b22" stroke="#34d399" stroke-width="1.5"/>
+          <text x="54" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">Scikit-learn</text>
+        </g>
+        <!-- Tableau -->
+        <g transform="translate(234, 0)">
+          <rect width="86" height="34" rx="17" fill="#161b22" stroke="#34d399" stroke-width="1.5"/>
+          <text x="43" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">Tableau</text>
+        </g>
+        <!-- PowerBI -->
+        <g transform="translate(328, 0)">
+          <rect width="88" height="34" rx="17" fill="#161b22" stroke="#34d399" stroke-width="1.5"/>
+          <text x="44" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">PowerBI</text>
+        </g>
+        <!-- MongoDB -->
+        <g transform="translate(424, 0)">
+          <rect width="94" height="34" rx="17" fill="#161b22" stroke="#34d399" stroke-width="1.5"/>
+          <text x="47" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">MongoDB</text>
+        </g>
+        <!-- PostgreSQL -->
+        <g transform="translate(526, 0)">
+          <rect width="104" height="34" rx="17" fill="#161b22" stroke="#34d399" stroke-width="1.5"/>
+          <text x="52" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">PostgreSQL</text>
+        </g>
+        <!-- Firebase -->
+        <g transform="translate(638, 0)">
+          <rect width="64" height="34" rx="17" fill="#161b22" stroke="#34d399" stroke-width="1.5"/>
+          <text x="32" y="21" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">Firebase</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Bottom Tech Subtitle Note -->
+    <g transform="translate(0, 395)" font-family="Segoe UI,Helvetica,Arial,sans-serif">
+      <circle cx="6" cy="6" r="3" fill="#ffd700">
+        <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="18" y="10" font-size="12" font-weight="600" fill="#94a3b8">
+        Full-stack neural systems &#183; Data visualization pipelines &#183; Modern reactive web architectures
+      </text>
+    </g>
+  </g>
 </svg>
