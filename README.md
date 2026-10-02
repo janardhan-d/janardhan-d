@@ -1,22 +1,32 @@
 <div align="center">
 
 <!-- 🎬 HERO — Dynamic Vibrant Cyber Terminal Banner with Photo & Moving Laser Beam -->
-<img src="./hero.svg?v=clean6" alt="Janardhan Devarala — AI & ML Engineer" width="100%"/>
+<img src="./hero.svg?v=final7" alt="Janardhan Devarala — AI & ML Engineer" width="100%"/>
+
+<br/><br/>
+
+<!-- 🪪 REACT-BITS STYLE 3D SWINGING LANYARD ID BADGE -->
+<img src="./lanyard.svg?v=final7" alt="Janardhan Devarala — 3D Lanyard ID Badge" width="100%"/>
 
 <br/><br/>
 
 <!-- 💼 LEFT: What I Build   •   🌟 RIGHT: Life Beyond Code -->
-<img src="./about-life.svg?v=clean6" alt="What I build, and life beyond the code" width="100%"/>
+<img src="./about-life.svg?v=final7" alt="What I build, and life beyond the code" width="100%"/>
 
 <br/><br/>
 
 <!-- ⚡ TECH ARSENAL -->
-<img src="./stack.svg?v=clean6" alt="Tech Arsenal" width="100%"/>
+<img src="./stack.svg?v=final7" alt="Tech Arsenal" width="100%"/>
 
 <br/><br/>
 
 <!-- 🪪 DEVELOPER ID + 3D STATS DASHBOARD -->
-<img src="./id-dashboard.svg?v=clean6" alt="Developer ID and dashboard" width="100%"/>
+<img src="./id-dashboard.svg?v=final7" alt="Developer ID and dashboard" width="100%"/>
+
+<br/><br/>
+
+<!-- 🏆 KEY HONORS, TROPHIES & CERTIFICATIONS -->
+<img src="./trophies.svg?v=final7" alt="Honors, Trophies and Certifications" width="100%"/>
 
 <br/><br/>
 
@@ -39,26 +49,39 @@
 
 ## 📊 Executive GitHub Metrics
 
-<!-- Local High-Contrast Animated GitHub Stats & Languages (Zero rate limits, zero broken images!) -->
-<img src="./github-stats.svg?v=clean6" alt="GitHub Metrics and Languages" width="100%"/>
+<!-- Local High-Performance Animated GitHub Stats & Languages (100% Zero Rate Limits, Zero Downtime) -->
+<img src="./github-stats.svg?v=final7" alt="GitHub Metrics and Languages" width="100%"/>
 
 <br/><br/>
 
 <!-- Local High-Contrast Animated Streak Counter -->
-<img src="./streak-stats.svg?v=clean6" alt="GitHub Contribution Streak" width="100%"/>
+<img src="./streak-stats.svg?v=final7" alt="GitHub Contribution Streak" width="100%"/>
 
 <br/><br/>
 
 ## 🌃 3D Contribution City
 
-*Every commit builds another skyscraper — watch the city grow.*
+*Every commit builds another skyscraper — rebuilt automatically every 24 hours.*
 
-<img src="./profile-3d-contrib/profile-night-view.svg?v=clean6" alt="3D Contribution City" width="100%"/>
+<img src="./profile-3d-contrib/profile-night-view.svg?v=final7" alt="3D Contribution City" width="100%"/>
+
+<br/><br/>
+
+<!-- 🐍 SNAKE CONTRIBUTION ANIMATION -->
+## 🐍 Contribution Snake
+
+*Watch the snake eat through my contribution graph.*
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/janardhan-d/janardhan-d/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/janardhan-d/janardhan-d/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/janardhan-d/janardhan-d/output/github-contribution-grid-snake-dark.svg">
+</picture>
 
 <br/><br/>
 
 <!-- 👑 LET'S CONNECT -->
-<img src="./connect.svg?v=clean6" alt="Let's connect" width="100%"/>
+<img src="./connect.svg?v=final7" alt="Let's connect" width="100%"/>
 
 <br/>
 

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 260" width="1280" height="260">
+  <defs>
+    <linearGradient id="tBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060813"/>
+      <stop offset="100%" stop-color="#0d1124"/>
+    </linearGradient>
+    <linearGradient id="tTitle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="50%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="tGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#tBg)" rx="20"/>
+
+  <g transform="translate(60, 45)">
+    <text font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="900" fill="url(#tTitle)">🏆 KEY HONORS, TROPHIES &amp; CERTIFICATIONS</text>
+    <line x1="0" y1="20" x2="1160" y2="20" stroke="#21262d" stroke-width="1.5"/>
+  </g>
+
+  <!-- 4 Holographic Trophy Cells -->
+  <g transform="translate(60, 95)">
+    <!-- Cell 1: SVC Hackathon Top 5 -->
+    <g transform="translate(0, 0)">
+      <rect width="270" height="130" rx="14" fill="#0d1117" stroke="#fbbf24" stroke-width="1.6"/>
+      <text x="25" y="45" font-size="30">🥇</text>
+      <text x="65" y="42" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="900" fill="#fbbf24">SVC Hackathon</text>
+      <text x="25" y="75" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Top 5 Winner</text>
+      <text x="25" y="98" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">Rapid AI Prototype &amp; Solutions</text>
+    </g>
+
+    <!-- Cell 2: NRCM National Hackathon -->
+    <g transform="translate(295, 0)">
+      <rect width="270" height="130" rx="14" fill="#0d1117" stroke="#00f2fe" stroke-width="1.6"/>
+      <text x="25" y="45" font-size="30">🏆</text>
+      <text x="65" y="42" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="900" fill="#00f2fe">NRCM Hackathon</text>
+      <text x="25" y="75" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">National Level Top 10</text>
+      <text x="25" y="98" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">Competitive 24-48hr Build</text>
+    </g>
+
+    <!-- Cell 3: Google Cloud GenAI Studio -->
+    <g transform="translate(590, 0)">
+      <rect width="270" height="130" rx="14" fill="#0d1117" stroke="#a78bfa" stroke-width="1.6"/>
+      <text x="25" y="45" font-size="30">⚡</text>
+      <text x="65" y="42" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="900" fill="#a78bfa">Google Cloud</text>
+      <text x="25" y="75" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">GenAI Studio Certified</text>
+      <text x="25" y="98" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">LLM Tuning &amp; Prompt Engineering</text>
+    </g>
+
+    <!-- Cell 4: Microsoft Learn Trophy -->
+    <g transform="translate(885, 0)">
+      <rect width="275" height="130" rx="14" fill="#0d1117" stroke="#34d399" stroke-width="1.6"/>
+      <text x="25" y="45" font-size="30">🛡️</text>
+      <text x="65" y="42" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="900" fill="#34d399">Microsoft Learn</text>
+      <text x="25" y="75" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">AI &amp; Autonomous Agents</text>
+      <text x="25" y="98" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">Official Microsoft AI Trophy</text>
+    </g>
+  </g>
+</svg>
