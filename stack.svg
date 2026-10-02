@@ -1,105 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420">
-  <defs>
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0d17"/>
-      <stop offset="100%" stop-color="#090a10"/>
-    </linearGradient>
-    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#22d3ee"/>
-      <stop offset="50%" stop-color="#a78bfa"/>
-      <stop offset="100%" stop-color="#34d399"/>
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-
-  <rect width="100%" height="100%" fill="url(#bg-grad)" rx="16"/>
-
-  <text x="640" y="55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="900" fill="url(#title-grad)" text-anchor="middle" filter="url(#glow)">⚡ TECH ARSENAL &amp; CAPABILITIES</text>
-
-  <!-- Row 1: Languages -->
-  <g transform="translate(60, 110)">
-    <text x="0" y="25" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#22d3ee">Languages</text>
-    <g transform="translate(220, 0)" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">
-      <rect x="0" y="0" width="95" height="38" rx="19" fill="#1e293b" stroke="#22d3ee" stroke-width="1.5"/>
-      <text x="47.5" y="24" fill="#f8fafc" text-anchor="middle">Python</text>
-
-      <rect x="110" y="0" width="80" height="38" rx="19" fill="#1e293b" stroke="#22d3ee" stroke-width="1.5"/>
-      <text x="150" y="24" fill="#f8fafc" text-anchor="middle">Java</text>
-
-      <rect x="205" y="0" width="115" height="38" rx="19" fill="#1e293b" stroke="#22d3ee" stroke-width="1.5"/>
-      <text x="262.5" y="24" fill="#f8fafc" text-anchor="middle">JavaScript</text>
-
-      <rect x="335" y="0" width="75" height="38" rx="19" fill="#1e293b" stroke="#22d3ee" stroke-width="1.5"/>
-      <text x="372.5" y="24" fill="#f8fafc" text-anchor="middle">SQL</text>
-
-      <rect x="425" y="0" width="60" height="38" rx="19" fill="#1e293b" stroke="#22d3ee" stroke-width="1.5"/>
-      <text x="455" y="24" fill="#f8fafc" text-anchor="middle">C</text>
-
-      <rect x="500" y="0" width="85" height="38" rx="19" fill="#1e293b" stroke="#22d3ee" stroke-width="1.5"/>
-      <text x="542.5" y="24" fill="#f8fafc" text-anchor="middle">HTML5</text>
-
-      <rect x="600" y="0" width="80" height="38" rx="19" fill="#1e293b" stroke="#22d3ee" stroke-width="1.5"/>
-      <text x="640" y="24" fill="#f8fafc" text-anchor="middle">CSS3</text>
-
-      <rect x="695" y="0" width="115" height="38" rx="19" fill="#1e293b" stroke="#22d3ee" stroke-width="1.5"/>
-      <text x="752.5" y="24" fill="#f8fafc" text-anchor="middle">TypeScript</text>
-    </g>
-  </g>
-
-  <!-- Row 2: Frameworks & Web -->
-  <g transform="translate(60, 200)">
-    <text x="0" y="25" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#a78bfa">Frameworks &amp; Web</text>
-    <g transform="translate(220, 0)" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">
-      <rect x="0" y="0" width="85" height="38" rx="19" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5"/>
-      <text x="42.5" y="24" fill="#f8fafc" text-anchor="middle">React</text>
-
-      <rect x="100" y="0" width="95" height="38" rx="19" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5"/>
-      <text x="147.5" y="24" fill="#f8fafc" text-anchor="middle">Node.js</text>
-
-      <rect x="210" y="0" width="95" height="38" rx="19" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5"/>
-      <text x="257.5" y="24" fill="#f8fafc" text-anchor="middle">Next.js</text>
-
-      <rect x="320" y="0" width="105" height="38" rx="19" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5"/>
-      <text x="372.5" y="24" fill="#f8fafc" text-anchor="middle">Express.js</text>
-
-      <rect x="440" y="0" width="125" height="38" rx="19" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5"/>
-      <text x="502.5" y="24" fill="#f8fafc" text-anchor="middle">Tailwind CSS</text>
-
-      <rect x="580" y="0" width="85" height="38" rx="19" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5"/>
-      <text x="622.5" y="24" fill="#f8fafc" text-anchor="middle">Redux</text>
-    </g>
-  </g>
-
-  <!-- Row 3: AI / Data & Tools -->
-  <g transform="translate(60, 290)">
-    <text x="0" y="25" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#34d399">AI, Data &amp; Tools</text>
-    <g transform="translate(220, 0)" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">
-      <rect x="0" y="0" width="120" height="38" rx="19" fill="#1e293b" stroke="#34d399" stroke-width="1.5"/>
-      <text x="60" y="24" fill="#f8fafc" text-anchor="middle">TensorFlow</text>
-
-      <rect x="135" y="0" width="115" height="38" rx="19" fill="#1e293b" stroke="#34d399" stroke-width="1.5"/>
-      <text x="192.5" y="24" fill="#f8fafc" text-anchor="middle">Scikit-Learn</text>
-
-      <rect x="265" y="0" width="95" height="38" rx="19" fill="#1e293b" stroke="#34d399" stroke-width="1.5"/>
-      <text x="312.5" y="24" fill="#f8fafc" text-anchor="middle">Tableau</text>
-
-      <rect x="375" y="0" width="95" height="38" rx="19" fill="#1e293b" stroke="#34d399" stroke-width="1.5"/>
-      <text x="422.5" y="24" fill="#f8fafc" text-anchor="middle">PowerBI</text>
-
-      <rect x="485" y="0" width="105" height="38" rx="19" fill="#1e293b" stroke="#34d399" stroke-width="1.5"/>
-      <text x="537.5" y="24" fill="#f8fafc" text-anchor="middle">MongoDB</text>
-
-      <rect x="605" y="0" width="110" height="38" rx="19" fill="#1e293b" stroke="#34d399" stroke-width="1.5"/>
-      <text x="660" y="24" fill="#f8fafc" text-anchor="middle">PostgreSQL</text>
-
-      <rect x="730" y="0" width="65" height="38" rx="19" fill="#1e293b" stroke="#34d399" stroke-width="1.5"/>
-      <text x="762.5" y="24" fill="#f8fafc" text-anchor="middle">Git</text>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 380" width="1280" height="380">
+<defs>
+  <linearGradient id="sBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070810"/><stop offset="1" stop-color="#0c1020"/></linearGradient>
+  <linearGradient id="sT" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+  <filter id="gl"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1280" height="380" fill="url(#sBg)"/>
+<text x="640" y="55" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="900" fill="url(#sT)" text-anchor="middle" filter="url(#gl)">TECH ARSENAL</text>
+<line x1="440" y1="72" x2="840" y2="72" stroke="#21262d" stroke-width="1"/>
+<text x="60" y="126" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="700" fill="#22d3ee">Languages</text>
+<rect x="250" y="100" width="92" height="38" rx="19" fill="#161b22" stroke="#22d3ee" stroke-width="1.5"/>
+<text x="296" y="124" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">Python</text>
+<rect x="356" y="100" width="72" height="38" rx="19" fill="#161b22" stroke="#22d3ee" stroke-width="1.5"/>
+<text x="392" y="124" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">Java</text>
+<rect x="442" y="100" width="132" height="38" rx="19" fill="#161b22" stroke="#22d3ee" stroke-width="1.5"/>
+<text x="508" y="124" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">JavaScript</text>
+<rect x="588" y="100" width="62" height="38" rx="19" fill="#161b22" stroke="#22d3ee" stroke-width="1.5"/>
+<text x="619" y="124" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">SQL</text>
+<rect x="664" y="100" width="42" height="38" rx="19" fill="#161b22" stroke="#22d3ee" stroke-width="1.5"/>
+<text x="685" y="124" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">C</text>
+<rect x="720" y="100" width="72" height="38" rx="19" fill="#161b22" stroke="#22d3ee" stroke-width="1.5"/>
+<text x="756" y="124" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">HTML</text>
+<rect x="806" y="100" width="62" height="38" rx="19" fill="#161b22" stroke="#22d3ee" stroke-width="1.5"/>
+<text x="837" y="124" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">CSS</text>
+<rect x="882" y="100" width="132" height="38" rx="19" fill="#161b22" stroke="#22d3ee" stroke-width="1.5"/>
+<text x="948" y="124" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">TypeScript</text>
+<text x="60" y="216" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="700" fill="#a78bfa">Frameworks & Web</text>
+<rect x="250" y="190" width="82" height="38" rx="19" fill="#161b22" stroke="#a78bfa" stroke-width="1.5"/>
+<text x="291" y="214" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">React</text>
+<rect x="346" y="190" width="102" height="38" rx="19" fill="#161b22" stroke="#a78bfa" stroke-width="1.5"/>
+<text x="397" y="214" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">Node.js</text>
+<rect x="462" y="190" width="102" height="38" rx="19" fill="#161b22" stroke="#a78bfa" stroke-width="1.5"/>
+<text x="513" y="214" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">Next.js</text>
+<rect x="578" y="190" width="102" height="38" rx="19" fill="#161b22" stroke="#a78bfa" stroke-width="1.5"/>
+<text x="629" y="214" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">Express</text>
+<rect x="694" y="190" width="112" height="38" rx="19" fill="#161b22" stroke="#a78bfa" stroke-width="1.5"/>
+<text x="750" y="214" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">Tailwind</text>
+<rect x="820" y="190" width="82" height="38" rx="19" fill="#161b22" stroke="#a78bfa" stroke-width="1.5"/>
+<text x="861" y="214" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">Redux</text>
+<text x="60" y="306" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="700" fill="#34d399">AI, Data & Tools</text>
+<rect x="250" y="280" width="132" height="38" rx="19" fill="#161b22" stroke="#34d399" stroke-width="1.5"/>
+<text x="316" y="304" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">TensorFlow</text>
+<rect x="396" y="280" width="152" height="38" rx="19" fill="#161b22" stroke="#34d399" stroke-width="1.5"/>
+<text x="472" y="304" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">Scikit-Learn</text>
+<rect x="562" y="280" width="102" height="38" rx="19" fill="#161b22" stroke="#34d399" stroke-width="1.5"/>
+<text x="613" y="304" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">Tableau</text>
+<rect x="678" y="280" width="102" height="38" rx="19" fill="#161b22" stroke="#34d399" stroke-width="1.5"/>
+<text x="729" y="304" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">PowerBI</text>
+<rect x="794" y="280" width="102" height="38" rx="19" fill="#161b22" stroke="#34d399" stroke-width="1.5"/>
+<text x="845" y="304" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">MongoDB</text>
+<rect x="910" y="280" width="132" height="38" rx="19" fill="#161b22" stroke="#34d399" stroke-width="1.5"/>
+<text x="976" y="304" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">PostgreSQL</text>
+<rect x="1056" y="280" width="62" height="38" rx="19" fill="#161b22" stroke="#34d399" stroke-width="1.5"/>
+<text x="1087" y="304" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">Git</text>
 </svg>

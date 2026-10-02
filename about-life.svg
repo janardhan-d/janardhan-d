@@ -1,53 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480">
-  <defs>
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0d17"/>
-      <stop offset="100%" stop-color="#090a10"/>
-    </linearGradient>
-    <linearGradient id="left-title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#22d3ee"/>
-      <stop offset="100%" stop-color="#a78bfa"/>
-    </linearGradient>
-    <linearGradient id="right-title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#34d399"/>
-      <stop offset="100%" stop-color="#22d3ee"/>
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 460" width="1280" height="460">
+<defs>
+  <linearGradient id="aBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070810"/><stop offset="1" stop-color="#0c1020"/></linearGradient>
+  <linearGradient id="aL" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+  <linearGradient id="aR" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+  <filter id="gl"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1280" height="460" fill="url(#aBg)"/>
 
-  <rect width="100%" height="100%" fill="url(#bg-grad)" rx="16"/>
+<!-- LEFT card -->
+<rect x="30" y="25" width="590" height="410" rx="16" fill="#0d1117" stroke="#21262d" stroke-width="1.5"/>
+<text x="60" y="72" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="800" fill="url(#aL)" filter="url(#gl)">&lt; What I Build /&gt;</text>
+<line x1="60" y1="88" x2="580" y2="88" stroke="#21262d" stroke-width="1"/>
+<g transform="translate(60,115)" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="17">
+  <text fill="#22d3ee" font-weight="700">AI &amp; ML Models</text><text y="24" fill="#8b949e">    Generative AI, predictive analytics, NLP pipelines</text>
+  <text y="62" fill="#a78bfa" font-weight="700">Data Dashboards</text><text y="86" fill="#8b949e">    Interactive Tableau &amp; PowerBI visualizations</text>
+  <text y="124" fill="#f472b6" font-weight="700">Full-Stack Web Apps</text><text y="148" fill="#8b949e">    React, Next.js, Node.js, Express, Python backends</text>
+  <text y="186" fill="#fbbf24" font-weight="700">Hackathon Solutions</text><text y="210" fill="#8b949e">    Fast prototyping under 24-48hr deadlines</text>
+  <text y="248" fill="#34d399" font-weight="700">Finance Management</text><text y="272" fill="#8b949e">    Desktop &amp; cloud tools with analytics dashboards</text>
+</g>
 
-  <!-- Left Card Container -->
-  <g transform="translate(40, 40)">
-    <rect width="580" height="400" rx="14" fill="#131722" stroke="#1e293b" stroke-width="1.5"/>
-    <text x="35" y="55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="800" fill="url(#left-title-grad)" filter="url(#glow)">&lt; What I Build /&gt;</text>
-    
-    <g transform="translate(35, 105)" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#e2e8f0">
-      <text y="0"><tspan fill="#22d3ee" font-weight="bold">🤖 AI &amp; ML Models</tspan> — Generative AI &amp; Predictive Analytics</text>
-      <text y="50"><tspan fill="#a78bfa" font-weight="bold">📊 Data Dashboards</tspan> — Interactive Tableau &amp; PowerBI</text>
-      <text y="100"><tspan fill="#f472b6" font-weight="bold">💻 Full-Stack Apps</tspan> — React, Node.js, Python &amp; SQLite</text>
-      <text y="150"><tspan fill="#34d399" font-weight="bold">🏆 Hackathon Solutions</tspan> — Fast prototypes under pressure</text>
-      <text y="200"><tspan fill="#fbbf24" font-weight="bold">🔐 Personal Finance Systems</tspan> — Desktop &amp; Cloud Tools</text>
-    </g>
-  </g>
-
-  <!-- Right Card Container -->
-  <g transform="translate(660, 40)">
-    <rect width="580" height="400" rx="14" fill="#131722" stroke="#1e293b" stroke-width="1.5"/>
-    <text x="35" y="55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="800" fill="url(#right-title-grad)" filter="url(#glow)">&gt; Life Beyond Code</text>
-
-    <g transform="translate(35, 105)" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#e2e8f0">
-      <text y="0"><tspan fill="#34d399" font-weight="bold">🎓 BTech CSE (AI)</tspan> — Audisankara College (2023–2027)</text>
-      <text y="50"><tspan fill="#22d3ee" font-weight="bold">📜 Certifications</tspan> — Google Cloud GenAI &amp; Microsoft AI</text>
-      <text y="100"><tspan fill="#a78bfa" font-weight="bold">🏢 Internships</tspan> — InnoByte Services &amp; SyntecxHub</text>
-      <text y="150"><tspan fill="#f472b6" font-weight="bold">🌱 ESG Research</tspan> — TCS Forage Simulation Alum</text>
-      <text y="200"><tspan fill="#60a5fa" font-weight="bold">🎯 Mission</tspan> — Turn data into reliable, clear AI solutions</text>
-    </g>
-  </g>
+<!-- RIGHT card -->
+<rect x="660" y="25" width="590" height="410" rx="16" fill="#0d1117" stroke="#21262d" stroke-width="1.5"/>
+<text x="690" y="72" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="800" fill="url(#aR)" filter="url(#gl)">&gt; Life Beyond Code</text>
+<line x1="690" y1="88" x2="1210" y2="88" stroke="#21262d" stroke-width="1"/>
+<g transform="translate(690,115)" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="17">
+  <text fill="#34d399" font-weight="700">BTech CSE (AI)</text><text y="24" fill="#8b949e">    Audisankara College of Engineering (2023–2027)</text>
+  <text y="62" fill="#22d3ee" font-weight="700">Certifications</text><text y="86" fill="#8b949e">    Google Cloud GenAI, Microsoft AI Fundamentals</text>
+  <text y="124" fill="#a78bfa" font-weight="700">Industry Experience</text><text y="148" fill="#8b949e">    InnoByte Services &amp; SyntecxHub Internships</text>
+  <text y="186" fill="#f472b6" font-weight="700">ESG &amp; Sustainability</text><text y="210" fill="#8b949e">    TCS Forage virtual consulting simulation</text>
+  <text y="248" fill="#60a5fa" font-weight="700">Mission</text><text y="272" fill="#8b949e">    Turn messy data into clear, impactful AI solutions</text>
+</g>
 </svg>
