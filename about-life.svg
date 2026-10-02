@@ -1,199 +1,155 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 490" width="1280" height="490">
   <defs>
     <linearGradient id="abg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#05070f"/>
-      <stop offset="100%" stop-color="#0b1020"/>
+      <stop offset="0%" stop-color="#05070e"/>
+      <stop offset="50%" stop-color="#0b0e1a"/>
+      <stop offset="100%" stop-color="#080a14"/>
     </linearGradient>
-    <linearGradient id="lGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f2fe"/>
-      <stop offset="100%" stop-color="#a78bfa"/>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
     </linearGradient>
-    <linearGradient id="rGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#34d399"/>
+    <linearGradient id="goldCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/>
       <stop offset="100%" stop-color="#00f2fe"/>
     </linearGradient>
-    <filter id="glow2">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
 
-  <!-- Background -->
   <rect width="1280" height="490" fill="url(#abg)" rx="20"/>
 
-  <!-- Floating orbs -->
-  <circle cx="100" cy="100" r="80" fill="#00f2fe" opacity="0.04">
-    <animate attributeName="cy" values="100;140;100" dur="8s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="1180" cy="390" r="100" fill="#a78bfa" opacity="0.04">
-    <animate attributeName="cy" values="390;350;390" dur="10s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Animated top border -->
-  <rect x="0" y="0" width="1280" height="4" rx="2" fill="url(#lGrad)">
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  <!-- Top Gold Border -->
+  <rect x="0" y="0" width="1280" height="4" rx="2" fill="url(#goldGrad)">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- LEFT CARD -->
+  <!-- LEFT CARD: What I Build -->
   <g transform="translate(30, 25)">
-    <rect width="580" height="450" rx="16" fill="#0d1117" stroke="#21262d" stroke-width="1.8">
-      <animate attributeName="stroke" values="#21262d;#00f2fe;#21262d" dur="5s" repeatCount="indefinite"/>
+    <rect width="580" height="450" rx="16" fill="#0d1117" stroke="#2b2313" stroke-width="1.8">
+      <animate attributeName="stroke" values="#2b2313;#fbbf24;#2b2313" dur="5s" repeatCount="indefinite"/>
     </rect>
-    <!-- Card header glow line -->
-    <rect x="0" y="0" width="580" height="3" rx="2" fill="url(#lGrad)"/>
-    <text x="35" y="60" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="26" font-weight="900" fill="url(#lGrad)">&lt; What I Build /&gt;</text>
+    <rect x="0" y="0" width="580" height="3" rx="2" fill="url(#goldGrad)"/>
+    <text x="35" y="60" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="26" font-weight="900" fill="url(#goldGrad)">&lt; What I Build /&gt;</text>
     <line x1="35" y1="80" x2="545" y2="80" stroke="#21262d" stroke-width="1.5"/>
     
       <!-- Row 1 -->
       <g opacity="0">
-        <animate attributeName="opacity" values="0;0;1" dur="2s" begin="0.0s" fill="freeze"/>
-        <animateTransform attributeName="transform" type="translate" values="20 0;0 0" dur="0.6s" begin="0.0s" fill="freeze"/>
-        <!-- Bullet dot with pulse -->
-        <circle cx="35" cy="118" r="5" fill="#00f2fe">
+        <animate attributeName="opacity" values="0;0;1" dur="1.5s" begin="0.0s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" values="15 0;0 0" dur="0.5s" begin="0.0s" fill="freeze"/>
+        <circle cx="35" cy="118" r="5" fill="#fbbf24">
           <animate attributeName="r" values="5;7;5" dur="2s" begin="0.0s" repeatCount="indefinite"/>
         </circle>
-        <!-- Title -->
-        <text x="53" y="123" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#00f2fe">AI & ML Models</text>
-        <!-- Description -->
-        <text x="53" y="143" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">Generative AI, NLP, predictive analytics & classification</text>
+        <text x="53" y="123" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#fbbf24">AI &amp; ML Models</text>
+        <text x="53" y="143" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#cbd5e1">Generative AI, NLP, predictive analytics &amp; classification</text>
       </g>
       <!-- Row 2 -->
       <g opacity="0">
-        <animate attributeName="opacity" values="0;0;1" dur="2s" begin="0.4s" fill="freeze"/>
-        <animateTransform attributeName="transform" type="translate" values="20 0;0 0" dur="0.6s" begin="0.4s" fill="freeze"/>
-        <!-- Bullet dot with pulse -->
-        <circle cx="35" cy="181" r="5" fill="#a78bfa">
-          <animate attributeName="r" values="5;7;5" dur="2s" begin="0.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;1" dur="1.5s" begin="0.3s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" values="15 0;0 0" dur="0.5s" begin="0.3s" fill="freeze"/>
+        <circle cx="35" cy="181" r="5" fill="#ffd700">
+          <animate attributeName="r" values="5;7;5" dur="2s" begin="0.3s" repeatCount="indefinite"/>
         </circle>
-        <!-- Title -->
-        <text x="53" y="186" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#a78bfa">Data Dashboards</text>
-        <!-- Description -->
-        <text x="53" y="206" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">Interactive Tableau & PowerBI reports for ESG consulting</text>
+        <text x="53" y="186" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#ffd700">Data Dashboards</text>
+        <text x="53" y="206" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#cbd5e1">Interactive Tableau &amp; PowerBI reports for ESG consulting</text>
       </g>
       <!-- Row 3 -->
       <g opacity="0">
-        <animate attributeName="opacity" values="0;0;1" dur="2s" begin="0.8s" fill="freeze"/>
-        <animateTransform attributeName="transform" type="translate" values="20 0;0 0" dur="0.6s" begin="0.8s" fill="freeze"/>
-        <!-- Bullet dot with pulse -->
-        <circle cx="35" cy="244" r="5" fill="#34d399">
-          <animate attributeName="r" values="5;7;5" dur="2s" begin="0.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;1" dur="1.5s" begin="0.6s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" values="15 0;0 0" dur="0.5s" begin="0.6s" fill="freeze"/>
+        <circle cx="35" cy="244" r="5" fill="#00f2fe">
+          <animate attributeName="r" values="5;7;5" dur="2s" begin="0.6s" repeatCount="indefinite"/>
         </circle>
-        <!-- Title -->
-        <text x="53" y="249" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#34d399">Full-Stack Web Apps</text>
-        <!-- Description -->
-        <text x="53" y="269" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">React, Node.js, Next.js, Express & Tailwind CSS</text>
+        <text x="53" y="249" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#00f2fe">Full-Stack Web Apps</text>
+        <text x="53" y="269" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#cbd5e1">React, Node.js, Next.js, Express &amp; Tailwind CSS</text>
       </g>
       <!-- Row 4 -->
       <g opacity="0">
-        <animate attributeName="opacity" values="0;0;1" dur="2s" begin="1.2s" fill="freeze"/>
-        <animateTransform attributeName="transform" type="translate" values="20 0;0 0" dur="0.6s" begin="1.2s" fill="freeze"/>
-        <!-- Bullet dot with pulse -->
-        <circle cx="35" cy="307" r="5" fill="#f472b6">
-          <animate attributeName="r" values="5;7;5" dur="2s" begin="1.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;1" dur="1.5s" begin="0.9s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" values="15 0;0 0" dur="0.5s" begin="0.9s" fill="freeze"/>
+        <circle cx="35" cy="307" r="5" fill="#f59e0b">
+          <animate attributeName="r" values="5;7;5" dur="2s" begin="0.9s" repeatCount="indefinite"/>
         </circle>
-        <!-- Title -->
-        <text x="53" y="312" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#f472b6">Hackathon Solutions</text>
-        <!-- Description -->
-        <text x="53" y="332" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">Competitive builds under pressure — 2+ wins</text>
+        <text x="53" y="312" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#f59e0b">Hackathon Solutions</text>
+        <text x="53" y="332" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#cbd5e1">Competitive builds under pressure — 2+ wins</text>
       </g>
       <!-- Row 5 -->
       <g opacity="0">
-        <animate attributeName="opacity" values="0;0;1" dur="2s" begin="1.6s" fill="freeze"/>
-        <animateTransform attributeName="transform" type="translate" values="20 0;0 0" dur="0.6s" begin="1.6s" fill="freeze"/>
-        <!-- Bullet dot with pulse -->
-        <circle cx="35" cy="370" r="5" fill="#fbbf24">
-          <animate attributeName="r" values="5;7;5" dur="2s" begin="1.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;1" dur="1.5s" begin="1.2s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" values="15 0;0 0" dur="0.5s" begin="1.2s" fill="freeze"/>
+        <circle cx="35" cy="370" r="5" fill="#34d399">
+          <animate attributeName="r" values="5;7;5" dur="2s" begin="1.2s" repeatCount="indefinite"/>
         </circle>
-        <!-- Title -->
-        <text x="53" y="375" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#fbbf24">Finance Systems</text>
-        <!-- Description -->
-        <text x="53" y="395" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">Python desktop app with login, budgeting & analytics</text>
+        <text x="53" y="375" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#34d399">Finance Systems</text>
+        <text x="53" y="395" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#cbd5e1">Python desktop app with login, budgeting &amp; analytics</text>
       </g>
   </g>
 
-  <!-- CENTER DIVIDER with animated glow -->
-  <line x1="638" y1="40" x2="638" y2="460" stroke="#21262d" stroke-width="1.5">
-    <animate attributeName="stroke" values="#21262d;#00f2fe;#a78bfa;#21262d" dur="4s" repeatCount="indefinite"/>
+  <!-- CENTER DIVIDER -->
+  <line x1="638" y1="40" x2="638" y2="460" stroke="#2b2313" stroke-width="1.5">
+    <animate attributeName="stroke" values="#2b2313;#fbbf24;#00f2fe;#2b2313" dur="4s" repeatCount="indefinite"/>
   </line>
-  <!-- Center dot -->
-  <circle cx="638" cy="250" r="6" fill="#a78bfa" filter="url(#glow2)">
-    <animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite"/>
+  <circle cx="638" cy="250" r="6" fill="#fbbf24">
+    <animate attributeName="r" values="6;9;6" dur="2s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- RIGHT CARD -->
+  <!-- RIGHT CARD: Life Beyond Code -->
   <g transform="translate(660, 25)">
-    <rect width="580" height="450" rx="16" fill="#0d1117" stroke="#21262d" stroke-width="1.8">
-      <animate attributeName="stroke" values="#21262d;#34d399;#21262d" dur="5s" repeatCount="indefinite"/>
+    <rect width="580" height="450" rx="16" fill="#0d1117" stroke="#2b2313" stroke-width="1.8">
+      <animate attributeName="stroke" values="#2b2313;#00f2fe;#2b2313" dur="5s" repeatCount="indefinite"/>
     </rect>
-    <!-- Card header glow line -->
-    <rect x="0" y="0" width="580" height="3" rx="2" fill="url(#rGrad)"/>
-    <text x="35" y="60" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="26" font-weight="900" fill="url(#rGrad)">&gt; Life Beyond Code</text>
+    <rect x="0" y="0" width="580" height="3" rx="2" fill="url(#goldCyan)"/>
+    <text x="35" y="60" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="26" font-weight="900" fill="url(#goldCyan)">&gt; Life Beyond Code</text>
     <line x1="35" y1="80" x2="545" y2="80" stroke="#21262d" stroke-width="1.5"/>
     
       <!-- Row 1 -->
       <g opacity="0">
-        <animate attributeName="opacity" values="0;0;1" dur="2s" begin="0.0s" fill="freeze"/>
-        <animateTransform attributeName="transform" type="translate" values="20 0;0 0" dur="0.6s" begin="0.0s" fill="freeze"/>
-        <!-- Bullet dot with pulse -->
-        <circle cx="35" cy="118" r="5" fill="#00f2fe">
+        <animate attributeName="opacity" values="0;0;1" dur="1.5s" begin="0.0s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" values="15 0;0 0" dur="0.5s" begin="0.0s" fill="freeze"/>
+        <circle cx="35" cy="118" r="5" fill="#fbbf24">
           <animate attributeName="r" values="5;7;5" dur="2s" begin="0.0s" repeatCount="indefinite"/>
         </circle>
-        <!-- Title -->
-        <text x="53" y="123" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#00f2fe">BTech CSE-AI</text>
-        <!-- Description -->
-        <text x="53" y="143" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">Audisankara College of Engineering, 2023-2027</text>
+        <text x="53" y="123" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#fbbf24">BTech CSE-AI</text>
+        <text x="53" y="143" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#cbd5e1">Audisankara College of Engineering, 2023-2027</text>
       </g>
       <!-- Row 2 -->
       <g opacity="0">
-        <animate attributeName="opacity" values="0;0;1" dur="2s" begin="0.4s" fill="freeze"/>
-        <animateTransform attributeName="transform" type="translate" values="20 0;0 0" dur="0.6s" begin="0.4s" fill="freeze"/>
-        <!-- Bullet dot with pulse -->
-        <circle cx="35" cy="181" r="5" fill="#a78bfa">
-          <animate attributeName="r" values="5;7;5" dur="2s" begin="0.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;1" dur="1.5s" begin="0.3s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" values="15 0;0 0" dur="0.5s" begin="0.3s" fill="freeze"/>
+        <circle cx="35" cy="181" r="5" fill="#ffd700">
+          <animate attributeName="r" values="5;7;5" dur="2s" begin="0.3s" repeatCount="indefinite"/>
         </circle>
-        <!-- Title -->
-        <text x="53" y="186" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#a78bfa">Lifelong Learner</text>
-        <!-- Description -->
-        <text x="53" y="206" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">Always exploring new AI techniques & frameworks</text>
+        <text x="53" y="186" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#ffd700">Lifelong Learner</text>
+        <text x="53" y="206" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#cbd5e1">Always exploring new AI techniques &amp; frameworks</text>
       </g>
       <!-- Row 3 -->
       <g opacity="0">
-        <animate attributeName="opacity" values="0;0;1" dur="2s" begin="0.8s" fill="freeze"/>
-        <animateTransform attributeName="transform" type="translate" values="20 0;0 0" dur="0.6s" begin="0.8s" fill="freeze"/>
-        <!-- Bullet dot with pulse -->
-        <circle cx="35" cy="244" r="5" fill="#34d399">
-          <animate attributeName="r" values="5;7;5" dur="2s" begin="0.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;1" dur="1.5s" begin="0.6s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" values="15 0;0 0" dur="0.5s" begin="0.6s" fill="freeze"/>
+        <circle cx="35" cy="244" r="5" fill="#00f2fe">
+          <animate attributeName="r" values="5;7;5" dur="2s" begin="0.6s" repeatCount="indefinite"/>
         </circle>
-        <!-- Title -->
-        <text x="53" y="249" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#34d399">ESG Enthusiast</text>
-        <!-- Description -->
-        <text x="53" y="269" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">Passionate about sustainability & responsible AI</text>
+        <text x="53" y="249" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#00f2fe">ESG Enthusiast</text>
+        <text x="53" y="269" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#cbd5e1">Passionate about sustainability &amp; responsible AI</text>
       </g>
       <!-- Row 4 -->
       <g opacity="0">
-        <animate attributeName="opacity" values="0;0;1" dur="2s" begin="1.2s" fill="freeze"/>
-        <animateTransform attributeName="transform" type="translate" values="20 0;0 0" dur="0.6s" begin="1.2s" fill="freeze"/>
-        <!-- Bullet dot with pulse -->
-        <circle cx="35" cy="307" r="5" fill="#f472b6">
-          <animate attributeName="r" values="5;7;5" dur="2s" begin="1.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;1" dur="1.5s" begin="0.9s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" values="15 0;0 0" dur="0.5s" begin="0.9s" fill="freeze"/>
+        <circle cx="35" cy="307" r="5" fill="#f59e0b">
+          <animate attributeName="r" values="5;7;5" dur="2s" begin="0.9s" repeatCount="indefinite"/>
         </circle>
-        <!-- Title -->
-        <text x="53" y="312" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#f472b6">TCS Forage Alum</text>
-        <!-- Description -->
-        <text x="53" y="332" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">Tableau/PowerBI dashboards, business consulting</text>
+        <text x="53" y="312" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#f59e0b">TCS Forage Alum</text>
+        <text x="53" y="332" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#cbd5e1">Tableau/PowerBI dashboards, business consulting</text>
       </g>
       <!-- Row 5 -->
       <g opacity="0">
-        <animate attributeName="opacity" values="0;0;1" dur="2s" begin="1.6s" fill="freeze"/>
-        <animateTransform attributeName="transform" type="translate" values="20 0;0 0" dur="0.6s" begin="1.6s" fill="freeze"/>
-        <!-- Bullet dot with pulse -->
-        <circle cx="35" cy="370" r="5" fill="#fbbf24">
-          <animate attributeName="r" values="5;7;5" dur="2s" begin="1.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;1" dur="1.5s" begin="1.2s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" values="15 0;0 0" dur="0.5s" begin="1.2s" fill="freeze"/>
+        <circle cx="35" cy="370" r="5" fill="#34d399">
+          <animate attributeName="r" values="5;7;5" dur="2s" begin="1.2s" repeatCount="indefinite"/>
         </circle>
-        <!-- Title -->
-        <text x="53" y="375" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#fbbf24">AI for Good</text>
-        <!-- Description -->
-        <text x="53" y="395" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">Goal: Build intelligent systems that make a difference</text>
+        <text x="53" y="375" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="800" fill="#34d399">AI for Good</text>
+        <text x="53" y="395" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#cbd5e1">Goal: Build intelligent systems that make a difference</text>
       </g>
   </g>
 </svg>

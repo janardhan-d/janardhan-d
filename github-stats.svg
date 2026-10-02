@@ -1,93 +1,93 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" width="1280" height="300">
   <defs>
     <linearGradient id="gsbg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#05070f"/>
-      <stop offset="100%" stop-color="#0b1020"/>
+      <stop offset="0%" stop-color="#05070e"/>
+      <stop offset="50%" stop-color="#0b0e1a"/>
+      <stop offset="100%" stop-color="#080a14"/>
     </linearGradient>
-    <linearGradient id="gsTitleG" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#a78bfa"/>
-      <stop offset="100%" stop-color="#00f2fe"/>
+    <linearGradient id="gsTitleGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
     </linearGradient>
   </defs>
 
   <rect width="1280" height="300" fill="url(#gsbg)" rx="20"/>
-  <rect x="0" y="0" width="1280" height="4" rx="2" fill="url(#gsTitleG)">
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  <rect x="0" y="0" width="1280" height="4" rx="2" fill="url(#gsTitleGold)">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
   </rect>
 
-  <text x="640" y="50" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="24" font-weight="900" fill="url(#gsTitleG)" text-anchor="middle">
+  <text x="640" y="50" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="24" font-weight="900" fill="url(#gsTitleGold)" text-anchor="middle">
     &#x1F4CA; Executive GitHub Metrics
   </text>
 
-  <!-- LEFT PANEL: Stats -->
+  <!-- LEFT PANEL: Stats (Gold theme) -->
   <g transform="translate(30, 70)">
-    <rect width="590" height="200" rx="14" fill="#0d1117" stroke="#21262d" stroke-width="1.5">
-      <animate attributeName="stroke" values="#21262d;#a78bfa;#21262d" dur="5s" repeatCount="indefinite"/>
+    <rect width="590" height="200" rx="14" fill="#0d1117" stroke="#2b2313" stroke-width="1.5">
+      <animate attributeName="stroke" values="#2b2313;#ffd700;#2b2313" dur="5s" repeatCount="indefinite"/>
     </rect>
-    <text x="295" y="35" font-family="ui-monospace,Consolas,monospace" font-size="13" fill="#a78bfa" text-anchor="middle" letter-spacing="2">GITHUB STATS</text>
+    <text x="295" y="35" font-family="ui-monospace,Consolas,monospace" font-size="13" fill="#ffd700" text-anchor="middle" letter-spacing="2">GITHUB STATS</text>
 
-    <text x="60" y="90" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#64748b">Total Stars</text>
-    <text x="60" y="115" font-family="ui-monospace,Consolas,monospace" font-size="28" font-weight="900" fill="#fbbf24">★ 12</text>
+    <text x="60" y="90" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#94a3b8">Total Stars</text>
+    <text x="60" y="115" font-family="ui-monospace,Consolas,monospace" font-size="28" font-weight="900" fill="#ffd700">★ 12</text>
 
-    <text x="230" y="90" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#64748b">Commits (2024)</text>
+    <text x="230" y="90" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#94a3b8">Commits (2024)</text>
     <text x="230" y="115" font-family="ui-monospace,Consolas,monospace" font-size="28" font-weight="900" fill="#00f2fe">150+</text>
 
-    <text x="400" y="90" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#64748b">Rank</text>
-    <text x="400" y="115" font-family="ui-monospace,Consolas,monospace" font-size="28" font-weight="900" fill="#a78bfa">A+</text>
+    <text x="400" y="90" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#94a3b8">Rank</text>
+    <text x="400" y="115" font-family="ui-monospace,Consolas,monospace" font-size="28" font-weight="900" fill="#fbbf24">A+</text>
 
-    <text x="60" y="155" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#64748b">PRs Merged</text>
+    <text x="60" y="155" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#94a3b8">PRs Merged</text>
     <text x="60" y="178" font-family="ui-monospace,Consolas,monospace" font-size="22" font-weight="700" fill="#34d399">8+</text>
 
-    <text x="230" y="155" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#64748b">Issues Closed</text>
+    <text x="230" y="155" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#94a3b8">Issues Closed</text>
     <text x="230" y="178" font-family="ui-monospace,Consolas,monospace" font-size="22" font-weight="700" fill="#f472b6">5+</text>
 
-    <text x="400" y="155" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#64748b">Repos</text>
-    <text x="400" y="178" font-family="ui-monospace,Consolas,monospace" font-size="22" font-weight="700" fill="#fbbf24">9</text>
+    <text x="400" y="155" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#94a3b8">Repos</text>
+    <text x="400" y="178" font-family="ui-monospace,Consolas,monospace" font-size="22" font-weight="700" fill="#ffd700">9</text>
   </g>
 
-  <!-- RIGHT PANEL: Languages -->
+  <!-- RIGHT PANEL: Top Languages -->
   <g transform="translate(660, 70)">
-    <rect width="590" height="200" rx="14" fill="#0d1117" stroke="#21262d" stroke-width="1.5">
-      <animate attributeName="stroke" values="#21262d;#00f2fe;#21262d" dur="5s" repeatCount="indefinite"/>
+    <rect width="590" height="200" rx="14" fill="#0d1117" stroke="#2b2313" stroke-width="1.5">
+      <animate attributeName="stroke" values="#2b2313;#00f2fe;#2b2313" dur="5s" repeatCount="indefinite"/>
     </rect>
     <text x="295" y="35" font-family="ui-monospace,Consolas,monospace" font-size="13" fill="#00f2fe" text-anchor="middle" letter-spacing="2">TOP LANGUAGES</text>
 
-    <!-- Language bars -->
     <g transform="translate(30, 55)" font-family="Segoe UI,Helvetica,Arial,sans-serif">
-      <text x="0" y="14" font-size="13" fill="#e2e8f0">Python</text>
+      <text x="0" y="14" font-size="13" fill="#f1f5f9">Python</text>
       <rect x="140" y="0" width="380" height="16" rx="8" fill="#161b22"/>
-      <rect x="140" y="0" width="304" height="16" rx="8" fill="#3b82f6">
+      <rect x="140" y="0" width="304" height="16" rx="8" fill="#ffd700">
         <animate attributeName="width" values="0;304" dur="1.5s" begin="0.2s" fill="freeze"/>
       </rect>
-      <text x="534" y="14" font-size="12" fill="#94a3b8">80%</text>
+      <text x="534" y="14" font-size="12" fill="#ffd700">80%</text>
 
-      <text x="0" y="48" font-size="13" fill="#e2e8f0">JavaScript</text>
+      <text x="0" y="48" font-size="13" fill="#f1f5f9">JavaScript</text>
       <rect x="140" y="34" width="380" height="16" rx="8" fill="#161b22"/>
-      <rect x="140" y="34" width="228" height="16" rx="8" fill="#f59e0b">
+      <rect x="140" y="34" width="228" height="16" rx="8" fill="#fbbf24">
         <animate attributeName="width" values="0;228" dur="1.5s" begin="0.4s" fill="freeze"/>
       </rect>
-      <text x="534" y="48" font-size="12" fill="#94a3b8">60%</text>
+      <text x="534" y="48" font-size="12" fill="#fbbf24">60%</text>
 
-      <text x="0" y="82" font-size="13" fill="#e2e8f0">TypeScript</text>
+      <text x="0" y="82" font-size="13" fill="#f1f5f9">TypeScript</text>
       <rect x="140" y="68" width="380" height="16" rx="8" fill="#161b22"/>
-      <rect x="140" y="68" width="152" height="16" rx="8" fill="#8b5cf6">
+      <rect x="140" y="68" width="152" height="16" rx="8" fill="#a78bfa">
         <animate attributeName="width" values="0;152" dur="1.5s" begin="0.6s" fill="freeze"/>
       </rect>
-      <text x="534" y="82" font-size="12" fill="#94a3b8">40%</text>
+      <text x="534" y="82" font-size="12" fill="#a78bfa">40%</text>
 
-      <text x="0" y="116" font-size="13" fill="#e2e8f0">HTML/CSS</text>
+      <text x="0" y="116" font-size="13" fill="#f1f5f9">HTML/CSS</text>
       <rect x="140" y="102" width="380" height="16" rx="8" fill="#161b22"/>
-      <rect x="140" y="102" width="190" height="16" rx="8" fill="#34d399">
+      <rect x="140" y="102" width="190" height="16" rx="8" fill="#00f2fe">
         <animate attributeName="width" values="0;190" dur="1.5s" begin="0.8s" fill="freeze"/>
       </rect>
-      <text x="534" y="116" font-size="12" fill="#94a3b8">50%</text>
+      <text x="534" y="116" font-size="12" fill="#00f2fe">50%</text>
 
-      <text x="0" y="150" font-size="13" fill="#e2e8f0">Java/SQL</text>
+      <text x="0" y="150" font-size="13" fill="#f1f5f9">Java/SQL</text>
       <rect x="140" y="136" width="380" height="16" rx="8" fill="#161b22"/>
-      <rect x="140" y="136" width="114" height="16" rx="8" fill="#f472b6">
+      <rect x="140" y="136" width="114" height="16" rx="8" fill="#34d399">
         <animate attributeName="width" values="0;114" dur="1.5s" begin="1.0s" fill="freeze"/>
       </rect>
-      <text x="534" y="150" font-size="12" fill="#94a3b8">30%</text>
+      <text x="534" y="150" font-size="12" fill="#34d399">30%</text>
     </g>
   </g>
 </svg>

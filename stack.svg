@@ -1,212 +1,192 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400">
   <defs>
     <linearGradient id="sbg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#05070f"/>
-      <stop offset="100%" stop-color="#0b1020"/>
+      <stop offset="0%" stop-color="#05070e"/>
+      <stop offset="50%" stop-color="#0b0e1a"/>
+      <stop offset="100%" stop-color="#080a14"/>
     </linearGradient>
-    <linearGradient id="sTitleG" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f2fe"/>
-      <stop offset="50%" stop-color="#a78bfa"/>
-      <stop offset="100%" stop-color="#f472b6"/>
+    <linearGradient id="sTitleGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#00f2fe"/>
     </linearGradient>
   </defs>
 
   <rect width="1280" height="400" fill="url(#sbg)" rx="20"/>
 
-  <!-- Animated top border -->
-  <rect x="0" y="0" width="1280" height="4" rx="2" fill="url(#sTitleG)">
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  <!-- Top Gold Border -->
+  <rect x="0" y="0" width="1280" height="4" rx="2" fill="url(#sTitleGold)">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Title with glow pulse -->
-  <text x="640" y="58" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="30" font-weight="900" fill="url(#sTitleG)" text-anchor="middle">
-    &#x26A1; TECH ARSENAL &#38; EXPERTISE
+  <!-- Title with pulse -->
+  <text x="640" y="58" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="30" font-weight="900" fill="url(#sTitleGold)" text-anchor="middle">
+    &#x26A1; TECH ARSENAL &amp; EXPERTISE
     <animate attributeName="opacity" values="0.85;1;0.85" dur="2.5s" repeatCount="indefinite"/>
   </text>
-  <line x1="420" y1="75" x2="860" y2="75" stroke="#21262d" stroke-width="1.5"/>
+  <line x1="420" y1="75" x2="860" y2="75" stroke="#2b2313" stroke-width="1.5"/>
 
-  <!-- Row 1: Languages -->
-  <text x="30" y="130" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" font-weight="800" fill="#00f2fe">Languages</text>
+  <!-- Row 1: Languages (Gold) -->
+  <text x="30" y="130" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" font-weight="800" fill="#ffd700">Languages</text>
   
     <g opacity="0" transform="translate(180, 112)">
       <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.10s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="180 120;180 112" dur="0.5s" begin="0.10s" fill="freeze"/>
-      <rect width="78" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
+      <rect width="78" height="36" rx="18" fill="#161b22" stroke="#ffd700" stroke-width="1.8">
         <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.0s" repeatCount="indefinite"/>
       </rect>
       <text x="39" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Python</text>
     </g>
     <g opacity="0" transform="translate(270, 112)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.25s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="270 120;270 112" dur="0.5s" begin="0.25s" fill="freeze"/>
-      <rect width="64" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.22s" fill="freeze"/>
+      <rect width="64" height="36" rx="18" fill="#161b22" stroke="#ffd700" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.2s" repeatCount="indefinite"/>
       </rect>
       <text x="32" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Java</text>
     </g>
     <g opacity="0" transform="translate(346, 112)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.40s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="346 120;346 112" dur="0.5s" begin="0.40s" fill="freeze"/>
-      <rect width="114" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.34s" fill="freeze"/>
+      <rect width="114" height="36" rx="18" fill="#161b22" stroke="#ffd700" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
       </rect>
       <text x="57" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">JavaScript</text>
     </g>
     <g opacity="0" transform="translate(472, 112)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.55s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="472 120;472 112" dur="0.5s" begin="0.55s" fill="freeze"/>
-      <rect width="114" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.46s" fill="freeze"/>
+      <rect width="114" height="36" rx="18" fill="#161b22" stroke="#ffd700" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.8s" repeatCount="indefinite"/>
       </rect>
       <text x="57" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">TypeScript</text>
     </g>
     <g opacity="0" transform="translate(598, 112)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.70s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="598 120;598 112" dur="0.5s" begin="0.70s" fill="freeze"/>
-      <rect width="64" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.58s" fill="freeze"/>
+      <rect width="64" height="36" rx="18" fill="#161b22" stroke="#ffd700" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.0s" repeatCount="indefinite"/>
       </rect>
       <text x="32" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">SQL</text>
     </g>
     <g opacity="0" transform="translate(674, 112)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.85s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="674 120;674 112" dur="0.5s" begin="0.85s" fill="freeze"/>
-      <rect width="64" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.70s" fill="freeze"/>
+      <rect width="64" height="36" rx="18" fill="#161b22" stroke="#ffd700" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.2s" repeatCount="indefinite"/>
       </rect>
       <text x="32" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
     </g>
     <g opacity="0" transform="translate(750, 112)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.00s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="750 120;750 112" dur="0.5s" begin="1.00s" fill="freeze"/>
-      <rect width="64" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.82s" fill="freeze"/>
+      <rect width="64" height="36" rx="18" fill="#161b22" stroke="#ffd700" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.5s" repeatCount="indefinite"/>
       </rect>
       <text x="32" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">HTML</text>
     </g>
     <g opacity="0" transform="translate(826, 112)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.15s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="826 120;826 112" dur="0.5s" begin="1.15s" fill="freeze"/>
-      <rect width="64" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="4.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.94s" fill="freeze"/>
+      <rect width="64" height="36" rx="18" fill="#161b22" stroke="#ffd700" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.8s" repeatCount="indefinite"/>
       </rect>
       <text x="32" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">CSS</text>
     </g>
 
-  <!-- Row 2: Frameworks -->
-  <text x="30" y="210" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" font-weight="800" fill="#a78bfa">Frameworks</text>
+  <!-- Row 2: Frameworks (Cyan) -->
+  <text x="30" y="210" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" font-weight="800" fill="#00f2fe">Frameworks</text>
   
     <g opacity="0" transform="translate(180, 192)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.50s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="180 200;180 192" dur="0.5s" begin="0.50s" fill="freeze"/>
-      <rect width="69" height="36" rx="18" fill="#161b22" stroke="#a78bfa" stroke-width="1.8">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.40s" fill="freeze"/>
+      <rect width="69" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
         <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.0s" repeatCount="indefinite"/>
       </rect>
       <text x="34" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">React</text>
     </g>
     <g opacity="0" transform="translate(261, 192)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.65s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="261 200;261 192" dur="0.5s" begin="0.65s" fill="freeze"/>
-      <rect width="87" height="36" rx="18" fill="#161b22" stroke="#a78bfa" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.52s" fill="freeze"/>
+      <rect width="87" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.2s" repeatCount="indefinite"/>
       </rect>
       <text x="43" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Node.js</text>
     </g>
     <g opacity="0" transform="translate(360, 192)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.80s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="360 200;360 192" dur="0.5s" begin="0.80s" fill="freeze"/>
-      <rect width="87" height="36" rx="18" fill="#161b22" stroke="#a78bfa" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.64s" fill="freeze"/>
+      <rect width="87" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
       </rect>
       <text x="43" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Next.js</text>
     </g>
     <g opacity="0" transform="translate(459, 192)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.95s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="459 200;459 192" dur="0.5s" begin="0.95s" fill="freeze"/>
-      <rect width="114" height="36" rx="18" fill="#161b22" stroke="#a78bfa" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.76s" fill="freeze"/>
+      <rect width="114" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.8s" repeatCount="indefinite"/>
       </rect>
       <text x="57" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Express.js</text>
     </g>
     <g opacity="0" transform="translate(585, 192)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.10s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="585 200;585 192" dur="0.5s" begin="1.10s" fill="freeze"/>
-      <rect width="132" height="36" rx="18" fill="#161b22" stroke="#a78bfa" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.88s" fill="freeze"/>
+      <rect width="132" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.0s" repeatCount="indefinite"/>
       </rect>
       <text x="66" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Tailwind CSS</text>
     </g>
     <g opacity="0" transform="translate(729, 192)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.25s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="729 200;729 192" dur="0.5s" begin="1.25s" fill="freeze"/>
-      <rect width="69" height="36" rx="18" fill="#161b22" stroke="#a78bfa" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.00s" fill="freeze"/>
+      <rect width="69" height="36" rx="18" fill="#161b22" stroke="#00f2fe" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.2s" repeatCount="indefinite"/>
       </rect>
       <text x="34" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Redux</text>
     </g>
 
-  <!-- Row 3: AI/ML & Data -->
-  <text x="30" y="296" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" font-weight="800" fill="#f472b6">AI / ML &#38; Data</text>
+  <!-- Row 3: AI/ML & Data (Amber / Gold) -->
+  <text x="30" y="296" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" font-weight="800" fill="#fbbf24">AI / ML &amp; Data</text>
   
     <g opacity="0" transform="translate(180, 278)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.90s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="180 286;180 278" dur="0.5s" begin="0.90s" fill="freeze"/>
-      <rect width="114" height="36" rx="18" fill="#161b22" stroke="#f472b6" stroke-width="1.8">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.70s" fill="freeze"/>
+      <rect width="114" height="36" rx="18" fill="#161b22" stroke="#fbbf24" stroke-width="1.8">
         <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.0s" repeatCount="indefinite"/>
       </rect>
       <text x="57" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">TensorFlow</text>
     </g>
     <g opacity="0" transform="translate(306, 278)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.05s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="306 286;306 278" dur="0.5s" begin="1.05s" fill="freeze"/>
-      <rect width="132" height="36" rx="18" fill="#161b22" stroke="#f472b6" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.82s" fill="freeze"/>
+      <rect width="132" height="36" rx="18" fill="#161b22" stroke="#fbbf24" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.2s" repeatCount="indefinite"/>
       </rect>
       <text x="66" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Scikit-learn</text>
     </g>
     <g opacity="0" transform="translate(450, 278)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.20s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="450 286;450 278" dur="0.5s" begin="1.20s" fill="freeze"/>
-      <rect width="87" height="36" rx="18" fill="#161b22" stroke="#f472b6" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.94s" fill="freeze"/>
+      <rect width="87" height="36" rx="18" fill="#161b22" stroke="#fbbf24" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
       </rect>
       <text x="43" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Tableau</text>
     </g>
     <g opacity="0" transform="translate(549, 278)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.35s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="549 286;549 278" dur="0.5s" begin="1.35s" fill="freeze"/>
-      <rect width="87" height="36" rx="18" fill="#161b22" stroke="#f472b6" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.06s" fill="freeze"/>
+      <rect width="87" height="36" rx="18" fill="#161b22" stroke="#fbbf24" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.8s" repeatCount="indefinite"/>
       </rect>
       <text x="43" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">PowerBI</text>
     </g>
     <g opacity="0" transform="translate(648, 278)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.50s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="648 286;648 278" dur="0.5s" begin="1.50s" fill="freeze"/>
-      <rect width="87" height="36" rx="18" fill="#161b22" stroke="#f472b6" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.18s" fill="freeze"/>
+      <rect width="87" height="36" rx="18" fill="#161b22" stroke="#fbbf24" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.0s" repeatCount="indefinite"/>
       </rect>
       <text x="43" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">MongoDB</text>
     </g>
     <g opacity="0" transform="translate(747, 278)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.65s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="747 286;747 278" dur="0.5s" begin="1.65s" fill="freeze"/>
-      <rect width="114" height="36" rx="18" fill="#161b22" stroke="#f472b6" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.30s" fill="freeze"/>
+      <rect width="114" height="36" rx="18" fill="#161b22" stroke="#fbbf24" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.2s" repeatCount="indefinite"/>
       </rect>
       <text x="57" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">PostgreSQL</text>
     </g>
     <g opacity="0" transform="translate(873, 278)">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.80s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="873 286;873 278" dur="0.5s" begin="1.80s" fill="freeze"/>
-      <rect width="96" height="36" rx="18" fill="#161b22" stroke="#f472b6" stroke-width="1.8">
-        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.42s" fill="freeze"/>
+      <rect width="96" height="36" rx="18" fill="#161b22" stroke="#fbbf24" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3.5s" repeatCount="indefinite"/>
       </rect>
       <text x="48" y="23" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Firebase</text>
     </g>
 
-  <!-- Bottom animated glow border -->
-  <rect x="0" y="396" width="1280" height="4" rx="2" fill="url(#sTitleG)">
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+  <!-- Bottom animated border -->
+  <rect x="0" y="396" width="1280" height="4" rx="2" fill="url(#sTitleGold)">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite" begin="1.5s"/>
   </rect>
 </svg>
