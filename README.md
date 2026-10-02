@@ -1,22 +1,22 @@
 <div align="center">
 
-<!-- 👑 HERO — Executive Gold & Black Terminal Banner with Photo & Moving Scanner -->
-<img src="./hero.svg?v=gold4" alt="Janardhan Devarala — AI & ML Engineer" width="100%"/>
+<!-- 🎬 HERO — Dynamic Vibrant Cyber Terminal Banner with Photo & Moving Laser Beam -->
+<img src="./hero.svg?v=fresh5" alt="Janardhan Devarala — AI & ML Engineer" width="100%"/>
 
 <br/><br/>
 
 <!-- 💼 LEFT: What I Build   •   🌟 RIGHT: Life Beyond Code -->
-<img src="./about-life.svg?v=gold4" alt="What I build, and life beyond the code" width="100%"/>
+<img src="./about-life.svg?v=fresh5" alt="What I build, and life beyond the code" width="100%"/>
 
 <br/><br/>
 
-<!-- ⚡ GOLD-STANDARD TECH ARSENAL -->
-<img src="./stack.svg?v=gold4" alt="Tech Arsenal" width="100%"/>
+<!-- ⚡ TECH ARSENAL -->
+<img src="./stack.svg?v=fresh5" alt="Tech Arsenal" width="100%"/>
 
 <br/><br/>
 
-<!-- 🪪 VIP GOLD DEVELOPER ID + 3D STATS DASHBOARD -->
-<img src="./id-dashboard.svg?v=gold4" alt="Developer ID and dashboard" width="100%"/>
+<!-- 🪪 DEVELOPER ID + 3D STATS DASHBOARD -->
+<img src="./id-dashboard.svg?v=fresh5" alt="Developer ID and dashboard" width="100%"/>
 
 <br/><br/>
 
@@ -39,43 +39,43 @@
 
 ## 📊 Executive GitHub Metrics
 
-<img src="https://github-readme-stats.vercel.app/api?username=janardhan-d&show_icons=true&hide_border=false&bg_color=0e0f14&title_color=fbbf24&icon_color=f59e0b&text_color=ffffff&ring_color=fbbf24&border_color=d97706" alt="GitHub Stats" height="185"/>
+<img src="https://github-readme-stats.vercel.app/api?username=janardhan-d&show_icons=true&hide_border=false&bg_color=0e1117&title_color=00f2fe&icon_color=a78bfa&text_color=ffffff&ring_color=00f2fe&border_color=30363d" alt="GitHub Stats" height="185"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=janardhan-d&layout=compact&hide_border=false&bg_color=0e0f14&title_color=fbbf24&text_color=ffffff&border_color=d97706" alt="Top Languages" height="185"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=janardhan-d&layout=compact&hide_border=false&bg_color=0e1117&title_color=00f2fe&text_color=ffffff&border_color=30363d" alt="Top Languages" height="185"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=janardhan-d&hide_border=false&background=0e0f14&border=d97706&stroke=fbbf24&ring=fbbf24&fire=f59e0b&currStreakLabel=fbbf24&sideLabels=fef08a&dates=ffffff" alt="GitHub Streak" width="60%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=janardhan-d&hide_border=false&background=0e1117&border=30363d&stroke=00f2fe&ring=00f2fe&fire=f472b6&currStreakLabel=00f2fe&sideLabels=a78bfa&dates=ffffff" alt="GitHub Streak" width="60%"/>
 
 <br/><br/>
 
-## 🌃 Golden 3D Contribution City
+## 🌃 3D Contribution City
 
-*Every commit builds another golden skyscraper — watch the empire rise.*
+*Every commit builds another skyscraper — watch the city grow.*
 
-<img src="./profile-3d-contrib/profile-night-view.svg?v=gold4" alt="Golden 3D Contribution City" width="100%"/>
+<img src="./profile-3d-contrib/profile-night-view.svg?v=fresh5" alt="3D Contribution City" width="100%"/>
 
 <br/><br/>
 
 <!-- 👑 LET'S CONNECT -->
-<img src="./connect.svg?v=gold4" alt="Let's connect" width="100%"/>
+<img src="./connect.svg?v=fresh5" alt="Let's connect" width="100%"/>
 
 <br/>
 
-<a href="https://github.com/janardhan-d"><img src="https://img.shields.io/badge/GitHub-0e0f14?style=for-the-badge&logo=github&logoColor=fbbf24" alt="GitHub"/></a>
+<a href="https://github.com/janardhan-d"><img src="https://img.shields.io/badge/GitHub-0e1117?style=for-the-badge&logo=github&logoColor=00f2fe" alt="GitHub"/></a>
 &nbsp;
-<a href="mailto:devaralajanardhan@gmail.com"><img src="https://img.shields.io/badge/Email-fbbf24?style=for-the-badge&logo=gmail&logoColor=0e0f14" alt="Email"/></a>
+<a href="mailto:devaralajanardhan@gmail.com"><img src="https://img.shields.io/badge/Email-00f2fe?style=for-the-badge&logo=gmail&logoColor=0e1117" alt="Email"/></a>
 &nbsp;
-<a href="https://linkedin.com/in/janardhan-devarala-1552172a1"><img src="https://img.shields.io/badge/LinkedIn-d97706?style=for-the-badge&logo=linkedin&logoColor=ffffff" alt="LinkedIn"/></a>
+<a href="https://linkedin.com/in/janardhan-devarala-1552172a1"><img src="https://img.shields.io/badge/LinkedIn-a78bfa?style=for-the-badge&logo=linkedin&logoColor=ffffff" alt="LinkedIn"/></a>
 &nbsp;
-<a href="https://janardhan-devarala-portfolio.netlify.app"><img src="https://img.shields.io/badge/Portfolio-1f1809?style=for-the-badge&logo=netlify&logoColor=fef08a" alt="Portfolio"/></a>
+<a href="https://janardhan-devarala-portfolio.netlify.app"><img src="https://img.shields.io/badge/Portfolio-10b981?style=for-the-badge&logo=netlify&logoColor=ffffff" alt="Portfolio"/></a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=janardhan-d&color=fbbf24&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
+<img src="https://komarev.com/ghpvc/?username=janardhan-d&color=00f2fe&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
 
 <br/>
 
-**Building with intelligence, leading with excellence.** 👑
+**Always learning, always building with intelligence.** 🚀
 
 </div>
