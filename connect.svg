@@ -1,21 +1,114 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 180" width="1280" height="180">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 200" width="1280" height="200">
   <defs>
-    <linearGradient id="cBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070709"/>
-      <stop offset="100%" stop-color="#111116"/>
+    <linearGradient id="cbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070f"/>
+      <stop offset="100%" stop-color="#0b1020"/>
     </linearGradient>
-    <linearGradient id="goldBanner" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#fef08a"/>
-      <stop offset="50%" stop-color="#fbbf24"/>
-      <stop offset="100%" stop-color="#d97706"/>
+    <linearGradient id="cGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#34d399"/>
     </linearGradient>
   </defs>
 
-  <rect width="100%" height="100%" fill="url(#cBg)" rx="20"/>
-  <line x1="80" y1="20" x2="1200" y2="20" stroke="url(#goldBanner)" stroke-width="2" opacity="0.7"/>
+  <rect width="1280" height="200" fill="url(#cbg)" rx="20"/>
 
-  <g transform="translate(640, 85)" text-anchor="middle">
-    <text font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="32" font-weight="900" fill="url(#goldBanner)">👑 LET'S CONNECT &amp; BUILD SOMETHING EXTRAORDINARY</text>
-    <text y="38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#e5e7eb">Open to high-impact AI/ML collaborations, hackathons, open-source &amp; data analytics roles</text>
-  </g>
+  <!-- Animated top border -->
+  <rect x="0" y="0" width="1280" height="4" rx="2" fill="url(#cGrad)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Floating particles -->
+  <circle cx="288" cy="46" r="2.5" fill="#a78bfa" opacity="0.6">
+    <animate attributeName="cy" values="46;26;46" dur="6.0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="6.0s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="345" cy="66" r="2.5" fill="#fbbf24" opacity="0.6">
+    <animate attributeName="cy" values="66;36;66" dur="5.7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="5.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="924" cy="48" r="2.5" fill="#a78bfa" opacity="0.6">
+    <animate attributeName="cy" values="48;28;48" dur="3.1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1094" cy="46" r="2.5" fill="#a78bfa" opacity="0.6">
+    <animate attributeName="cy" values="46;6;46" dur="5.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="5.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="979" cy="111" r="2.5" fill="#a78bfa" opacity="0.6">
+    <animate attributeName="cy" values="111;81;111" dur="6.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="6.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="925" cy="127" r="2.5" fill="#f472b6" opacity="0.6">
+    <animate attributeName="cy" values="127;107;127" dur="4.1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="269" cy="63" r="2.5" fill="#f472b6" opacity="0.6">
+    <animate attributeName="cy" values="63;38;63" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="601" cy="51" r="2.5" fill="#34d399" opacity="0.6">
+    <animate attributeName="cy" values="51;21;51" dur="5.9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="5.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="221" cy="115" r="2.5" fill="#fbbf24" opacity="0.6">
+    <animate attributeName="cy" values="115;90;115" dur="6.3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="6.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="453" cy="57" r="2.5" fill="#f472b6" opacity="0.6">
+    <animate attributeName="cy" values="57;37;57" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="223" cy="99" r="2.5" fill="#f472b6" opacity="0.6">
+    <animate attributeName="cy" values="99;59;99" dur="6.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="6.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="988" cy="133" r="2.5" fill="#a78bfa" opacity="0.6">
+    <animate attributeName="cy" values="133;108;133" dur="3.7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="606" cy="58" r="2.5" fill="#fbbf24" opacity="0.6">
+    <animate attributeName="cy" values="58;38;58" dur="5.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="5.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="561" cy="81" r="2.5" fill="#fbbf24" opacity="0.6">
+    <animate attributeName="cy" values="81;56;81" dur="4.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="509" cy="123" r="2.5" fill="#a78bfa" opacity="0.6">
+    <animate attributeName="cy" values="123;93;123" dur="6.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="6.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="125" cy="120" r="2.5" fill="#a78bfa" opacity="0.6">
+    <animate attributeName="cy" values="120;90;120" dur="4.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="704" cy="94" r="2.5" fill="#34d399" opacity="0.6">
+    <animate attributeName="cy" values="94;54;94" dur="5.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="5.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="352" cy="107" r="2.5" fill="#fbbf24" opacity="0.6">
+    <animate attributeName="cy" values="107;82;107" dur="3.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3.6s" repeatCount="indefinite"/>
+  </circle>
+  
+
+  <!-- Main heading -->
+  <text x="640" y="90" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="36" font-weight="900" fill="url(#cGrad)" text-anchor="middle" filter="url(#cGlow)">
+    &#x1F4EC; Let&#39;s Connect &amp; Build Together
+    <animate attributeName="opacity" values="0.9;1;0.9" dur="2.5s" repeatCount="indefinite"/>
+  </text>
+  <filter id="cGlow">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+
+  <text x="640" y="130" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" fill="#94a3b8" text-anchor="middle">
+    Always open to collaborations, hackathons, AI projects, and interesting conversations
+  </text>
+
+  <!-- Bottom border -->
+  <rect x="0" y="196" width="1280" height="4" rx="2" fill="url(#cGrad)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="1s"/>
+  </rect>
 </svg>

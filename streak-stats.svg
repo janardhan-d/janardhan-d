@@ -1,42 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 160" width="1280" height="160">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 200" width="1280" height="200">
   <defs>
-    <linearGradient id="stBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060813"/>
-      <stop offset="100%" stop-color="#0d1124"/>
+    <linearGradient id="stbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070f"/>
+      <stop offset="100%" stop-color="#0b1020"/>
     </linearGradient>
+    <linearGradient id="stGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="stGlow">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
 
-  <rect width="100%" height="100%" fill="url(#stBg)" rx="20"/>
+  <rect width="1280" height="200" fill="url(#stbg)" rx="20"/>
+  <rect x="0" y="0" width="1280" height="4" rx="2" fill="url(#stGrad)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
 
-  <g transform="translate(190, 20)">
-    <rect width="900" height="120" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="1.6"/>
+  <!-- Three streak panels -->
+  <g transform="translate(30, 30)">
+    <rect width="380" height="140" rx="14" fill="#0d1117" stroke="#f59e0b" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="190" y="35" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#f59e0b" text-anchor="middle" letter-spacing="2">TOTAL CONTRIBUTIONS</text>
+    <text x="190" y="90" font-family="ui-monospace,Consolas,monospace" font-size="48" font-weight="900" fill="#f59e0b" text-anchor="middle" filter="url(#stGlow)">
+      150+
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="2s" repeatCount="indefinite"/>
+    </text>
+    <text x="190" y="125" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#64748b" text-anchor="middle">Jan 2024 — Present</text>
+  </g>
 
-    <!-- Left: Total Contributions -->
-    <g transform="translate(150, 45)" text-anchor="middle">
-      <text font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="900" fill="#ffffff">91</text>
-      <text y="28" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Total Contributions</text>
-      <text y="48" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">Jan 12, 2025 - Present</text>
-    </g>
+  <g transform="translate(450, 30)">
+    <rect width="380" height="140" rx="14" fill="#0d1117" stroke="#f472b6" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="190" y="35" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#f472b6" text-anchor="middle" letter-spacing="2">CURRENT STREAK</text>
+    <text x="190" y="90" font-family="ui-monospace,Consolas,monospace" font-size="48" font-weight="900" fill="#f472b6" text-anchor="middle" filter="url(#stGlow)">
+      7 days
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="2s" repeatCount="indefinite"/>
+    </text>
+    <text x="190" y="125" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#64748b" text-anchor="middle">Keep pushing!</text>
+  </g>
 
-    <line x1="300" y1="20" x2="300" y2="100" stroke="#21262d" stroke-width="1.5"/>
-
-    <!-- Center: Current Streak with Glowing Fire Icon -->
-    <g transform="translate(450, 60)" text-anchor="middle">
-      <!-- Outer Flame Circle -->
-      <circle cx="0" cy="-8" r="30" fill="none" stroke="#00f2fe" stroke-width="4">
-        <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
-      </circle>
-      <text x="0" y="2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="900" fill="#ffffff">🔥 1</text>
-      <text y="32" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#00f2fe">Current Streak</text>
-    </g>
-
-    <line x1="600" y1="20" x2="600" y2="100" stroke="#21262d" stroke-width="1.5"/>
-
-    <!-- Right: Longest Streak -->
-    <g transform="translate(750, 45)" text-anchor="middle">
-      <text font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="900" fill="#ffffff">2</text>
-      <text y="28" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Longest Streak</text>
-      <text y="48" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">May 29 - May 30</text>
-    </g>
+  <g transform="translate(870, 30)">
+    <rect width="380" height="140" rx="14" fill="#0d1117" stroke="#a78bfa" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="190" y="35" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#a78bfa" text-anchor="middle" letter-spacing="2">LONGEST STREAK</text>
+    <text x="190" y="90" font-family="ui-monospace,Consolas,monospace" font-size="48" font-weight="900" fill="#a78bfa" text-anchor="middle" filter="url(#stGlow)">
+      14 days
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="2s" repeatCount="indefinite"/>
+    </text>
+    <text x="190" y="125" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#64748b" text-anchor="middle">Personal best</text>
   </g>
 </svg>

@@ -1,76 +1,138 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 260" width="1280" height="260">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 380" width="1280" height="380">
   <defs>
-    <linearGradient id="tBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060813"/>
-      <stop offset="100%" stop-color="#0d1124"/>
+    <linearGradient id="tbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070f"/>
+      <stop offset="100%" stop-color="#0b1020"/>
     </linearGradient>
-    <linearGradient id="tTitle" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="tTitleG" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#fbbf24"/>
-      <stop offset="50%" stop-color="#00f2fe"/>
-      <stop offset="100%" stop-color="#a78bfa"/>
+      <stop offset="50%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#00f2fe"/>
     </linearGradient>
   </defs>
 
-  <style>
-    .trophy-card {
-      cursor: pointer;
-      transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.28s ease;
-      transform-box: fill-box;
-      transform-origin: center;
-    }
-    .trophy-card:hover {
-      transform: translateY(-6px) scale(1.03);
-      filter: drop-shadow(0 0 12px rgba(251, 191, 36, 0.4));
-    }
-    .trophy-card:hover rect {
-      fill: #161f30;
-      stroke-width: 2.2px;
-    }
-  </style>
+  <rect width="1280" height="380" fill="url(#tbg)" rx="20"/>
 
-  <rect width="100%" height="100%" fill="url(#tBg)" rx="20"/>
+  <!-- Animated borders -->
+  <rect x="0" y="0" width="1280" height="4" rx="2" fill="url(#tTitleG)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </rect>
 
-  <g transform="translate(60, 45)">
-    <text font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="900" fill="url(#tTitle)">🏆 KEY HONORS, TROPHIES &amp; CERTIFICATIONS</text>
-    <line x1="0" y1="20" x2="1160" y2="20" stroke="#21262d" stroke-width="1.5"/>
-  </g>
+  <text x="640" y="52" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="28" font-weight="900" fill="url(#tTitleG)" text-anchor="middle">
+    &#x1F3C6; KEY HONORS, TROPHIES &#38; CERTIFICATIONS
+  </text>
+  <line x1="340" y1="68" x2="940" y2="68" stroke="#21262d" stroke-width="1.5"/>
 
-  <!-- 4 Interactive Holographic Trophy Cells -->
-  <g transform="translate(60, 95)">
-    <!-- Cell 1: SVC Hackathon Top 5 -->
-    <g class="trophy-card" transform="translate(0, 0)">
-      <rect width="270" height="130" rx="14" fill="#0d1117" stroke="#fbbf24" stroke-width="1.6"/>
-      <text x="25" y="45" font-size="30">🥇</text>
-      <text x="65" y="42" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="900" fill="#fbbf24">SVC Hackathon</text>
-      <text x="25" y="75" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Top 5 Winner</text>
-      <text x="25" y="98" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">Rapid AI Prototype &amp; Solutions</text>
+  
+    <g opacity="0" transform="translate(30, 60)">
+      <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.0s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="30 75;30 60" dur="0.7s" begin="0.0s" fill="freeze"/>
+      <!-- Card -->
+      <rect width="265" height="260" rx="16" fill="#0d1117" stroke="#fbbf24" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <!-- Top color bar -->
+      <rect x="0" y="0" width="265" height="5" rx="3" fill="#fbbf24"/>
+      <!-- Trophy icon -->
+      <text x="132" y="75" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="44" text-anchor="middle">&#x1F3C6;</text>
+      <!-- Badge -->
+      <rect x="50" y="95" width="165" height="26" rx="13" fill="#fbbf24" opacity="0.15"/>
+      <text x="132" y="113" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="800" fill="#fbbf24" text-anchor="middle">Top Performer</text>
+      <!-- Title -->
+      <text x="132" y="148" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="900" fill="#f1f5f9" text-anchor="middle">SVC Hackathon</text>
+      <!-- Desc (wrapped manually) -->
+      <text x="132" y="175" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">AI-powered solution for smart city </text>
+      <text x="132" y="193" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">optimization</text>
+      <!-- Year -->
+      <text x="132" y="235" font-family="ui-monospace,Consolas,monospace" font-size="12" fill="#fbbf24" text-anchor="middle" opacity="0.8">2024</text>
+      <!-- Animated glow dot -->
+      <circle cx="232" cy="20" r="5" fill="#fbbf24">
+        <animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="fill-opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
     </g>
-
-    <!-- Cell 2: NRCM National Hackathon -->
-    <g class="trophy-card" transform="translate(295, 0)">
-      <rect width="270" height="130" rx="14" fill="#0d1117" stroke="#00f2fe" stroke-width="1.6"/>
-      <text x="25" y="45" font-size="30">🏆</text>
-      <text x="65" y="42" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="900" fill="#00f2fe">NRCM Hackathon</text>
-      <text x="25" y="75" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">National Level Top 10</text>
-      <text x="25" y="98" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">Competitive 24-48hr Build</text>
+  
+    <g opacity="0" transform="translate(325, 60)">
+      <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="325 75;325 60" dur="0.7s" begin="0.2s" fill="freeze"/>
+      <!-- Card -->
+      <rect width="265" height="260" rx="16" fill="#0d1117" stroke="#f472b6" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <!-- Top color bar -->
+      <rect x="0" y="0" width="265" height="5" rx="3" fill="#f472b6"/>
+      <!-- Trophy icon -->
+      <text x="132" y="75" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="44" text-anchor="middle">&#x1F3C6;</text>
+      <!-- Badge -->
+      <rect x="50" y="95" width="165" height="26" rx="13" fill="#f472b6" opacity="0.15"/>
+      <text x="132" y="113" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="800" fill="#f472b6" text-anchor="middle">Finalist</text>
+      <!-- Title -->
+      <text x="132" y="148" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="900" fill="#f1f5f9" text-anchor="middle">NRCM Hackathon</text>
+      <!-- Desc (wrapped manually) -->
+      <text x="132" y="175" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Full-stack web app built in 24-hour</text>
+      <text x="132" y="193" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle"> sprint</text>
+      <!-- Year -->
+      <text x="132" y="235" font-family="ui-monospace,Consolas,monospace" font-size="12" fill="#f472b6" text-anchor="middle" opacity="0.8">2024</text>
+      <!-- Animated glow dot -->
+      <circle cx="232" cy="20" r="5" fill="#f472b6">
+        <animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="fill-opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
     </g>
-
-    <!-- Cell 3: Google Cloud GenAI Studio -->
-    <g class="trophy-card" transform="translate(590, 0)">
-      <rect width="270" height="130" rx="14" fill="#0d1117" stroke="#a78bfa" stroke-width="1.6"/>
-      <text x="25" y="45" font-size="30">⚡</text>
-      <text x="65" y="42" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="900" fill="#a78bfa">Google Cloud</text>
-      <text x="25" y="75" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">GenAI Studio Certified</text>
-      <text x="25" y="98" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">LLM Tuning &amp; Prompt Engineering</text>
+  
+    <g opacity="0" transform="translate(620, 60)">
+      <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="620 75;620 60" dur="0.7s" begin="0.4s" fill="freeze"/>
+      <!-- Card -->
+      <rect width="265" height="260" rx="16" fill="#0d1117" stroke="#34d399" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <!-- Top color bar -->
+      <rect x="0" y="0" width="265" height="5" rx="3" fill="#34d399"/>
+      <!-- Trophy icon -->
+      <text x="132" y="75" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="44" text-anchor="middle">&#x1F3C6;</text>
+      <!-- Badge -->
+      <rect x="50" y="95" width="165" height="26" rx="13" fill="#34d399" opacity="0.15"/>
+      <text x="132" y="113" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="800" fill="#34d399" text-anchor="middle">Certified</text>
+      <!-- Title -->
+      <text x="132" y="148" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="900" fill="#f1f5f9" text-anchor="middle">Google Cloud GenAI</text>
+      <!-- Desc (wrapped manually) -->
+      <text x="132" y="175" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Generative AI on Google Cloud certi</text>
+      <text x="132" y="193" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">fication</text>
+      <!-- Year -->
+      <text x="132" y="235" font-family="ui-monospace,Consolas,monospace" font-size="12" fill="#34d399" text-anchor="middle" opacity="0.8">2024</text>
+      <!-- Animated glow dot -->
+      <circle cx="232" cy="20" r="5" fill="#34d399">
+        <animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="fill-opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
     </g>
-
-    <!-- Cell 4: Microsoft Learn Trophy -->
-    <g class="trophy-card" transform="translate(885, 0)">
-      <rect width="275" height="130" rx="14" fill="#0d1117" stroke="#34d399" stroke-width="1.6"/>
-      <text x="25" y="45" font-size="30">🛡️</text>
-      <text x="65" y="42" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="900" fill="#34d399">Microsoft Learn</text>
-      <text x="25" y="75" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">AI &amp; Autonomous Agents</text>
-      <text x="25" y="98" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">Official Microsoft AI Trophy</text>
+  
+    <g opacity="0" transform="translate(915, 60)">
+      <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.6s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="915 75;915 60" dur="0.7s" begin="0.6s" fill="freeze"/>
+      <!-- Card -->
+      <rect width="265" height="260" rx="16" fill="#0d1117" stroke="#00f2fe" stroke-width="1.8">
+        <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <!-- Top color bar -->
+      <rect x="0" y="0" width="265" height="5" rx="3" fill="#00f2fe"/>
+      <!-- Trophy icon -->
+      <text x="132" y="75" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="44" text-anchor="middle">&#x1F3C6;</text>
+      <!-- Badge -->
+      <rect x="50" y="95" width="165" height="26" rx="13" fill="#00f2fe" opacity="0.15"/>
+      <text x="132" y="113" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="800" fill="#00f2fe" text-anchor="middle">Certified</text>
+      <!-- Title -->
+      <text x="132" y="148" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="900" fill="#f1f5f9" text-anchor="middle">Microsoft AI Skills</text>
+      <!-- Desc (wrapped manually) -->
+      <text x="132" y="175" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Microsoft Azure AI Fundamentals cer</text>
+      <text x="132" y="193" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">tification</text>
+      <!-- Year -->
+      <text x="132" y="235" font-family="ui-monospace,Consolas,monospace" font-size="12" fill="#00f2fe" text-anchor="middle" opacity="0.8">2024</text>
+      <!-- Animated glow dot -->
+      <circle cx="232" cy="20" r="5" fill="#00f2fe">
+        <animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="fill-opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
     </g>
-  </g>
 </svg>
